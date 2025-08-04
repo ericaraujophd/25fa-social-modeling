@@ -2,14 +2,31 @@
 version: 1
 project:
   id: a2a7db0b-d06e-4b7d-8c3d-2f61058aa833
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
-  # github:
+  title: HNRS251A - Honors Computer Science
+  subtitle: Social Modeling
+  description: A course on social modeling using computational methods and social science background.
+  bibliography: references.bib
+  # thumbnail: thumbnail.png
+  # banner: banner.png
+  keywords:
+    - agent-based modeling
+    - social science
+    - computational methods
+  authors:
+    - name: Eric Araújo
+      email: eric.araujo@calvin.edu
+      corresponding: true
+    - name: Jonathan Hill
+      email: jonathan.hill@calvin.edu
+      corresponding: true
+  github: ericaraujophd/25fa-social-modeling
+  license: CC-BY-4.0
+  toc:
+    - file: intro.md
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
-  # options:
+  options:
+    folder: true
   #   favicon: favicon.ico
   #   logo: site_logo.png
