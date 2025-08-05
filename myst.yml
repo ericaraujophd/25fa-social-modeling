@@ -25,6 +25,7 @@ project:
   license: CC-BY-4.0
   toc:
     - file: intro.md
+    - file: syntax-test.md
     - title: Course Modules
       children:
         - file: slos/module1-introduction.md
