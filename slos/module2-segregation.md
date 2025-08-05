@@ -1,4 +1,4 @@
-# Module 2: Segregation Models
+# Module 2: Segregation
 
 Welcome to the Segregation Models module! This section explores computational models of residential segregation, building on Thomas Schelling's groundbreaking work {cite}`schelling1971dynamic` on how individual preferences can lead to collective patterns of segregation.
 
@@ -7,7 +7,7 @@ Welcome to the Segregation Models module! This section explores computational mo
 Segregation models help us understand how micro-level individual choices can lead to macro-level social phenomena {cite}`schelling1978micromotives`. Through agent-based modeling, we'll explore how even mild preferences for similarity can result in highly segregated neighborhoods, providing insights into urban dynamics and social processes.
 
 ```{note}
-**Module Duration:** 3 weeks | *Estimated time: 8-12 hours*
+**Module Duration:** 2 weeks | *Estimated time: 8-12 hours*
 ```
 
 ---
@@ -99,50 +99,34 @@ By the end of this module, students will be able to:
 - [Grading Rubric](homework/assignment1-rubric.pdf)
 ```
 
-```{admonition} Assignment 2: Model Extensions
+```{admonition} Assignment 2: Model Extensions and Analysis
 :class: important
 
-**Due:** End of Week 2 | **Points:** 35 points
+**Due:** End of Week 2 | **Points:** 40 points
 
 **Objectives:**
 - Modify the basic model with additional features
 - Test hypotheses about segregation dynamics
 - Analyze data from multiple simulation runs
+- Connect model insights to real-world policy implications
 
 **Possible Extensions:**
 - Add economic factors (income, housing costs)
 - Include multiple ethnic groups
 - Implement different neighborhood definitions
 - Add mobility constraints
+- Test policy interventions
 
 **Deliverables:**
-1. Extended NetLogo model
-2. Data analysis and visualizations
-3. Written report (4-5 pages)
+1. Extended NetLogo model with documentation
+2. Data analysis and visualizations comparing scenarios
+3. Written report (6-8 pages) including policy analysis
+4. Brief presentation (5 minutes) of key findings
 
 **Resources:**
 - [Extension Ideas](homework/extension-ideas.md)
 - [Data Analysis Guide](homework/data-analysis-guide.pdf)
-```
-
-```{admonition} Final Project Component
-:class: important
-
-**Due:** End of Week 3 | **Points:** 40 points
-
-**Options:**
-1. **Policy Analysis:** Use the model to evaluate a specific housing policy
-2. **Empirical Validation:** Compare model predictions with real neighborhood data
-3. **Model Innovation:** Develop a novel extension addressing current issues
-
-**Requirements:**
-- 8-10 page research paper
-- Working NetLogo model
-- 10-minute class presentation
-
-**Support:**
-- Office hours: Tuesdays 2-4 PM
-- Peer review session: Week 2, Friday
+- [Policy Analysis Framework](homework/policy-analysis.md)
 ```
 
 ---
@@ -163,9 +147,8 @@ By the end of this module, students will be able to:
 - 🎨 **Visualization Tools:** Recommended packages for creating compelling graphics
 
 **Study Groups and Office Hours:**
-- 👥 **Study Group Sessions:** Wednesdays 6-8 PM, Science Building 180
-- 🕐 **Instructor Office Hours:** Tuesdays & Thursdays 2-4 PM
-- 💬 **Course Discord:** Join our discussion channel for quick questions
+-  **Instructor Office Hours:** Tuesdays & Thursdays 2-4 PM
+- 💬 **Course Forums:** Use Moodle for quick questions and discussions
 ```
 
 ### Advanced Readings
@@ -200,7 +183,6 @@ By the end of this module, students will be able to:
 
 **Guest Speaker Series:**
 - Dr. Sarah Johnson (Urban Planning, Calvin University) - Week 2
-- Community Organizer Maria Rodriguez - Week 3
 ```
 
 ---
@@ -212,9 +194,8 @@ By the end of this module, students will be able to:
 
 | Week | Topic | Readings | Assignments |
 |------|-------|----------|-------------|
-| **Week 1** | Introduction & Basic Model | Schelling (1971) | Assignment 1 Due |
-| **Week 2** | Extensions & Empirical Evidence | Card et al. (2008) | Assignment 2 Due |
-| **Week 3** | Applications & Policy | Supplementary readings | Final Project Due |
+| **Week 1** | Introduction & Basic Model | Schelling (1971), Epstein (2002) | Assignment 1 Due |
+| **Week 2** | Extensions & Policy Applications | Card et al. (2008), Supplementary readings | Assignment 2 Due |
 ```
 
 ---
@@ -224,9 +205,9 @@ By the end of this module, students will be able to:
 ```{admonition} Need Support?
 :class: tip
 
-- **Quick Questions:** Use the course Discord channel
+- **Quick Questions:** Use the Moodle class forums
 - **Technical Issues:** Visit our troubleshooting guide
-- **Conceptual Help:** Attend office hours or study groups
+- **Conceptual Help:** Attend office hours
 - **Accessibility:** Contact the instructors for accommodations
 ```
 

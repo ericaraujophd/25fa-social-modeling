@@ -1,13 +1,15 @@
-# Module 5: Polarization Models
+# Module 5: Polarization
 
-Welcome to the Polarization Models module! This module explores how groups form opposing viewpoints, how moderate positions erode, and how societies become divided. We'll examine the mechanisms that drive political, social, and ideological polarization using computational modeling approaches.
+Welcome to the Polarization Models module! This module explores how groups form opposing viewpoints, how moderate positions erode, and how soci**Study Groups and Office Hours:**
+- 🕐 **Instructor Office Hours:** Tuesdays & Thursdays 2-4 PM
+- 💬 **Course Forums:** Use Moodle for quick questions and discussionss become divided. We'll examine the mechanisms that drive political, social, and ideological polarization using computational modeling approaches.
 
 ## Overview
 
 Polarization models help us understand one of the most pressing challenges of contemporary society: how and why groups become increasingly divided in their beliefs, values, and behaviors. Through agent-based modeling, we'll explore opinion dynamics, the role of social networks, media influence, and institutional factors that contribute to societal polarization and potential interventions.
 
 ```{note}
-**Module Duration:** 3 weeks | *Estimated time: 8-12 hours*
+**Module Duration:** 2 weeks | *Estimated time: 8-12 hours*
 ```
 
 ---
@@ -117,55 +119,36 @@ By the end of this module, students will be able to:
 - [Visualization Techniques](homework/opinion-visualization.pdf)
 ```
 
-```{admonition} Assignment 2: Network Polarization Analysis
+```{admonition} Assignment 2: Network Polarization and Policy Analysis
 :class: important
 
-**Due:** End of Week 2 | **Points:** 35 points
+**Due:** End of Week 2 | **Points:** 40 points
 
 **Objectives:**
 - Model polarization on different network structures
 - Analyze the role of homophily and social influence
 - Explore interventions for reducing polarization
+- Connect findings to contemporary polarization challenges
 
 **Tasks:**
 1. Implement opinion dynamics on various network topologies
 2. Model homophily (like-minded connection preferences)
 3. Test interventions: bridge-building, diverse exposure, fact-checking
 4. Analyze polarization metrics and measurement approaches
+5. Develop recommendations for addressing contemporary polarization
 
 **Deliverables:**
-1. Network-based polarization model with multiple mechanisms
+1. Network-based polarization model with multiple mechanisms and documentation
 2. Comparison of polarization outcomes across network types
-3. Evaluation of intervention effectiveness
-4. Technical report (5-6 pages) with policy implications
+3. Evaluation of intervention effectiveness with policy analysis
+4. Technical report (6-8 pages) with contemporary applications
+5. Brief presentation (5 minutes) of key findings and recommendations
 
 **Resources:**
 - [Network Polarization Template](homework/network-polarization-template.nlogo)
 - [Homophily Implementation Guide](homework/homophily-guide.md)
 - [Intervention Strategies Database](homework/polarization-interventions.pdf)
-```
-
-```{admonition} Final Project Component: Contemporary Polarization
-:class: important
-
-**Due:** End of Week 3 | **Points:** 40 points
-
-**Options:**
-1. **Social Media Polarization:** Model algorithmic filtering and echo chambers
-2. **Political Polarization:** Analyze partisan sorting and affective polarization
-3. **Scientific Polarization:** Model climate change or vaccine opinion dynamics
-
-**Requirements:**
-- Literature review connecting theory to current polarization debates (4-5 pages)
-- Agent-based model incorporating relevant polarization mechanisms
-- Analysis using real-world data where possible (social media, polling, etc.)
-- Policy recommendations for reducing harmful polarization
-- 12-minute class presentation addressing contemporary relevance
-
-**Support:**
-- Research proposal and data source identification due Week 2, Friday
-- Model development workshop: Week 3, Tuesday
-- Peer review and feedback session: Week 3, Thursday
+- [Policy Analysis Framework](homework/policy-analysis.md)
 ```
 
 ---
@@ -255,9 +238,8 @@ By the end of this module, students will be able to:
 
 | Week | Topic | Readings | Assignments |
 |------|-------|----------|-------------|
-| **Week 1** | Opinion Dynamics & Bounded Confidence | Hegselmann & Krause (2002) | Opinion Dynamics Due |
-| **Week 2** | Networks & Social Influence | Sunstein (2001), Mason (2015) | Network Analysis Due |
-| **Week 3** | Media, Technology & Interventions | Bail et al. (2018) | Contemporary Analysis Due |
+| **Week 1** | Opinion Dynamics & Bounded Confidence | Hegselmann & Krause (2002), Classical Models | Opinion Dynamics Due |
+| **Week 2** | Networks, Media & Policy Applications | Sunstein (2001), Mason (2015), Bail et al. (2018) | Network Analysis Due |
 ```
 
 ---
@@ -267,9 +249,8 @@ By the end of this module, students will be able to:
 ```{admonition} Need Support?
 :class: tip
 
-- **Quick Questions:** Use the #polarization-models Discord channel
-- **Sensitive Topics:** Office hours provide space for discussing challenging political content
-- **Technical Support:** NetLogo and network analysis troubleshooting available
-- **Research Ethics:** Guidance on studying politically sensitive topics responsibly
-- **Accessibility:** Contact instructors for accommodations and content warnings
+- **Quick Questions:** Use the Moodle class forums
+- **Technical Issues:** Visit our troubleshooting guide
+- **Conceptual Help:** Attend office hours
+- **Accessibility:** Contact the instructors for accommodations
 ```

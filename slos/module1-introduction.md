@@ -1,4 +1,4 @@
-# Module 1: Introduction to Social Computing and Modeling
+# Module 1: Introduction
 
 Welcome to the Introduction to Social Computing and Modeling module! This foundational module introduces the intersection of computer science and social science, exploring how computational methods can help us understand human behavior and social phenomena.
 
@@ -158,8 +158,8 @@ By the end of this module, students will be able to:
 
 **Study Groups and Office Hours:**
 - 👥 **Study Group Sessions:** Tuesdays 7-9 PM, Science Building 180
-- 🕐 **Instructor Office Hours:** Mondays & Wednesdays 2-4 PM
-- 💬 **Course Discord:** Join our discussion channel for quick questions
+- 🕐 **Prof. Araújo's Office Hours:** Tuesdays 8-10 AM
+- 💬 **Course Forums:** You can always use Moodle to start a new discussion
 ```
 
 ### Historical Context
@@ -222,9 +222,9 @@ By the end of this module, students will be able to:
 ```{admonition} Need Support?
 :class: tip
 
-- **Quick Questions:** Use the course Discord channel
+- **Quick Questions:** Use the Moodle class forums
 - **Technical Issues:** Visit our troubleshooting guide
-- **Conceptual Help:** Attend office hours or study groups
+- **Conceptual Help:** Attend office hours
 - **NetLogo Help:** Check the official documentation and user manual
 - **Accessibility:** Contact the instructors for accommodations
 ```

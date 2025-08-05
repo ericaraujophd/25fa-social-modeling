@@ -23,13 +23,6 @@ project:
   license: CC-BY-4.0
   toc:
     - file: intro.md
-    - title: NetLogo Basics
-      children:
-        - file: 00_netlogo/index.md
-        - file: 00_netlogo/coding/index.md
-          children:
-            - file: 00_netlogo/coding/1_agents.md
-            - file: 01_Intro/01a_WhatIsAModel.md
     - title: Course Modules
       children:
         - file: slos/module1-introduction.md
@@ -37,6 +30,26 @@ project:
         - file: slos/module3-contagion.md
         - file: slos/module4-cooperation.md
         - file: slos/module5-polarization.md
+    - title: NetLogo Basics
+      children:
+        - file: netlogo/index.md
+        - file: netlogo/coding/index.md
+          children:
+            - file: netlogo/coding/1_agents.md
+            # - file: 01_Intro/01a_WhatIsAModel.md
+    - title: NetLogo Course
+      children:
+        - file: netlogo/index.md
+        - file: netlogo/0_intro.md
+        - title: Programming Tutorials
+          children:
+            - file: netlogo/coding/index.md
+            - file: netlogo/coding/1_basics.md
+            - file: netlogo/coding/2_agents.md
+            - file: netlogo/coding/3_environment.md
+            - file: netlogo/coding/4_first-model.md
+            - file: netlogo/coding/5_data-analysis.md
+            - file: netlogo/coding/6_advanced.md
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme

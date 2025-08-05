@@ -1,13 +1,15 @@
-# Module 4: Cooperation Models
+# Module 4: Cooperation
 
-Welcome to the Cooperation Models module! This module explores one of the most fundamental questions in social science: how and why do humans cooperate? We'll use game theory and agent-based modeling to understand the conditions that promote or hinder cooperation in social systems.
+Welcome to the Cooperation Models module! This module explores one of the most fundamental questions in social science: how and why do humans c**Study Groups and Office Hours:**
+- 🕐 **Instructor Office Hours:** Tuesdays & Thursdays 2-4 PM
+- 💬 **Course Forums:** Use Moodle for quick questions and discussionsrate? We'll use game theory and agent-based modeling to understand the conditions that promote or hinder cooperation in social systems.
 
 ## Overview
 
 Cooperation models help us understand how individuals can work together for mutual benefit, even when short-term self-interest might suggest otherwise. Through computational modeling, we'll explore classic cooperation dilemmas, evolutionary strategies, and the role of reputation, punishment, and reward systems in maintaining cooperative behavior.
 
 ```{note}
-**Module Duration:** 3 weeks | *Estimated time: 8-12 hours*
+**Module Duration:** 2 weeks | *Estimated time: 8-12 hours*
 ```
 
 ---
@@ -116,55 +118,36 @@ By the end of this module, students will be able to:
 - [Tournament Analysis Framework](homework/tournament-analysis.pdf)
 ```
 
-```{admonition} Assignment 2: Public Goods and Collective Action
+```{admonition} Assignment 2: Public Goods and Policy Analysis
 :class: important
 
-**Due:** End of Week 2 | **Points:** 35 points
+**Due:** End of Week 2 | **Points:** 40 points
 
 **Objectives:**
 - Model public goods dilemmas and collective action problems
 - Explore the effects of group size, communication, and sanctions
 - Analyze institutional mechanisms for promoting cooperation
+- Connect findings to real-world policy applications
 
 **Tasks:**
 1. Implement a public goods game with voluntary contributions
 2. Add features like communication, punishment, and reputation
 3. Test different institutional arrangements and their effects
 4. Compare results with experimental literature
+5. Develop policy recommendations for cooperation challenges
 
 **Deliverables:**
-1. Extended public goods model with multiple mechanisms
+1. Extended public goods model with multiple mechanisms and documentation
 2. Systematic analysis of cooperation levels under different conditions
 3. Policy recommendations based on model insights
-4. Technical report (5-6 pages)
+4. Technical report (6-8 pages) including real-world applications
+5. Brief presentation (5 minutes) of key findings
 
 **Resources:**
 - [Public Goods Template](homework/public-goods-template.nlogo)
 - [Institutional Design Guide](homework/institutions-guide.md)
 - [Experimental Studies Database](homework/cooperation-experiments.pdf)
-```
-
-```{admonition} Final Project Component: Cooperation in Practice
-:class: important
-
-**Due:** End of Week 3 | **Points:** 40 points
-
-**Options:**
-1. **Commons Management:** Model a specific natural resource management case
-2. **Organizational Cooperation:** Analyze teamwork and collaboration in organizations
-3. **International Cooperation:** Model cooperation in global governance (climate, trade, etc.)
-
-**Requirements:**
-- Literature review connecting theory to your chosen application (4-5 pages)
-- Agent-based model incorporating relevant cooperation mechanisms
-- Empirical validation or comparison with real-world data
-- Policy analysis and recommendations
-- 12-minute class presentation with Q&A
-
-**Support:**
-- Research proposal due Week 2, Friday
-- Model development workshop: Week 3, Monday
-- Individual consultations available by appointment
+- [Policy Analysis Framework](homework/policy-analysis.md)
 ```
 
 ---
@@ -255,9 +238,8 @@ By the end of this module, students will be able to:
 
 | Week | Topic | Readings | Assignments |
 |------|-------|----------|-------------|
-| **Week 1** | Game Theory & Prisoner's Dilemma | Axelrod (1980) | PD Tournament Due |
-| **Week 2** | Public Goods & Institutions | Ostrom (1990), Fehr & Gächter (2000) | Public Goods Analysis Due |
-| **Week 3** | Applications & Policy Design | Nowak (2006) | Cooperation Case Study Due |
+| **Week 1** | Game Theory & Prisoner's Dilemma | Axelrod (1980), Classic Strategy Studies | PD Tournament Due |
+| **Week 2** | Public Goods & Policy Applications | Ostrom (1990), Fehr & Gächter (2000), Nowak (2006) | Public Goods Analysis Due |
 ```
 
 ---
@@ -267,9 +249,8 @@ By the end of this module, students will be able to:
 ```{admonition} Need Support?
 :class: tip
 
-- **Quick Questions:** Use the #cooperation-models Discord channel
-- **Game Theory Help:** Attend office hours for conceptual clarification
-- **Programming Support:** Check NetLogo documentation and tutorials
-- **Research Guidance:** Schedule individual meetings for project development
-- **Accessibility:** Contact instructors for accommodations and alternative formats
+- **Quick Questions:** Use the Moodle class forums
+- **Technical Issues:** Visit our troubleshooting guide
+- **Conceptual Help:** Attend office hours
+- **Accessibility:** Contact the instructors for accommodations
 ```

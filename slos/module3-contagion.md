@@ -1,4 +1,4 @@
-# Module 3: Contagion Models
+# Module 3: Contagion
 
 Welcome to the Contagion Models module! This module explores how ideas, behaviors, diseases, and innovations spread through social networks and populations. We'll examine both biological and social contagion processes using computational modeling approaches.
 
@@ -7,7 +7,7 @@ Welcome to the Contagion Models module! This module explores how ideas, behavior
 Contagion models help us understand how things spread - from infectious diseases to social movements, from rumors to technological innovations. Through agent-based modeling, we'll explore different mechanisms of transmission, the role of network structure, and intervention strategies for controlling or promoting different types of contagion.
 
 ```{note}
-**Module Duration:** 3 weeks | *Estimated time: 8-12 hours*
+**Module Duration:** 2 weeks | *Estimated time: 8-12 hours*
 ```
 
 ---
@@ -111,55 +111,36 @@ By the end of this module, students will be able to:
 - [Parameter Analysis Guide](homework/parameter-analysis.md)
 ```
 
-```{admonition} Assignment 2: Network Contagion Analysis
+```{admonition} Assignment 2: Network Contagion and Policy Analysis
 :class: important
 
-**Due:** End of Week 2 | **Points:** 35 points
+**Due:** End of Week 2 | **Points:** 40 points
 
 **Objectives:**
 - Implement contagion models on different network structures
 - Analyze how network properties affect spread dynamics
 - Test intervention strategies for epidemic control
+- Connect findings to real-world policy implications
 
 **Tasks:**
 1. Model contagion on random, small-world, and scale-free networks
 2. Analyze the effect of network clustering and degree distribution
 3. Implement and test vaccination, quarantine, and social distancing interventions
 4. Compare biological and social contagion dynamics
+5. Develop policy recommendations based on model results
 
 **Deliverables:**
-1. Extended NetLogo model with network capabilities
-2. Network analysis and visualization
-3. Intervention strategy evaluation
-4. Technical report (5-6 pages)
+1. Extended NetLogo model with network capabilities and documentation
+2. Network analysis and visualization comparing scenarios
+3. Intervention strategy evaluation with policy analysis
+4. Technical report (6-8 pages) including recommendations
+5. Brief presentation (5 minutes) of key findings
 
 **Resources:**
 - [Network Contagion Template](homework/network-contagion-template.nlogo)
 - [Network Analysis Tools](homework/network-analysis-guide.md)
 - [Intervention Strategies Guide](homework/interventions-guide.pdf)
-```
-
-```{admonition} Final Project Component: Contagion Case Study
-:class: important
-
-**Due:** End of Week 3 | **Points:** 40 points
-
-**Options:**
-1. **Public Health Policy Analysis:** Model a specific intervention strategy for disease control
-2. **Social Media Contagion:** Analyze how information or behaviors spread online
-3. **Innovation Diffusion:** Model the adoption of new technologies or practices
-
-**Requirements:**
-- Literature review of relevant contagion research (4-5 pages)
-- Original NetLogo model addressing your research question
-- Data analysis and model validation where possible
-- Policy recommendations or practical insights
-- 12-minute class presentation
-
-**Support:**
-- Research proposal due Week 2, Friday
-- Peer feedback session: Week 3, Wednesday
-- Office hours: Tuesdays & Thursdays 3-5 PM
+- [Policy Analysis Framework](homework/policy-analysis.md)
 ```
 
 ---
@@ -181,9 +162,8 @@ By the end of this module, students will be able to:
 - 📈 **Gephi:** Network exploration and visualization
 
 **Study Groups and Office Hours:**
-- 👥 **Study Group Sessions:** Thursdays 6-8 PM, Science Building 180
-- 🕐 **Instructor Office Hours:** Tuesdays & Thursdays 3-5 PM
-- 💬 **Course Discord:** #contagion-models channel for discussions
+-  **Instructor Office Hours:** Tuesdays & Thursdays 2-4 PM
+- 💬 **Course Forums:** Use Moodle for quick questions and discussions
 ```
 
 ### Historical Context
@@ -242,9 +222,8 @@ By the end of this module, students will be able to:
 
 | Week | Topic | Readings | Assignments |
 |------|-------|----------|-------------|
-| **Week 1** | SIR Models & Basic Epidemiology | Kermack & McKendrick (1927) | SIR Implementation Due |
-| **Week 2** | Network Effects & Social Contagion | Pastor-Satorras & Vespignani (2001), Centola (2010) | Network Analysis Due |
-| **Week 3** | Applications & Policy Implications | Funk et al. (2010) | Case Study Project Due |
+| **Week 1** | SIR Models & Basic Epidemiology | Kermack & McKendrick (1927), Historical Epidemic Data | SIR Implementation Due |
+| **Week 2** | Network Effects & Policy Applications | Pastor-Satorras & Vespignani (2001), Centola (2010), Funk et al. (2010) | Network Analysis Due |
 ```
 
 ---
@@ -254,9 +233,8 @@ By the end of this module, students will be able to:
 ```{admonition} Need Support?
 :class: tip
 
-- **Quick Questions:** Use the #contagion-models Discord channel
-- **Technical Issues:** NetLogo and network modeling troubleshooting
-- **Conceptual Help:** Attend office hours for epidemiology concepts
-- **Research Support:** Schedule individual meetings for project guidance
-- **Accessibility:** Contact instructors for accommodations
+- **Quick Questions:** Use the Moodle class forums
+- **Technical Issues:** Visit our troubleshooting guide
+- **Conceptual Help:** Attend office hours
+- **Accessibility:** Contact the instructors for accommodations
 ```
