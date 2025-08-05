@@ -33,13 +33,6 @@ project:
     - title: NetLogo Basics
       children:
         - file: netlogo/index.md
-        - file: netlogo/coding/index.md
-          children:
-            - file: netlogo/coding/1_agents.md
-            # - file: 01_Intro/01a_WhatIsAModel.md
-    - title: NetLogo Course
-      children:
-        - file: netlogo/index.md
         - file: netlogo/0_intro.md
         - title: Programming Tutorials
           children:
