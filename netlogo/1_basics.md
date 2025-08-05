@@ -130,7 +130,7 @@ About the environment:
 ```{admonition} Simple Procedure Example
 :class: example
 
-```netlogo
+```
 to move-randomly
   right random 360    ; turn a random amount
   forward 1           ; move forward 1 step  
@@ -146,6 +146,7 @@ Now you can just say `move-randomly` instead of repeating those two lines!
 ```
 
 **Why use procedures?**
+
 - Organize related instructions
 - Avoid repeating the same code
 - Make code easier to read and understand
@@ -161,7 +162,7 @@ Let's practice reading and understanding NetLogo code together.
 
 **Look at this simple procedure. What do you think it does?**
 
-```netlogo
+```
 to setup
   clear-all
   create-turtles 100 [
@@ -195,7 +196,8 @@ Before looking at the answer, discuss with a partner:
 **Compare these two procedures. What's different?**
 
 **Procedure A:**
-```sh
+
+```
 to move-turtles
   ask turtles [
     forward 1
@@ -204,7 +206,8 @@ end
 ```
 
 **Procedure B:**  
-```sh
+
+```
 to move-turtles
   ask turtles [
     right random 360
@@ -223,11 +226,13 @@ end
 **Let's act out NetLogo commands!**
 
 **Setup:** 
+
 - 5 students are "turtles" 
 - Classroom is the "world"
 - One student is the "computer" giving commands
 
 **Commands to try:**
+
 1. `create-turtles 5` - 5 students enter the "world"
 2. `ask turtles [ forward 2 ]` - everyone takes 2 steps forward
 3. `ask turtles [ right 90 ]` - everyone turns right  

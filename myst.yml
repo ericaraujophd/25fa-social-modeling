@@ -8,6 +8,8 @@ project:
   bibliography: references.bib
   # thumbnail: thumbnail.png
   # banner: testbanner.png
+  # Custom syntax highlighting
+  thebe: true
   keywords:
     - agent-based modeling
     - social science
