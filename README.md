@@ -67,15 +67,21 @@ myst start
 ## Project Structure
 
 ```text
-├── 00_netlogo/          # NetLogo tutorials and examples
-│   ├── coding/          # NetLogo coding exercises
-│   ├── interface/       # NetLogo interface tutorials
-│   └── behaviorspace/   # BehaviorSpace tutorials
-├── 01_Intro/            # Introduction materials
-├── 02_Segregation/      # Segregation modeling
-├── 03_Contagion/        # Contagion modeling
-├── 04_Cooperation/      # Cooperation modeling
-├── 05_Polarization/     # Polarization modeling
+├── netlogo/             # Complete NetLogo course (7 tutorials)
+│   ├── index.md         # Course overview and navigation
+│   ├── 0_intro.md       # Tutorial 0: Introduction & Interface
+│   ├── 1_basics.md      # Tutorial 1: Basic Programming Concepts
+│   ├── 2_agents.md      # Tutorial 2: Working with Agents
+│   ├── 3_environment.md # Tutorial 3: Environment and Patches
+│   ├── 4_first-model.md # Tutorial 4: Building Complete Model
+│   ├── 5_data-analysis.md # Tutorial 5: Data Collection
+│   └── 6_advanced.md    # Tutorial 6: Advanced Topics
+├── slos/                # Student Learning Outcomes modules
+│   ├── module1-introduction.md # Course introduction
+│   ├── module2-segregation.md  # Segregation modeling
+│   ├── module3-contagion.md    # Contagion modeling
+│   ├── module4-cooperation.md  # Cooperation modeling
+│   └── module5-polarization.md # Polarization modeling
 ├── logos/               # Project logos
 ├── _build/              # Built site (generated)
 ├── myst.yml             # MyST configuration
