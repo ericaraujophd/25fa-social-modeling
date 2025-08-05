@@ -2,12 +2,12 @@
 version: 1
 project:
   id: a2a7db0b-d06e-4b7d-8c3d-2f61058aa833
-  title: HNRS251A - Honors Computer Science
-  subtitle: Social Modeling
+  title: Social Computing and Modeling
+  subtitle: HNRS-251-A - Honors Computer Science
   description: A course on social modeling using computational methods and social science background.
   bibliography: references.bib
   # thumbnail: thumbnail.png
-  # banner: banner.png
+  # banner: testbanner.png
   keywords:
     - agent-based modeling
     - social science
@@ -23,18 +23,26 @@ project:
   license: CC-BY-4.0
   toc:
     - file: intro.md
-    - file: 00_netlogo/index.md
+    - title: NetLogo Basics
       children:
+        - file: 00_netlogo/index.md
         - file: 00_netlogo/coding/index.md
           children:
             - file: 00_netlogo/coding/1_agents.md
-    - file: 01_Intro/01a_WhatIsAModel.md
+            - file: 01_Intro/01a_WhatIsAModel.md
+    - title: Course Modules
+      children:
+        - file: slos/module1-introduction.md
+        - file: slos/module2-segregation.md
+        - file: slos/module3-contagion.md
+        - file: slos/module4-cooperation.md
+        - file: slos/module5-polarization.md
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
   options:
     folders: true
-  #   favicon: favicon.ico
+    favicon: logos/logo.png
     logo: logos/logo.png
     logo_dark: logos/logo_dark.png
-    logo_text: HNRS251A
+    logo_text: HNRS-251-A
