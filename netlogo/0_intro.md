@@ -1,4 +1,4 @@
-# NetLogo Introduction & Interface
+# Introduction & Interface
 
 Welcome to NetLogo! This tutorial will help you get comfortable with NetLogo in just 40 minutes.
 

@@ -61,6 +61,7 @@ This course uses a **learning-by-doing** approach:
 **Prerequisites:** None! Just curiosity about social phenomena and willingness to experiment.
 
 **What you'll need:**
+
 - NetLogo software (free download from netlogo.org)
 - Willingness to try things and make mistakes
 - Notebook for observations and questions

@@ -30,9 +30,8 @@ project:
         - file: slos/module3-contagion.md
         - file: slos/module4-cooperation.md
         - file: slos/module5-polarization.md
-    - title: NetLogo Basics
+    - file: netlogo/index.md
       children:
-        - file: netlogo/index.md
         - file: netlogo/0_intro.md
         - title: Programming Tutorials
           children:
