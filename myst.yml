@@ -44,8 +44,18 @@ project:
             - file: netlogo/1b_basics.md
             - file: netlogo/1c_basics.md
             - file: netlogo/1d_basics.md
-        - file: netlogo/2_agents.md
-        - file: netlogo/3_environment.md
+        - file: netlogo/2a_agents.md
+          children:
+            - file: netlogo/2b_agents.md
+            - file: netlogo/2c_agents.md
+            - file: netlogo/2d_agents.md
+            - file: netlogo/2e_agents.md
+            - file: netlogo/2f_agents.md
+        - file: netlogo/3a_environment.md
+          children:
+            - file: netlogo/3b_environment.md
+            - file: netlogo/3c_environment.md
+            - file: netlogo/3d_environment.md
         - file: netlogo/4_first-model.md
         - file: netlogo/5_data-analysis.md
         - file: netlogo/6_advanced.md
