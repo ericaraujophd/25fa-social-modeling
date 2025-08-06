@@ -25,7 +25,6 @@ project:
   license: CC-BY-4.0
   toc:
     - file: intro.md
-    - file: syntax-test.md
     - title: Course Modules
       children:
         - file: slos/module1-introduction.md
@@ -35,7 +34,11 @@ project:
         - file: slos/module5-polarization.md
     - file: netlogo/index.md
       children:
-        - file: netlogo/0_intro.md
+        - file: netlogo/0a_intro.md
+          children:
+            - file: netlogo/0b_intro.md
+            - file: netlogo/0c_intro.md
+            - file: netlogo/0d_intro.md
         - file: netlogo/1_basics.md
         - file: netlogo/2_agents.md
         - file: netlogo/3_environment.md

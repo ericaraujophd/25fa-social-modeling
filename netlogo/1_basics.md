@@ -17,19 +17,16 @@ Let's start with a fundamental truth: **Programming is just giving detailed inst
 :class: tip
 
 **Writing a recipe:**
-
 - Step 1: Heat oven to 350°F
 - Step 2: Mix flour and sugar
 - Step 3: Add eggs one at a time
 
 **Giving directions:**  
-
 - Step 1: Go straight for 2 blocks
 - Step 2: Turn left at traffic light
 - Step 3: Building is on your right
 
 **Programming:**
-
 - Step 1: Create 100 turtles  
 - Step 2: Ask each turtle to move forward
 - Step 3: If turtle sees neighbor, turn right
@@ -44,7 +41,6 @@ Think about IKEA furniture instructions - they're extremely detailed because the
 ### NetLogo Uses English-like Commands
 
 Unlike many programming languages, NetLogo reads almost like English:
-
 - `create-turtles 50` (create 50 turtles)
 - `move-forward 1` (move forward 1 step)  
 - `set-color red` (change color to red)
@@ -77,7 +73,6 @@ Examples in NetLogo:
 :class: note
 
 Imagine each turtle wearing name tags:
-
 - "Hi, my name is Turtle #42"
 - "My age is 25"  
 - "My wealth is $1,500"
@@ -132,9 +127,10 @@ About the environment:
 
 **Procedures are like recipes - they group related instructions.**
 
-#### Simple Procedure Example
+```{admonition} Simple Procedure Example
+:class: example
 
-```nelogo
+```
 to move-randomly
   right random 360    ; turn a random amount
   forward 1           ; move forward 1 step  
@@ -147,7 +143,7 @@ This procedure called `move-randomly` does two things:
 2. Move forward 1 step
 
 Now you can just say `move-randomly` instead of repeating those two lines!
-
+```
 
 **Why use procedures?**
 
@@ -166,7 +162,7 @@ Let's practice reading and understanding NetLogo code together.
 
 **Look at this simple procedure. What do you think it does?**
 
-```ruby
+```
 to setup
   clear-all
   create-turtles 100 [
@@ -201,7 +197,7 @@ Before looking at the answer, discuss with a partner:
 
 **Procedure A:**
 
-```sh
+```
 to move-turtles
   ask turtles [
     forward 1
