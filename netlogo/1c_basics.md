@@ -1,104 +1,98 @@
-# Core Concepts (25 min)
+# Reading Code Before Writing (15 min)
 
-Let's learn the basic building blocks that all programming uses.
+Let's practice reading and understanding NetLogo code together.
 
-## Variables: Things That Can Change
+## Activity 1: Code Reading
 
-### Variables store information that can change over time.
+**Look at this simple procedure. What do you think it does?**
 
-Examples in real life:
-
-- Your age (changes every year)
-- Your bank account balance (goes up and down)
-- Your location (changes as you move)
-
-Examples in NetLogo:
-
-- `age` - how old is this turtle?
-- `wealth` - how much money does this turtle have?
-- `xcor` - what is the turtle's x-coordinate?
-- `color` - what color is this turtle?
-
-### Think of Variables as Labels
-
-Imagine each turtle wearing name tags:
-
-```{admonition} Conversation
-:class: tip
-
-- "Hi, my name is **Turtle #42**"
-- "My age is **25**"  
-- "My wealth is **$1,500**"
-- "My location is **(10, 15)**"
-
-Variables are just labels that can be updated!
-```
-
-## Commands: Actions Agents Can Take
-
-**Commands tell agents what to do.**
-
-### Basic movement commands
-
-- `forward 1` - move forward 1 step
-- `right 90` - turn right 90 degrees  
-- `left 45` - turn left 45 degrees
-
-### Property change commands
-
-- `set color red` - change color to red
-- `set size 2` - make turtle bigger
-- `die` - remove this turtle from the world
-
-### Social commands:
-
-- `create-link-with turtle 5` - form connection with turtle #5
-- `ask neighbors` - give instructions to nearby turtles
-
-## Reporters: Questions Agents Can Answer  
-
-### Reporters ask questions and get answers.
-
-About myself:
-
-- `who` - what is my ID number?
-- `xcor` - what is my x-coordinate?
-- `count my-links` - how many connections do I have?
-
-About others:
-
-- `count turtles` - how many turtles exist?
-- `count neighbors` - how many turtles are near me?
-- `mean [wealth] of turtles` - what's the average wealth?
-
-About the environment:
-
-- `pcolor` - what color is the patch I'm on?
-- `patches in-radius 3` - which patches are within 3 units?
-
-## Procedures: Grouping Instructions Together
-
-**Procedures are like recipes - they group related instructions.**
-
-```{code-block} ruby
-:caption: Simple Procedure Example
-
-to move-randomly
-  right random 360    ; turn a random amount
-  forward 1           ; move forward 1 step  
+```ruby
+to setup
+  clear-all
+  create-turtles 100 [
+    setxy random-xcor random-ycor
+    set color one-of [red green blue yellow]
+  ]
+  reset-ticks
 end
 ```
 
-This procedure called `move-randomly` does two things:
+```{admonition} "What Do You Think This Does?"
+:class: seealso
 
-1. Turn a random direction (0-360 degrees)
-2. Move forward 1 step
+Before looking at the answer, discuss with a partner:
+1. What happens when you run this procedure?
+2. How many turtles get created?
+3. Where do they appear?
+4. What colors might they be?
+```
 
-Now you can just say `move-randomly` instead of repeating those two lines!
+```{dropdown} Answer (only click after discussing)
+This procedure:
 
-## Why use procedures?
+1. Clears everything from the world
+2. Creates 100 turtles
+3. Places each turtle at a random location  
+4. Gives each turtle a random color (red, green, blue, or yellow)
+5. Resets the tick counter to 0
+```
 
-- Organize related instructions
-- Avoid repeating the same code
-- Make code easier to read and understand
-- Break complex tasks into smaller pieces
+## Activity 2: Spot the Difference
+
+**Compare these two procedures. What's different?**
+
+**Procedure A:**
+
+```ruby
+to move-turtles
+  ask turtles [
+    forward 1
+  ]
+end
+```
+
+**Procedure B:**  
+
+```ruby
+to move-turtles
+  ask turtles [
+    right random 360
+    forward 1  
+  ]
+end
+```
+
+**What's the difference in behavior? TTYN**
+
+```{dropdown} Answer (only click after discussing)
+
+- Procedure A: All turtles move straight forward
+- Procedure B: All turtles turn randomly first, then move forward
+```
+
+## Activity 3: Human Computer
+
+**Let's act out NetLogo commands!**
+
+**Setup:** 
+
+- 5 students are "turtles" 
+- Classroom is the "world"
+- One student is the "computer" giving commands
+
+**Commands to try:**
+
+1. `create-turtles 5` - 5 students enter the "world"
+2. `ask turtles [ forward 2 ]` - everyone takes 2 steps forward
+3. `ask turtles [ right 90 ]` - everyone turns right  
+4. `ask turtle 0 [ set color red ]` - student #0 puts on red hat
+5. `ask turtles [ if color = red [ forward 3 ] ]` - only red turtle moves
+
+```{admonition} Connect Code to Visual Outcomes
+:class: tip
+
+**Key insight:** Every line of code creates a visible change in the world. When reading code, always ask:
+- "What would I see happening?"
+- "How would the world look different?"
+- "Which agents would be affected?"
+```

@@ -1,65 +1,72 @@
-# Interface Tour (15 min)
+# Your First Model Experience (20 min)
 
-Let's explore the four main areas of NetLogo. We will use the Traffic Grid model as an example, but these concepts apply to all models. 
+Let's explore classic models to see NetLogo in action.
 
-```{important}
-To open the **Traffic Grid model**, go to File → Models Library, then browse to "Social Science" → "Traffic Grid" and click "Open".
-```
+## Activity 1: Wolf Sheep Predation
 
-## 1. World View (where agents live and move)
+**Step 1: Open the model**
 
-- This is the "stage" where your social drama unfolds
-- Agents appear as colored shapes that move and interact
-- Think of it as looking down at a city from above
+- File → Models Library  
+- Browse to "Biology" → "Wolf Sheep Predation"
+- Click "Open"
 
-```{figure} figures/NetLogo-000010.png
-:alt: Traffic Grid Model World View
-:width: 80%
+**Step 2: Explore the interface**
+
+```{figure} figures/NetLogo-000018.png
+:alt: Wolf Sheep Predation Model Interface
+:width: 100%
 :align: center
 
-Traffic Grid model's world view.
+
+Wolf Sheep Predation model interface showing controls and visualization.
 ```
 
-## 2. Interface Tab (buttons, sliders, plots you can interact with)
+- **Sliders (1):** initial-number-sheep, initial-number-wolves, etc.
+- **Buttons (2):** setup, go, go (forever)
+- **Plots (3):** populations over time
+- **Monitors (4):** current populations
+- **Choosers (5):** select model version
+- **Switches (6):** toggle features like "show energy"
 
-The Figure below shows a typical model interface:
+**Step 3: Run your first simulation**
 
-```{figure} figures/NetLogo-000012.png
-:alt: NetLogo Model Interface
-:width: 80%
-:align: center
-Example of a NetLogo model interface showing the visualization and controls.
+- Click **"setup"** (creates initial population)
+- Click **"go"** several times (runs step-by-step)
+- Or click **"go forever"** (runs continuously)
+
+```{admonition} What Do You Notice?
+:class: question
+
+- How do sheep (white) and wolves (black) move?
+- What happens when wolves and sheep meet?
+- How do population numbers change over time?
+- Do you see cycles or patterns?
 ```
 
-- **Sliders (1):** Adjust parameters like "how many people?" or "how fast do they move?"
-- **Monitors (2):** Display current values like "average wealth"
-- **Buttons (3):** Start, stop, and control your model
-- **Switches (4):** Toggle options on and off
-- **Plots (5):** Graphs showing data over time
+**Step 4: Experiment with parameters**
 
-## 3. Code Tab (where the magic happens - but don't worry!)
+- Reset: Click "setup"
+- Change "initial-number-wolves" to 250 (very high)
+- Click "setup" then "go" - what happens?
+- Try very few wolves (10) - how does this change things?
 
-- Contains the "rules" that tell agents what to do
-- Uses English-like commands: `move-forward`, `turn-right`
-- We'll start by reading code, not writing it
+## Activity 2: Exploration Exercise
 
-```{figure} figures/NetLogo-000014.png
-:alt: NetLogo Code Interface
-:width: 80%
-:align: center
-Example of a NetLogo Code tab interface showing the code for the Traffic Grid model.
-```
+**Your turn!** Pick any model from the Models Library and explore for 10 minutes.
 
-## 4. Info Tab (documentation and explanations)
+**Suggested models for social scientists:**
 
-- Always read this first when exploring a model!
-- Explains what the model does and what to look for
-- Provides background and references
+- **Segregation** (Social Science) - neighborhood preferences and segregation
+- **Voting** (Social Science) - how voting behaviors spread
+- **Cooperation** (Social Science) - prisoner's dilemma strategies  
+- **Traffic Basic** (Social Science) - traffic jams from individual decisions
 
-```{figure} figures/NetLogo-000016.png
-:alt: NetLogo Info Tab Interface
-:width: 80%
-:align: center
+**For each model:**
 
-Example of a NetLogo Info tab interface showing model documentation and explanations.
-```
+1. **Read the Info tab** - what is this about?
+2. **Run with default settings** - what happens?
+3. **Change parameters** - how do outcomes change?
+4. **Form a hypothesis** - "If I change X, then Y will happen"
+5. **Test it** - were you right?
+
+**Share one surprising discovery:** What model did you choose and what surprised you most?

@@ -34,32 +34,33 @@ project:
         - file: slos/module5-polarization.md
     - file: netlogo/index.md
       children:
-        - file: netlogo/0a_intro.md
+        - file: netlogo/0_intro.md
           children:
+            - file: netlogo/0a_intro.md
             - file: netlogo/0b_intro.md
             - file: netlogo/0c_intro.md
             - file: netlogo/0d_intro.md
-            - file: netlogo/0e_intro.md
-        - file: netlogo/1a_basics.md
+        - file: netlogo/1_basics.md
           children:
+            - file: netlogo/1a_basics.md
             - file: netlogo/1b_basics.md
             - file: netlogo/1c_basics.md
             - file: netlogo/1d_basics.md
-            - file: netlogo/1e_basics.md
-        - file: netlogo/2a_agents.md
+        - file: netlogo/2_agents.md
           children:
+            - file: netlogo/2a_agents.md
             - file: netlogo/2b_agents.md
             - file: netlogo/2c_agents.md
             - file: netlogo/2d_agents.md
             - file: netlogo/2e_agents.md
             - file: netlogo/2f_agents.md
-            - file: netlogo/2g_agents.md
-        - file: netlogo/3a_environment.md
+        - file: netlogo/3_environment.md
           children:
+            - file: netlogo/3a_environment.md
             - file: netlogo/3b_environment.md
             - file: netlogo/3c_environment.md
             - file: netlogo/3d_environment.md
-            - file: netlogo/3e_environment.md
+
         - file: netlogo/4_first-model.md
           children:
             - file: netlogo/4a_first-model.md
@@ -67,7 +68,17 @@ project:
             - file: netlogo/4c_first-model.md
             - file: netlogo/4d_first-model.md
         - file: netlogo/5_data-analysis.md
+          children:
+            - file: netlogo/5a_data-analysis.md
+            - file: netlogo/5b_data-analysis.md
+            - file: netlogo/5c_data-analysis.md
+            - file: netlogo/5d_data-analysis.md
         - file: netlogo/6_advanced.md
+          children:
+            - file: netlogo/6a_advanced.md
+            - file: netlogo/6b_advanced.md
+            - file: netlogo/6c_advanced.md
+            - file: netlogo/6d_advanced.md
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme

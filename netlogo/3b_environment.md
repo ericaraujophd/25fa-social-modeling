@@ -1,48 +1,99 @@
-# The World Patches Live In (10 min)
+# Patch Properties and Visualization (15 min)
 
-## Patches = Grid Squares That Make Up the World
+Let's learn how to use patch colors to visualize data and create meaningful environments.
 
-Think of the NetLogo world as a **grid of squares**, like:
+## Using Patch Color to Show Data
 
-- **Chessboard squares** where pieces can move
-- **City blocks** where people live and work  
-- **Pixels on a screen** that create an image
-- **Cells in a spreadsheet** that hold information
+**Basic color assignment:**
 
-Each square is called a **patch** and has:
+```ruby
+ask patches [
+  set pcolor green    ; All patches green
+]
 
-- **Coordinates:** `pxcor` (x-position) and `pycor` (y-position)
-- **Color:** `pcolor` (what color is this patch?)
-- **Custom properties:** anything you define (temperature, resources, ownership, etc.)
+ask patch 0 0 [       ; Center patch only
+  set pcolor red
+]
 
-## Each Patch Has Properties (Color, Variables)
+ask patches with [pxcor > 0] [  ; Right half of world
+  set pcolor blue
+]
+```
 
-**Built-in properties:**
+**Color based on data:**
 
-- `pxcor` and `pycor` - location coordinates
-- `pcolor` - color of this patch
-- `plabel` - text label on this patch
+```ruby
+ask patches [
+  ; Color based on distance from center
+  let distance-from-center sqrt (pxcor ^ 2 + pycor ^ 2)
+  set pcolor scale-color red distance-from-center 0 10
+]
+```
 
-**Custom properties you might add:**
+The `scale-color` command creates gradients:
 
-- `temperature` - how hot/cold is this location?
-- `resources` - how much food/oil/wealth is here?
-- `population-density` - how crowded is this area?
-- `pollution-level` - how contaminated is this spot?
+- `scale-color red value 0 10` makes a red gradient from light (value=0) to dark (value=10)
+- High values = dark red, low values = light red
 
-## Environment Shapes Agent Behavior
+## Creating Environmental Gradients
 
-The environment isn't just decoration - it **actively influences** what agents do:
+**Temperature gradient (hot in south, cold in north):**
 
-**Examples:**
+```ruby
+ask patches [
+  set temperature pycor + 10        ; Temperature based on y-coordinate
+  set pcolor scale-color red temperature 0 20  ; Red = hot, pink = cold
+]
+```
 
-- **Foraging:** Animals move toward resource-rich patches
-- **Urban planning:** People prefer low-pollution, high-amenity areas
-- **Disease spread:** Infection rates vary by population density
-- **Economic development:** Businesses locate near transportation hubs
+**Resource distribution (rich center, poor edges):**
 
-```{admonition} Key Insight
-:class: tip
+```ruby
+ask patches [
+  let distance-from-center sqrt (pxcor ^ 2 + pycor ^ 2)
+  set resources 100 - distance-from-center * 5
+  if resources < 0 [ set resources 0 ]
+  set pcolor scale-color green resources 0 100  ; Green = rich, black = poor
+]
+```
 
-**Environment and agents interact dynamically.** Agents respond to their environment, but they can also change it through their actions, creating feedback loops.
+**Random patchy resources:**
+
+```ruby
+ask patches [
+  set resources random 100
+  set pcolor scale-color brown resources 0 100  ; Brown gradient
+]
+```
+
+## Activity 1: Heat Map
+
+**Goal:** Create a temperature gradient using patch colors
+
+```ruby
+to setup-heat-map
+  ask patches [
+    ; Create temperature based on distance from center
+    let distance-from-center sqrt (pxcor ^ 2 + pycor ^ 2)
+    set temperature 100 - distance-from-center * 3
+    if temperature < 0 [ set temperature 0 ]
+    
+    ; Color patches based on temperature
+    set pcolor scale-color red temperature 0 100
+  ]
+end
+```
+
+**Try different patterns:**
+
+- East-west gradient: `set temperature pxcor + 15`
+- Diagonal gradient: `set temperature (pxcor + pycor) + 20`  
+- Multiple hot spots: Create several high-temperature centers
+
+```{admonition} What Do You Observe?
+:class: question
+
+- How does the color pattern reflect the underlying data?
+- What would this temperature map represent in real life?
+- How might agents behave differently in hot vs. cold areas?
 ```

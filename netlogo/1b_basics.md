@@ -1,55 +1,104 @@
-# Programming Without Fear (10 min)
+# Core Concepts (25 min)
 
-Let's start with a fundamental truth: **Programming is just giving detailed instructions to a computer.**
+Let's learn the basic building blocks that all programming uses.
 
-## Programming = Giving Detailed Instructions
+## Variables: Things That Can Change
 
-```{admonition} Programming is Like...
+### Variables store information that can change over time.
+
+Examples in real life:
+
+- Your age (changes every year)
+- Your bank account balance (goes up and down)
+- Your location (changes as you move)
+
+Examples in NetLogo:
+
+- `age` - how old is this turtle?
+- `wealth` - how much money does this turtle have?
+- `xcor` - what is the turtle's x-coordinate?
+- `color` - what color is this turtle?
+
+### Think of Variables as Labels
+
+Imagine each turtle wearing name tags:
+
+```{admonition} Conversation
 :class: tip
 
-**Writing a recipe:**
-- Step 1: Heat oven to 350°F
-- Step 2: Mix flour and sugar
-- Step 3: Add eggs one at a time
+- "Hi, my name is **Turtle #42**"
+- "My age is **25**"  
+- "My wealth is **$1,500**"
+- "My location is **(10, 15)**"
 
-**Giving directions:**  
-- Step 1: Go straight for 2 blocks
-- Step 2: Turn left at traffic light
-- Step 3: Building is on your right
-
-**Programming:**
-- Step 1: Create 100 turtles  
-- Step 2: Ask each turtle to move forward
-- Step 3: If turtle sees neighbor, turn right
+Variables are just labels that can be updated!
 ```
 
-The only difference: computers need **very precise** instructions and can't fill in missing details like humans can.
+## Commands: Actions Agents Can Take
 
-**Like Writing a Recipe or Assembly Instructions**
+**Commands tell agents what to do.**
 
-Think about IKEA furniture instructions - they're extremely detailed because they assume you know nothing. Programming is the same way!
+### Basic movement commands
 
-## NetLogo Uses English-like Commands
+- `forward 1` - move forward 1 step
+- `right 90` - turn right 90 degrees  
+- `left 45` - turn left 45 degrees
 
-Unlike many programming languages, NetLogo reads almost like English:
+### Property change commands
 
-- `create-turtles 50` (create 50 turtles)
-- `forward 1` (move forward 1 step)  
-- `set color red` (change color to red)
-- `count neighbors` (how many neighbors do I have?)
+- `set color red` - change color to red
+- `set size 2` - make turtle bigger
+- `die` - remove this turtle from the world
 
-You can see most of the commands in the {ref}`wordcloud-ref`.
+### Social commands:
 
-Also, Netlogo provides a dictionary of commands in their website: [NetLogo Dictionary](https://ccl.northwestern.edu/netlogo/docs/dictionary.html).
+- `create-link-with turtle 5` - form connection with turtle #5
+- `ask neighbors` - give instructions to nearby turtles
 
-Save this page in your bookmarks for easy reference!
+## Reporters: Questions Agents Can Answer  
 
-(wordcloud-ref)=
-```{figure} figures/netlogo_commands_wordcloud_clean.png
-:alt: NetLogo Commands Word Cloud
-:width: 100%
-:align: center
+### Reporters ask questions and get answers.
 
-NetLogo Commands Word Cloud
+About myself:
+
+- `who` - what is my ID number?
+- `xcor` - what is my x-coordinate?
+- `count my-links` - how many connections do I have?
+
+About others:
+
+- `count turtles` - how many turtles exist?
+- `count neighbors` - how many turtles are near me?
+- `mean [wealth] of turtles` - what's the average wealth?
+
+About the environment:
+
+- `pcolor` - what color is the patch I'm on?
+- `patches in-radius 3` - which patches are within 3 units?
+
+## Procedures: Grouping Instructions Together
+
+**Procedures are like recipes - they group related instructions.**
+
+```{code-block} ruby
+:caption: Simple Procedure Example
+
+to move-randomly
+  right random 360    ; turn a random amount
+  forward 1           ; move forward 1 step  
+end
 ```
 
+This procedure called `move-randomly` does two things:
+
+1. Turn a random direction (0-360 degrees)
+2. Move forward 1 step
+
+Now you can just say `move-randomly` instead of repeating those two lines!
+
+## Why use procedures?
+
+- Organize related instructions
+- Avoid repeating the same code
+- Make code easier to read and understand
+- Break complex tasks into smaller pieces
