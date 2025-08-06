@@ -39,7 +39,11 @@ project:
             - file: netlogo/0b_intro.md
             - file: netlogo/0c_intro.md
             - file: netlogo/0d_intro.md
-        - file: netlogo/1_basics.md
+        - file: netlogo/1a_basics.md
+          children:
+            - file: netlogo/1b_basics.md
+            - file: netlogo/1c_basics.md
+            - file: netlogo/1d_basics.md
         - file: netlogo/2_agents.md
         - file: netlogo/3_environment.md
         - file: netlogo/4_first-model.md
