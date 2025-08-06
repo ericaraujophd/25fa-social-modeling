@@ -10,6 +10,10 @@ Welcome to the NetLogo programming material designed specifically for this class
 
 This course teaches agent-based modeling using NetLogo, a powerful yet accessible programming environment. You'll learn to create computational models that help answer questions about social phenomena.
 
+This guide follows the same structure as the [NetLogo documentation](https://ccl.northwestern.edu/netlogo/docs/), but it is tailored to our course. It is not a replacement for the official documentation, but rather a complement to it. We own all the credit for this material to Ury Wilensky and the Center for Connected Learning and Computer-Based Modeling at Northwestern University {cite}`wilensky1999netlogo`. The official documentation is a great resource, and we encourage you to use it as well.
+
+In this tutorial, we intend to provide the basic concepts and programming skills necessary to start programming in NetLogo. This tutorial is focused on programming. Come back to this part whenever you need to refresh your memory on the basic concepts of programming in NetLogo.
+
 ```{note}
 **No programming background required!** This course is designed for students who have never programmed before. We start with basic concepts and build gradually.
 ```
@@ -30,6 +34,16 @@ By completing this tutorial series, you will be able to:
 - Designed specifically for modeling social phenomena
 - Large community of non-CS users
 - Extensive library of existing models to learn from
+
+### Learning Approach
+
+This course uses a **learning-by-doing** approach:
+
+- Start with exploration and experimentation
+- Build understanding through hands-on activities
+- Progress from simple concepts to complete models
+- Focus on visual and conceptual understanding first
+
 
 ## Tutorial Structure
 
@@ -75,15 +89,6 @@ By completing this tutorial series, you will be able to:
 - Common Problems and Solutions (20 min)
 - Extending Models with New Features (15 min)
 - Where to Go Next in Your Modeling Journey (10 min)
-
-## Learning Approach
-
-This course uses a **learning-by-doing** approach:
-
-- Start with exploration and experimentation
-- Build understanding through hands-on activities
-- Progress from simple concepts to complete models
-- Focus on visual and conceptual understanding first
 
 ## Getting Started
 
