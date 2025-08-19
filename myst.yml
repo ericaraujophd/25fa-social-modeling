@@ -25,6 +25,7 @@ project:
   license: CC-BY-4.0
   toc:
     - file: intro.md
+    - file: ABM_SocialTheory_Fall2025.md
     - title: Course Modules
       children:
         - file: slos/module1-introduction.md
