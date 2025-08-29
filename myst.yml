@@ -81,6 +81,7 @@ project:
             - file: netlogo/6c_advanced.md
             - file: netlogo/6d_advanced.md
     - file: final_project_norms.md
+    - file: grading-rubric.md
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
