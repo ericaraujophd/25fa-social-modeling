@@ -1,10 +1,10 @@
 # Module 1: Introduction
 
-Welcome to the Introduction to Social Computing and Modeling module! This foundational module introduces the intersection of computer science and social science, exploring how computational methods can help us understand human behavior and social phenomena.
+Welcome to the Introduction to Agent-Based Modeling & Social Theory module! This foundational module introduces the intersection of computer science and social science, exploring how computational methods can help us understand human behavior and social phenomena.
 
 ## Overview
 
-This module provides the theoretical and practical foundations for the course. We'll explore what models are, why they're useful in social science research, and how computational approaches can reveal insights about complex social systems. You'll learn the basics of agent-based modeling and get hands-on experience with NetLogo.
+This module provides the theoretical and practical foundations for the course. We'll explore what models are, why they're useful in social science research, and how computational approaches can reveal insights about complex social systems. We will also introduce agent-based modeling as a key method for simulating social phenomena.
 
 ```{note}
 **Module Duration:** 2 weeks | *Estimated time: 6-8 hours*
@@ -20,16 +20,18 @@ This module provides the theoretical and practical foundations for the course. W
 By the end of this module, students will be able to:
 
 **Conceptual Understanding:**
+
 - Define what constitutes a model in social science research
 - Explain the relationship between social computing and traditional social science methods
+- Reflect on the idea of *emergence* introduced by Durkheim and how it sets the stage for ABM.
 - Identify strengths and limitations of computational modeling approaches
 - Understand the role of abstraction in model building
+- Comprehend the relevance of using Agent-based models for simulating social phenomena
 
 **Technical Skills:**
-- Navigate the NetLogo interface and basic programming concepts
-- Create simple agent-based models with basic behaviors
-- Run simulations and collect data from model outputs
-- Interpret basic visualization and data outputs
+
+- Get to know Netlogo's interface and visualize some classic models
+- Install Netlogo and run your first simulation from the Library of models
 
 **Critical Thinking:**
 - Evaluate when computational modeling is appropriate for social questions
@@ -38,11 +40,32 @@ By the end of this module, students will be able to:
 - Critique modeling choices and their implications
 
 **Communication:**
+
 - Articulate the purpose and value of social modeling
-- Present model results to both technical and non-technical audiences
+- Initiate discussions on interpreting model results to both technical and non-technical audiences
 - Discuss ethical considerations in social modeling research
 - Engage with interdisciplinary perspectives on social phenomena
 ```
+
+---
+
+## 📋 Weekly Breakdown
+
+| **Week** | **Date**      |  **Topic/Activity**                                                                                                   |
+|:--------:|:------------------:|:---------------------------------------------------------------------------------------------------------------------|
+| 1        | Sep 2 (T)     |  **Session A:** What is ABM? Live demo in NetLogo (Starling's murmuration, Wolf-Sheep Predation, and fire model). <br>Goal: Show how simple local rules create complex macro patterns. <br> **Session B:** Course orientation. Syllabus overview, grading, expectations. <br>Introduction to project & SRGs. <br>Framing: Connect to Reformed idea of common grace—secular sciences and computational tools as gifts for understanding creation.|
+| 1        | Sep 4 (Th)     |  **Session A:** Emergence of the social sciences; classical theories; fundamental debates. <br>Sociology distinct from psychology: focus on emergence and social facts (Durkheim). <br> **Session B:** Models and methods: Where does ABM fit? <br>Connect emergence to ABM: micro → macro link as ABM’s strength. <br>Discussion: “What kinds of social problems make sense only at the level of emergence?”|
+| 2        | Sep 9 (T)     |  **Session A (SRG):** Discussion of readings (Durkheim & Weber). <br>SRG goal: Contrast Durkheim’s irreducible social facts with Weber’s abstraction/ideal types. <br> **Session B:** Workshop — What makes a good model? <br>Groups evaluate “bad” and “good” toy models. <br>Criteria: simplicity, clarity, generativity, transparency, theory link. |
+| 2        | Sep 11 (Th)   |  **Session A (Lab):** NetLogo basics—interface, parameters, behaviors. <br> **Session B (Lab):** Micro-exercise: Adjust one parameter in a simple model, note results.|
+
+---
+
+## 📝 Assignments & Due Dates (Weeks 1–2)
+
+| **Assignment**                | **Due Date**         | **Notes**                                                                                 |
+|-------------------------------|----------------------|------------------------------------------------------------------------------------------|
+| Lab Memo #1                   | End of Week 2        | Micro-exercise: Adjust one parameter in a simple NetLogo model, note results.            |
+| Reflection Essay #1           | End of Week 2        | <br>Prompt (≥1000 words): <ul><li>How do Durkheim and Weber differ in their approaches to building knowledge?</li><li>Where do you see common ground?</li><li>How might ABMs fit into ongoing discussions about subjectivity, objectivity, and building valid social knowledge?</li></ul> |
 
 ---
 
@@ -52,12 +75,13 @@ By the end of this module, students will be able to:
 :class: note
 
 **Lecture Slides:**
-- **Lecture 1:** [What is Social Computing?](slides/intro-social-computing.pdf)
-- **Lecture 2:** [Introduction to Models](slides/intro-models.pdf)
-- **Lecture 3:** [Agent-Based Modeling Basics](slides/abm-basics.pdf)
-- **Lecture 4:** [NetLogo Fundamentals](slides/netlogo-intro.pdf)
+- **Lecture 1:** [Introduction to Models: What is ABM?](slides/intro-models.pdf)
+- **Lecture 2:** [Course Orientation](slides/intro-social-computing.pdf)
+- **Lecture 3:** [Emergence of the social sciences](slides/abm-basics.pdf)
+- **Lecture 4:** [ABM Fundamentals](slides/netlogo-intro.pdf)
 
 **Supplementary Videos:**
+
 - 🎥 [The Power of Models](https://youtu.be/example) (12 min)
 - 🎥 [NetLogo Getting Started](https://youtu.be/example) (18 min)
 - 🎥 [Agent-Based Modeling Explained](https://youtu.be/example) (15 min)
@@ -85,31 +109,15 @@ By the end of this module, students will be able to:
    - 🎯 Focus on: The emergence of computational social science
 ```
 
+
 ---
+
+
 
 ## 📝 Homework
 
-```{admonition} Assignment 1: What Is a Model? Reflection
-:class: important
 
-**Due:** End of Week 1 | **Points:** 20 points
-
-**Objectives:**
-- Reflect on the nature and purpose of models in understanding reality
-- Connect modeling concepts to your own disciplinary background
-- Practice academic writing and critical thinking
-
-**Deliverables:**
-1. 3-4 page reflection paper addressing:
-   - What makes something a "model"?
-   - How do models help us understand complex phenomena?
-   - What are the ethical implications of modeling human behavior?
-   - Examples of models from your own field of study
-
-**Resources:**
-- [Reflection Paper Guidelines](homework/reflection-guidelines.md)
-- [Grading Rubric](homework/reflection-rubric.pdf)
-```
+<!-- No homework due in Week 1. The first major assignments are due at the end of Week 2. -->
 
 ```{admonition} Assignment 2: NetLogo Exploration
 :class: important
@@ -147,19 +155,17 @@ By the end of this module, students will be able to:
 :class: note
 
 **Interactive Demos:**
+
 - 🖥️ [NetLogo Web Models](http://netlogoweb.org/) - Run models in your browser
 - 🖥️ [Complexity Explorer](https://www.complexityexplorer.org/) - Free courses on complexity science
 - 🖥️ [Agent-Based Models in Social Science](https://www.agent-based-models.com/) - Gallery of examples
 
 **Tools and Software:**
-- 💻 **NetLogo:** [Download](https://ccl.northwestern.edu/netlogo/download.shtml) and [Documentation](https://ccl.northwestern.edu/netlogo/docs/)
-- 📊 **Python for Social Science:** Introduction to pandas, matplotlib, and networkx
-- 🎨 **Visualization Tools:** Gephi for network visualization, R for statistical graphics
 
-**Study Groups and Office Hours:**
-- 👥 **Study Group Sessions:** Tuesdays 7-9 PM, Science Building 180
-- 🕐 **Prof. Araújo's Office Hours:** Tuesdays 8-10 AM
-- 💬 **Course Forums:** You can always use Moodle to start a new discussion
+- 💻 **NetLogo:** [Download](https://ccl.northwestern.edu/netlogo/download.shtml) and [Documentation](https://ccl.northwestern.edu/netlogo/docs/)
+<!-- - 📊 **Python for Social Science:** Introduction to pandas, matplotlib, and networkx -->
+<!-- - 🎨 **Visualization Tools:** Gephi for network visualization, R for statistical graphics -->
+
 ```
 
 ### Historical Context
@@ -169,7 +175,6 @@ By the end of this module, students will be able to:
 **Foundational Works:**
 - Schelling, T. C. (1978). *Micromotives and macrobehavior.* W. W. Norton.
 - Axelrod, R. (1984). *The evolution of cooperation.* Basic Books.
-- Epstein, J. M., & Axtell, R. (1996). *Growing artificial societies.* MIT Press.
 
 **Contemporary Developments:**
 - Lazer, D., et al. (2009). Computational social science. *Science*, 323(5915), 721-723.
@@ -200,31 +205,4 @@ By the end of this module, students will be able to:
 - COVID-19 pandemic modeling and policy responses
 - Social media influence on political polarization
 - Urban segregation and housing policy analysis
-```
-
----
-
-## 🗓️ Weekly Schedule
-
-```{admonition} Module Timeline
-:class: note
-
-| Week | Topic | Readings | Assignments |
-|------|-------|----------|-------------|
-| **Week 1** | Models & Social Computing | Epstein (2008), Smedes (2003) | Reflection Paper Due |
-| **Week 2** | Agent-Based Modeling & NetLogo | Gilbert (2008), Cioffi-Revilla (2014) | NetLogo Exploration Due |
-```
-
----
-
-## 📞 Getting Help
-
-```{admonition} Need Support?
-:class: tip
-
-- **Quick Questions:** Use the Moodle class forums
-- **Technical Issues:** Visit our troubleshooting guide
-- **Conceptual Help:** Attend office hours
-- **NetLogo Help:** Check the official documentation and user manual
-- **Accessibility:** Contact the instructors for accommodations
 ```

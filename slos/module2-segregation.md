@@ -4,6 +4,8 @@ Welcome to the Segregation Models module! This section explores computational mo
 
 ## Overview
 
+You'll learn the basics of agent-based modeling and get hands-on experience with NetLogo.
+
 Segregation models help us understand how micro-level individual choices can lead to macro-level social phenomena {cite}`schelling1978micromotives`. Through agent-based modeling, we'll explore how even mild preferences for similarity can result in highly segregated neighborhoods, providing insights into urban dynamics and social processes.
 
 ```{note}
@@ -25,6 +27,11 @@ By the end of this module, students will be able to:
 - Evaluate the relationship between micro-motives and macro-behavior
 
 **Technical Skills:**
+- Navigate the NetLogo interface and basic programming concepts
+- Create simple agent-based models with basic behaviors
+- Run simulations and collect data from model outputs
+- Interpret basic visualization and data outputs
+
 - Implement Schelling's segregation model in NetLogo
 - Modify agent rules and parameters to test different scenarios
 - Collect and analyze data from agent-based simulations

@@ -16,6 +16,21 @@ Cooperation models help us understand how individuals can work together for mutu
 
 ## 🎯 Student Learning Objectives (SLOs)
 
+
+add later
+
+Apply algorithmic, statistical, and/or mathematical methods to solve problems, broadly defined to find the answers to questions in various domains (as appropriate). 
+
+Articulate limiting assumptions or limitations to the conclusions that can be drawn from the use of these methods and identify appropriate and inappropriate uses of such methods, as informed by a Reformed, Christian perspective. 
+
+Construct data-driven, mathematical, statistical, and/or software models, analyzing their results to answer questions, solve problems, support arguments, draw conclusions, make predictions, and/or identify possible causal relationships. 
+
+Identify and use tools appropriate for solving a given problem, such as algebra, calculus, and other mathematical tools; spreadsheets, databases, and data-analysis software; domain-specific software; and/or writing one’s own software. 
+
+Represent, interpret, and process information in graphical, numeric, and/or symbolic forms. 
+
+Study how ideas from mathematical sciences have reflected and shaped other ways of thinking and knowing. 
+
 ```{admonition} Learning Goals
 :class: tip
 
