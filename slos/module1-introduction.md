@@ -2,19 +2,15 @@
 
 Welcome to the **Introduction to Agent-Based Modeling & Social Theory** module! This foundational module introduces the intersection of computer science and social science, exploring how computational methods can help us understand human behavior and social phenomena.
 
-## Overview
-
 This module provides the theoretical and practical foundations for the course. We'll explore what models are, why they're useful in social science research, and how computational approaches can reveal insights about complex social systems. We will also introduce agent-based modeling as a key method for simulating social phenomena.
 
-```{note}
-**Module Duration:** 2 weeks | *Estimated time: 6-8 hours*
-```
+**Module Duration:** 2 weeks
 
 ---
 
 ## Student Learning Objectives (SLOs)
 
-By the end of this module, students will be able to:
+By the end of this module, students will be able to accomplish the following SLOs:
 
 ::::{tab-set}
 :::{tab-item} Core SLOs
@@ -24,7 +20,7 @@ By the end of this module, students will be able to:
 - Study how ideas from mathematical sciences have reflected and shaped other ways of thinking and knowing.
 - Define what constitutes a model in social science research
 :::
-:::{tab-item} Conceptual SLOs
+:::{tab-item} Conceptual
 
 - Explain the relationship between social computing and traditional social science methods
 - Reflect on the idea of *emergence* introduced by Durkheim and how it sets the stage for ABM.
@@ -55,26 +51,84 @@ By the end of this module, students will be able to:
 - Engage with interdisciplinary perspectives on social phenomena
 :::
 ::::
----
 
+---
 
 ## 📋 Weekly Breakdown
 
-| **Week** | **Date**      |  **Topic/Activity**                                                                                                   |
-|:--------:|:------------------:|:---------------------------------------------------------------------------------------------------------------------|
-| 1        | Sep 2 (T)     |  **Session A:** What is ABM? Live demo in NetLogo (Starling's murmuration, Wolf-Sheep Predation, and fire model). <br>Goal: Show how simple local rules create complex macro patterns. <br> **Session B:** Course orientation. Syllabus overview, grading, expectations. <br>Introduction to project & SRGs. <br>Framing: Connect to Reformed idea of common grace—secular sciences and computational tools as gifts for understanding creation.|
-| 1        | Sep 4 (Th)     |  **Session A:** Emergence of the social sciences; classical theories; fundamental debates. <br>Sociology distinct from psychology: focus on emergence and social facts (Durkheim). <br> **Session B:** Models and methods: Where does ABM fit? <br>Connect emergence to ABM: micro → macro link as ABM’s strength. <br>Discussion: “What kinds of social problems make sense only at the level of emergence?”|
-| 2        | Sep 9 (T)     |  **Session A (SRG):** Discussion of readings (Durkheim & Weber). <br>SRG goal: Contrast Durkheim’s irreducible social facts with Weber’s abstraction/ideal types. <br> **Session B:** Workshop — What makes a good model? <br>Groups evaluate “bad” and “good” toy models. <br>Criteria: simplicity, clarity, generativity, transparency, theory link. |
-| 2        | Sep 11 (Th)   |  **Session A (Lab):** NetLogo basics—interface, parameters, behaviors. <br> **Session B (Lab):** Micro-exercise: Adjust one parameter in a simple model, note results.|
+::::{tab-set}
+
+:::{tab-item} Lecture 1
+**Week 1: Tuesday, September 2**
+
+*Heckman Library 406C*
+
+**Session A:** What is ABM? Live demo in NetLogo (Starling's murmuration, Wolf-Sheep Predation, and fire model).
+
+**Session B:** Course orientation. Syllabus overview, grading, expectations. <br>Introduction to project & SRGs.
+:::
+
+:::{tab-item} Lecture 2
+**Week 1: Thursday, September 4**
+
+*Heckman Library 406C*
+
+**Session A:** Emergence of the social sciences; classical theories; fundamental debates. <br>Sociology distinct from psychology: focus on emergence and social facts (Durkheim).
+
+**Session B:** Models and methods: Where does ABM fit? <br>Connect emergence to ABM: micro → macro link as ABM’s strength. <br>Discussion: “What kinds of social problems make sense only at the level of emergence?”
+:::
+
+:::{tab-item} Lecture 3
+**Week 1: Tuesday, September 9**
+
+*Heckman Library 406C*
+
+**Session A (SRG):** Discussion of readings (Durkheim & Weber). <br>SRG goal: Contrast Durkheim’s irreducible social facts with Weber’s abstraction/ideal types.
+
+**Session B:** Workshop — What makes a good model? <br>Groups evaluate “bad” and “good” toy models. <br>Criteria: simplicity, clarity, generativity, transparency, theory link.
+:::
+
+:::{tab-item} Lecture 4
+**Week 1: Thursday, September 11**
+
+*Heckman Library 406C*
+
+**Session A (Lab):** NetLogo basics—interface, parameters, behaviors.
+
+**Session B (Lab):** Micro-exercise: Adjust one parameter in a simple model, note results.
+:::
+
+::::
 
 ---
 
 ## 📝 Assignments & Due Dates (Weeks 1–2)
 
-| **Assignment**                | **Due Date**         | **Notes**                                                                                 |
-|-------------------------------|----------------------|------------------------------------------------------------------------------------------|
-| Lab Memo #1                   | End of Week 2        | Micro-exercise: Adjust one parameter in a simple NetLogo model, note results.            |
-| Reflection Essay #1           | End of Week 2        | <br>Prompt (≥1000 words): <ul><li>How do Durkheim and Weber differ in their approaches to building knowledge?</li><li>Where do you see common ground?</li><li>How might ABMs fit into ongoing discussions about subjectivity, objectivity, and building valid social knowledge?</li></ul> |
+::::{tab-set}
+
+:::{tab-item} Lab Memo #1
+**Due:** 9/16 before class | **Points:** 20 points
+
+**Prompt (≥500 words):**
+- Describe your experience with the micro-exercise in NetLogo.
+- What parameter did you change, and what was the outcome?
+- Reflect on the importance of parameter selection in agent-based modeling.
+
+:::
+
+:::{tab-item} Reflection Essay #1
+**Due:** 9/16 before class | **Points:** 30 points
+
+**Prompt (≥1000 words):**
+- How do Durkheim and Weber differ in their approaches to building knowledge?
+- Where do you see common ground?
+- How might ABMs fit into ongoing discussions about subjectivity, objectivity, and building valid social knowledge?
+:::
+::::
+
+:::{important}
+No homework due in Week 1. The first major assignments are due at the end of Week 2.
+:::
 
 ---
 
@@ -128,10 +182,7 @@ By the end of this module, students will be able to:
 
 ---
 
-## 📝 Homework
-
-
-<!-- No homework due in Week 1. The first major assignments are due at the end of Week 2. -->
+<!-- ## 📝 Assignments
 
 ```{admonition} Assignment 2: NetLogo Exploration
 :class: important
@@ -161,7 +212,7 @@ By the end of this module, students will be able to:
 - [Data Analysis Tips](homework/data-analysis-tips.pdf)
 ```
 
----
+--- -->
 
 ## 🌟 Extra Materials
 
