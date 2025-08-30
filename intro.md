@@ -1,4 +1,4 @@
-# Welcome to Agent-Based Modeling & Social Theory Course
+# Welcome!
 
 Welcome to the Agent-Based Modeling & Social Theory class! The official code for this course is HNRS-251-A, and it is part of the Honors program at Calvin University. The course is a core + core course, involving both social sciences and computer science.
 
