@@ -25,6 +25,11 @@ project:
   license: CC-BY-4.0
   toc:
     - file: intro.md
+    - title: Course Policies
+      children:
+        - file: policies/grading-rubric.md
+        - file: policies/classroom.md
+        - file: policies/honesty.md
     - file: ABM_SocialTheory_Fall2025.md
     - title: Course Modules
       children:
@@ -81,7 +86,6 @@ project:
             - file: netlogo/6c_advanced.md
             - file: netlogo/6d_advanced.md
     - file: final_project_norms.md
-    - file: grading-rubric.md
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
