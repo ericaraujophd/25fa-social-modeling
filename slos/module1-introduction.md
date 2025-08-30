@@ -185,6 +185,23 @@ No homework due in Week 1. The first major assignments are due at the end of Wee
 - 🎥 [Emergence – How Stupid Things Become Smart Together](https://www.youtube.com/watch?v=16W7c0mb-rE) (7 min)
 :::
 
+::::{admonition} Additional Resources
+:class: drowpdown
+:open: false
+
+**Interactive Demos:**
+
+- 🖥️ [NetLogo Web Models](http://netlogoweb.org/) - Run models in your browser
+- 🖥️ [Complexity Explorer](https://www.complexityexplorer.org/) - Free courses on complexity science
+- 🖥️ [Agent-Based Models in Social Science](https://www.agent-based-models.com/) - Gallery of examples
+
+**Tools and Software:**
+
+- 💻 **NetLogo:** [Download](https://ccl.northwestern.edu/netlogo/download.shtml) and [Documentation](https://ccl.northwestern.edu/netlogo/docs/)
+<!-- - 📊 **Python for Social Science:** Introduction to pandas, matplotlib, and networkx -->
+<!-- - 🎨 **Visualization Tools:** Gephi for network visualization, R for statistical graphics -->
+
+::::
 
 ---
 
@@ -220,24 +237,7 @@ No homework due in Week 1. The first major assignments are due at the end of Wee
 
 --- -->
 
-## 🌟 Extra Materials
 
-```{admonition} Additional Resources
-:class: note
-
-**Interactive Demos:**
-
-- 🖥️ [NetLogo Web Models](http://netlogoweb.org/) - Run models in your browser
-- 🖥️ [Complexity Explorer](https://www.complexityexplorer.org/) - Free courses on complexity science
-- 🖥️ [Agent-Based Models in Social Science](https://www.agent-based-models.com/) - Gallery of examples
-
-**Tools and Software:**
-
-- 💻 **NetLogo:** [Download](https://ccl.northwestern.edu/netlogo/download.shtml) and [Documentation](https://ccl.northwestern.edu/netlogo/docs/)
-<!-- - 📊 **Python for Social Science:** Introduction to pandas, matplotlib, and networkx -->
-<!-- - 🎨 **Visualization Tools:** Gephi for network visualization, R for statistical graphics -->
-
-```
 
 ### Historical Context
 
