@@ -1,3 +1,4 @@
+
 # Module 3: Contagion
 
 Welcome to the Contagion Models module! This module explores how ideas, behaviors, diseases, and innovations spread through social networks and populations. We'll examine both biological and social contagion processes using computational modeling approaches.
@@ -14,35 +15,43 @@ Contagion models help us understand how things spread - from infectious diseases
 
 ## 🎯 Student Learning Objectives (SLOs)
 
-```{admonition} Learning Goals
-:class: tip
-
 By the end of this module, students will be able to:
 
-**Conceptual Understanding:**
+::::{tab-set}
+
+:::{tab-item} Core
+- Construct data-driven, mathematical, statistical, and/or software models, analyzing their results to answer questions, solve problems, support arguments, draw conclusions, make predictions, and/or identify possible causal relationships.
+- Identify and use tools appropriate for solving a given problem, such as algebra, calculus, and other mathematical tools; spreadsheets, databases, and data-analysis software; domain-specific software; and/or writing one’s own software.
+:::
+
+:::{tab-item} Conceptual
 - Distinguish between different types of contagion (biological, social, behavioral)
 - Explain the role of network structure in contagion processes
 - Analyze the dynamics of epidemic curves and tipping points
 - Understand concepts like basic reproduction number (R₀) and herd immunity
+:::
 
-**Technical Skills:**
+:::{tab-item} Technical Skills
 - Implement SIR and SEIR epidemiological models in NetLogo
 - Model contagion on different network topologies
 - Analyze the effects of intervention strategies on spread dynamics
 - Visualize and interpret contagion simulation results
+:::
 
-**Critical Thinking:**
+:::{tab-item} Critical Thinking
 - Evaluate the effectiveness of public health interventions
 - Assess the parallels and differences between biological and social contagion
 - Critique assumptions in contagion models and their real-world applicability
 - Analyze the ethical implications of contagion research and policy
+:::
 
-**Communication:**
+:::{tab-item} Communication
 - Present epidemiological concepts to diverse audiences
 - Discuss the role of modeling in public health decision-making
 - Communicate uncertainty and risk in contagion scenarios
 - Engage with contemporary debates about disease control and social influence
-```
+:::
+::::
 
 ---
 

@@ -1,8 +1,6 @@
 # Module 5: Polarization
 
-Welcome to the Polarization Models module! This module explores how groups form opposing viewpoints, how moderate positions erode, and how soci**Study Groups and Office Hours:**
-- 🕐 **Instructor Office Hours:** Tuesdays & Thursdays 2-4 PM
-- 💬 **Course Forums:** Use Moodle for quick questions and discussionss become divided. We'll examine the mechanisms that drive political, social, and ideological polarization using computational modeling approaches.
+Welcome to the Polarization Models module! This module explores how groups form opposing viewpoints, how moderate positions erode, and how social identities become divided. We'll examine the mechanisms that drive political, social, and ideological polarization using computational modeling approaches.
 
 ## Overview
 
@@ -16,35 +14,46 @@ Polarization models help us understand one of the most pressing challenges of co
 
 ## 🎯 Student Learning Objectives (SLOs)
 
-```{admonition} Learning Goals
-:class: tip
+# Core SLOs
 
 By the end of this module, students will be able to:
 
-**Conceptual Understanding:**
+
+::::{tab-set}
+
+:::{tab-item} Core
+- Articulate limiting assumptions or limitations to the conclusions that can be drawn from the use of these methods and identify appropriate and inappropriate uses of such methods, as informed by a Reformed, Christian perspective.
+- Provide students with a sense of the nature and limits of scientific knowledge and the kinds of ethical questions that surround scientific research and its dissemination (revisited in the context of polarization, ethics, and justice).
+:::
+
+:::{tab-item} Conceptual
 - Define different types of polarization (ideological, affective, social sorting)
 - Explain mechanisms that drive opinion polarization and group formation
 - Analyze the role of social networks, media, and algorithms in polarization
 - Understand the relationship between polarization and democratic governance
+:::
 
-**Technical Skills:**
+:::{tab-item} Technical Skills
 - Implement opinion dynamics models (voter model, Hegselmann-Krause, etc.)
 - Model the effects of network structure on opinion formation
 - Simulate media influence and algorithmic filtering on belief systems
 - Analyze polarization metrics and measurement approaches
+:::
 
-**Critical Thinking:**
+:::{tab-item} Critical Thinking
 - Evaluate competing explanations for political and social polarization
 - Assess the effectiveness of interventions designed to reduce polarization
 - Critique the assumptions and limitations of polarization models
 - Connect polarization theory to contemporary political and social challenges
+:::
 
-**Communication:**
+:::{tab-item} Communication
 - Present complex polarization dynamics to diverse audiences
 - Discuss the implications of polarization research for democratic society
 - Articulate the tension between diversity and social cohesion
 - Engage constructively with politically sensitive topics and research
-```
+:::
+::::
 
 ---
 

@@ -1,8 +1,6 @@
 # Module 4: Cooperation
 
-Welcome to the Cooperation Models module! This module explores one of the most fundamental questions in social science: how and why do humans c**Study Groups and Office Hours:**
-- 🕐 **Instructor Office Hours:** Tuesdays & Thursdays 2-4 PM
-- 💬 **Course Forums:** Use Moodle for quick questions and discussionsrate? We'll use game theory and agent-based modeling to understand the conditions that promote or hinder cooperation in social systems.
+Welcome to the Cooperation Models module! This module explores one of the most fundamental questions in social science: how and why do humans cooperate? We'll use game theory and agent-based modeling to understand the conditions that promote or hinder cooperation in social systems.
 
 ## Overview
 
@@ -16,50 +14,47 @@ Cooperation models help us understand how individuals can work together for mutu
 
 ## 🎯 Student Learning Objectives (SLOs)
 
-
-add later
-
-Apply algorithmic, statistical, and/or mathematical methods to solve problems, broadly defined to find the answers to questions in various domains (as appropriate). 
-
-Articulate limiting assumptions or limitations to the conclusions that can be drawn from the use of these methods and identify appropriate and inappropriate uses of such methods, as informed by a Reformed, Christian perspective. 
-
-Construct data-driven, mathematical, statistical, and/or software models, analyzing their results to answer questions, solve problems, support arguments, draw conclusions, make predictions, and/or identify possible causal relationships. 
-
-Identify and use tools appropriate for solving a given problem, such as algebra, calculus, and other mathematical tools; spreadsheets, databases, and data-analysis software; domain-specific software; and/or writing one’s own software. 
-
-Represent, interpret, and process information in graphical, numeric, and/or symbolic forms. 
-
-Study how ideas from mathematical sciences have reflected and shaped other ways of thinking and knowing. 
-
-```{admonition} Learning Goals
-:class: tip
+# Core SLOs
 
 By the end of this module, students will be able to:
 
-**Conceptual Understanding:**
+::::{tab-set}
+
+:::{tab-item} Core
+- Develop students’ understanding of biblically-guided norms of justice, equality, freedom, and stewardship.
+- Increase students’ knowledge of social systems and of human behavior within such systems (revisited in the context of cooperation and dilemmas).
+- Apply algorithmic, statistical, and/or mathematical methods to solve problems (as applied to cooperation and social dilemmas).
+:::
+
+:::{tab-item} Conceptual
 - Explain the fundamental cooperation dilemmas (Prisoner's Dilemma, Public Goods, etc.)
 - Understand evolutionary approaches to cooperation and reciprocity
 - Analyze the role of institutions, norms, and sanctions in promoting cooperation
 - Evaluate different mechanisms for solving collective action problems
+:::
 
-**Technical Skills:**
+:::{tab-item} Technical Skills
 - Implement game theory models in NetLogo
 - Model evolutionary strategies and fitness landscapes
 - Simulate reputation systems and social learning mechanisms
 - Analyze equilibrium outcomes and stability conditions
+:::
 
-**Critical Thinking:**
+:::{tab-item} Critical Thinking
 - Assess the conditions under which cooperation emerges and persists
 - Evaluate the effectiveness of different institutional designs
 - Critique the assumptions of rational choice and evolutionary models
 - Connect cooperation theory to real-world social and political challenges
+:::
 
-**Communication:**
+:::{tab-item} Communication
 - Present game theory concepts to diverse audiences
 - Discuss the implications of cooperation research for policy design
 - Articulate the tension between individual and collective interests
 - Engage with debates about human nature and social institutions
-```
+:::
+
+::::
 
 ---
 

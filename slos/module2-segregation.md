@@ -16,36 +16,46 @@ Segregation models help us understand how micro-level individual choices can lea
 
 ## 🎯 Student Learning Objectives (SLOs)
 
-```{admonition} Learning Goals
-:class: tip
-
 By the end of this module, students will be able to:
 
-**Conceptual Understanding:**
+::::{tab-set}
+
+:::{tab-item} Core SLOs
+
+- Increase students’ knowledge of social systems and of human behavior within such systems
+- Apply algorithmic, statistical, and/or mathematical methods to solve problems, broadly defined to find the answers to questions in various domains (as appropriate).
+- Represent, interpret, and process information in graphical, numeric, and/or symbolic forms.
+:::
+
+:::{tab-item} Conceptual SLOs
 - Explain the difference between individual preferences and collective outcomes
 - Analyze how threshold models work in social systems
 - Evaluate the relationship between micro-motives and macro-behavior
+:::
 
-**Technical Skills:**
+:::{tab-item} Technical SLOs
 - Navigate the NetLogo interface and basic programming concepts
 - Create simple agent-based models with basic behaviors
 - Run simulations and collect data from model outputs
 - Interpret basic visualization and data outputs
-
 - Implement Schelling's segregation model in NetLogo
 - Modify agent rules and parameters to test different scenarios
 - Collect and analyze data from agent-based simulations
+:::
 
-**Critical Thinking:**
+:::{tab-item} Critical Thinking
 - Assess the implications of segregation models for real-world policy
 - Compare model predictions with empirical data on residential patterns
 - Critique the assumptions and limitations of segregation models
+:::
 
-**Communication:**
+:::{tab-item} Communication
 - Present findings from simulation experiments clearly
 - Discuss ethical implications of segregation research
 - Connect model insights to contemporary social issues
-```
+:::
+
+::::
 
 ---
 

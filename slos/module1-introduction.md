@@ -1,6 +1,6 @@
 # Module 1: Introduction
 
-Welcome to the Introduction to Agent-Based Modeling & Social Theory module! This foundational module introduces the intersection of computer science and social science, exploring how computational methods can help us understand human behavior and social phenomena.
+Welcome to the **Introduction to Agent-Based Modeling & Social Theory** module! This foundational module introduces the intersection of computer science and social science, exploring how computational methods can help us understand human behavior and social phenomena.
 
 ## Overview
 
@@ -12,42 +12,51 @@ This module provides the theoretical and practical foundations for the course. W
 
 ---
 
-## 🎯 Student Learning Objectives (SLOs)
-
-```{admonition} Learning Goals
-:class: tip
+## Student Learning Objectives (SLOs)
 
 By the end of this module, students will be able to:
 
-**Conceptual Understanding:**
+::::{tab-set}
+:::{tab-item} Core SLOs
 
+- Introduce students to observational research methods for gathering empirical evidence and to theories that provide analytical frameworks for such evidence.
+- Provide students with a sense of the nature and limits of scientific knowledge and the kinds of ethical questions that surround scientific research and its dissemination.
+- Study how ideas from mathematical sciences have reflected and shaped other ways of thinking and knowing.
 - Define what constitutes a model in social science research
+:::
+:::{tab-item} Conceptual SLOs
+
 - Explain the relationship between social computing and traditional social science methods
 - Reflect on the idea of *emergence* introduced by Durkheim and how it sets the stage for ABM.
 - Identify strengths and limitations of computational modeling approaches
 - Understand the role of abstraction in model building
 - Comprehend the relevance of using Agent-based models for simulating social phenomena
+:::
 
-**Technical Skills:**
+:::{tab-item} Technical
 
 - Get to know Netlogo's interface and visualize some classic models
 - Install Netlogo and run your first simulation from the Library of models
+:::
 
-**Critical Thinking:**
+:::{tab-item} Critical Thinking
+
 - Evaluate when computational modeling is appropriate for social questions
 - Assess the validity and reliability of model assumptions
 - Connect abstract models to real-world social phenomena
 - Critique modeling choices and their implications
+:::
 
-**Communication:**
+:::{tab-item} Communication
 
 - Articulate the purpose and value of social modeling
 - Initiate discussions on interpreting model results to both technical and non-technical audiences
 - Discuss ethical considerations in social modeling research
 - Engage with interdisciplinary perspectives on social phenomena
-```
-
+:::
+::::
 ---
+
 
 ## 📋 Weekly Breakdown
 
@@ -75,16 +84,17 @@ By the end of this module, students will be able to:
 :class: note
 
 **Lecture Slides:**
-- **Lecture 1:** [Introduction to Models: What is ABM?](slides/intro-models.pdf)
-- **Lecture 2:** [Course Orientation](slides/intro-social-computing.pdf)
-- **Lecture 3:** [Emergence of the social sciences](slides/abm-basics.pdf)
-- **Lecture 4:** [ABM Fundamentals](slides/netlogo-intro.pdf)
+- **Lecture 1:** Introduction to Models: What is ABM?
+- **Lecture 2:** Course Orientation
+- **Lecture 3:** Emergence of the social sciences
+- **Lecture 4:** ABM Fundamentals
 
-**Supplementary Videos:**
+**Inspirational Videos:**
 
-- 🎥 [The Power of Models](https://youtu.be/example) (12 min)
-- 🎥 [NetLogo Getting Started](https://youtu.be/example) (18 min)
-- 🎥 [Agent-Based Modeling Explained](https://youtu.be/example) (15 min)
+- 🎥 [The Power of Models](https://www.youtube.com/watch?v=FOPu5xM5z2s) (4 min)
+- 🎥 [Top 3 aspects people get wrong about Agent Based Modeling](https://www.youtube.com/watch?v=Z3SOxECHLXM) (9 min)
+- 🎥 [When is a system complex?](https://www.youtube.com/watch?v=M7Hf6VfsJ0U) (3 min)
+- 🎥 [Emergence – How Stupid Things Become Smart Together](https://www.youtube.com/watch?v=16W7c0mb-rE) (7 min)
 ```
 
 ### Required Readings
