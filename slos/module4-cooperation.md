@@ -1,5 +1,9 @@
 # Module 4: Cooperation
 
+:::{warning}
+This page is under construction. It is just a draft that will receive a lot of changes yet.
+:::
+
 Welcome to the Cooperation Models module! This module explores one of the most fundamental questions in social science: how and why do humans cooperate? We'll use game theory and agent-based modeling to understand the conditions that promote or hinder cooperation in social systems.
 
 ## Overview

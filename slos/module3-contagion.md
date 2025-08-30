@@ -1,5 +1,8 @@
-
 # Module 3: Contagion
+
+:::{warning}
+This page is under construction. It is just a draft that will receive a lot of changes yet.
+:::
 
 Welcome to the Contagion Models module! This module explores how ideas, behaviors, diseases, and innovations spread through social networks and populations. We'll examine both biological and social contagion processes using computational modeling approaches.
 

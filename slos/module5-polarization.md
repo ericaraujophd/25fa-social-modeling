@@ -1,5 +1,9 @@
 # Module 5: Polarization
 
+:::{warning}
+This page is under construction. It is just a draft that will receive a lot of changes yet.
+:::
+
 Welcome to the Polarization Models module! This module explores how groups form opposing viewpoints, how moderate positions erode, and how social identities become divided. We'll examine the mechanisms that drive political, social, and ideological polarization using computational modeling approaches.
 
 ## Overview
@@ -15,7 +19,6 @@ Polarization models help us understand one of the most pressing challenges of co
 ## Student Learning Objectives (SLOs)
 
 By the end of this module, students will be able to:
-
 
 ::::{tab-set}
 

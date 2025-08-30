@@ -14,6 +14,10 @@ Welcome to the grading rubric for the Agent-Based Modeling & Social Theory cours
 | **Final Project**                |    30%     | Proposal, schema, prototype, review, presentation, report.              |
 | **Participation & Contribution** |    10%     | Seminar presence, peer feedback, teamwork evaluation.                   |
 
+:::{note}
+Labs and Reflection Essays are due the week after they are assigned before the start of the next class.
+:::
+
 ---
 
 ## Visual Overview
@@ -37,6 +41,7 @@ Welcome to the grading rubric for the Agent-Based Modeling & Social Theory cours
 | 15      | Dec 9 & 11   |                |                |                       | ✅ Final Pres, Report |                    |
 
 **Legend:**
+
 - 📖 SRG Prep = Structured Reading Group Prep Sheet
 - 🧪 Lab Memo = Lab Memo
 - 📝 Reflection Essay = Reflection Essay (≥1000 words)
@@ -58,12 +63,12 @@ Welcome to the grading rubric for the Agent-Based Modeling & Social Theory cours
 
 ### 3. Reflection Essays — **16%**
 
-- Four essays, minimum 1,000 words each, worth 4% each.
-- 
-    - **Essay #1 (Week 2):** Durkheim & Weber (objectivity, emergence, knowledge).
-    - **Essay #2 (Week 6/7):** Collective Action / Cooperation (ABM for social processes).
-    - **Essay #3 (Week 10/11):** Polarization & Renewal (ABM, reconciliation, common good).
-    - **Essay #4 (Week 14):** Ethics (O’Neil, modeling and justice).
+Four essays, minimum 1,000 words each, worth 4% each.
+
+- **Essay #1 (Week 3):** Durkheim & Weber (objectivity, emergence, knowledge).
+- **Essay #2 (Week 6/7):** Collective Action / Cooperation (ABM for social processes).
+- **Essay #3 (Week 10/11):** Polarization & Renewal (ABM, reconciliation, common good).
+- **Essay #4 (Week 14):** Ethics (O’Neil, modeling and justice).
 
 ### 4. Final Project — **30%**
 
@@ -80,7 +85,9 @@ Welcome to the grading rubric for the Agent-Based Modeling & Social Theory cours
 
 ---
 
-> **Tip:** Stay engaged, ask questions, and collaborate with your peers. We’re here to help you succeed!
+:::{tip}
+Stay engaged, ask questions, and collaborate with your peers. We’re here to help you succeed!
+:::
 
 ---
 

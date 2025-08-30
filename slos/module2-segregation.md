@@ -1,5 +1,9 @@
 # Module 2: Segregation
 
+:::{warning}
+This page is under construction. It is just a draft that will receive a lot of changes yet.
+:::
+
 Welcome to the Segregation Models module! This section explores computational models of residential segregation, building on Thomas Schelling's groundbreaking work {cite}`schelling1971dynamic` on how individual preferences can lead to collective patterns of segregation.
 
 ## Overview

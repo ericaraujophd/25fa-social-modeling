@@ -80,27 +80,34 @@ By the end of this module, students will be able to:
 
 ## 📚 Slides and Readings
 
-```{admonition} Course Materials
-:class: note
+::::{admonition} 💬 Lecture Slides
+:class: dropdown
+:icon: false
+:open: true
 
-**Lecture Slides:**
-- **Lecture 1:** Introduction to Models: What is ABM?
+- **Lecture 1:** [Introduction to Models: What is ABM?](https://www.beautiful.ai/player/-OYwxXlG8W2V47ICr6Vp)
 - **Lecture 2:** Course Orientation
 - **Lecture 3:** Emergence of the social sciences
-- **Lecture 4:** ABM Fundamentals
+- **Lecture 4:** [ABM Fundamentals](https://www.beautiful.ai/player/-OYwxxR_bNOw0YxzczoB)
+::::
 
-**Inspirational Videos:**
+:::{admonition} 📽️ Inspirational Videos
+:class: dropdown
+:icon: false
+:open: false
 
 - 🎥 [The Power of Models](https://www.youtube.com/watch?v=FOPu5xM5z2s) (4 min)
 - 🎥 [Top 3 aspects people get wrong about Agent Based Modeling](https://www.youtube.com/watch?v=Z3SOxECHLXM) (9 min)
 - 🎥 [When is a system complex?](https://www.youtube.com/watch?v=M7Hf6VfsJ0U) (3 min)
 - 🎥 [Emergence – How Stupid Things Become Smart Together](https://www.youtube.com/watch?v=16W7c0mb-rE) (7 min)
-```
+:::
 
-### Required Readings
 
-```{dropdown} Core Reading Materials
-:open:
+
+:::{admonition} Required Readings
+:class: dropdown
+:icon: false
+:open: true
 
 1. **Epstein, J. M. (2008).** *Why model?* Journal of Artificial Societies and Social Simulation, 11(4), 12.
    - 📖 [PDF Download](readings/epstein-why-model.pdf)
@@ -117,12 +124,9 @@ By the end of this module, students will be able to:
 4. **Cioffi-Revilla, C. (2014).** *Introduction to computational social science.* Chapter 1. Springer.
    - 📖 [PDF Download](readings/cioffi-revilla-ch1.pdf)
    - 🎯 Focus on: The emergence of computational social science
-```
-
+:::
 
 ---
-
-
 
 ## 📝 Homework
 
