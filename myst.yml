@@ -30,7 +30,7 @@ project:
         - file: policies/grading-rubric.md
         - file: policies/classroom.md
         - file: policies/honesty.md
-    - file: ABM_SocialTheory_Fall2025.md
+    - file: course-organization.md
     - title: Course Modules
       children:
         - file: slos/module1-introduction.md
