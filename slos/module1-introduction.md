@@ -63,9 +63,15 @@ By the end of this module, students will be able to accomplish the following SLO
 
 *Heckman Library 406C*
 
-**Session A:** What is ABM? Live demo in NetLogo (Starling's murmuration, Wolf-Sheep Predation, and fire model).
+**Session A:** 
 
-**Session B:** Course orientation. Syllabus overview, grading, expectations. <br>Introduction to project & SRGs.
+- **Summary:** What is ABM? Live demo in NetLogo (Starling's murmuration, Wolf-Sheep Predation, and fire model).
+- **Slides:** [Introduction to Models: What is ABM?](https://www.beautiful.ai/player/-OYwxXlG8W2V47ICr6Vp)
+
+**Session B:** 
+
+- **Summary:** Course orientation. Syllabus overview, grading, expectations. <br>Introduction to project & SRGs.
+- **Slides:** Course Orientation
 :::
 
 :::{tab-item} Lecture 2
@@ -73,9 +79,15 @@ By the end of this module, students will be able to accomplish the following SLO
 
 *Heckman Library 406C*
 
-**Session A:** Emergence of the social sciences; classical theories; fundamental debates. <br>Sociology distinct from psychology: focus on emergence and social facts (Durkheim).
+**Session A:** 
 
-**Session B:** Models and methods: Where does ABM fit? <br>Connect emergence to ABM: micro → macro link as ABM’s strength. <br>Discussion: “What kinds of social problems make sense only at the level of emergence?”
+- **Summary:** Emergence of the social sciences; classical theories; fundamental debates. <br>Sociology distinct from psychology: focus on emergence and social facts (Durkheim).
+- **Slides:** Emergence of the social sciences
+
+**Session B:** 
+
+- **Summary:** Models and methods: Where does ABM fit? Connect emergence to ABM: micro → macro link as ABM’s strength. <br>Discussion: “What kinds of social problems make sense only at the level of emergence?”
+- **Slides:** [ABM Fundamentals](https://www.beautiful.ai/player/-OYwxxR_bNOw0YxzczoB)
 :::
 
 :::{tab-item} Lecture 3
@@ -83,9 +95,15 @@ By the end of this module, students will be able to accomplish the following SLO
 
 *Heckman Library 406C*
 
-**Session A (SRG):** Discussion of readings (Durkheim & Weber). <br>SRG goal: Contrast Durkheim’s irreducible social facts with Weber’s abstraction/ideal types.
+**Session A (SRG):** 
 
-**Session B:** Workshop — What makes a good model? <br>Groups evaluate “bad” and “good” toy models. <br>Criteria: simplicity, clarity, generativity, transparency, theory link.
+- **Summary:** Discussion of readings (Durkheim & Weber). <br>SRG goal: Contrast Durkheim’s irreducible social facts with Weber’s abstraction/ideal types.
+- **Slides:**
+
+**Session B:** 
+
+- **Summary:** Workshop — What makes a good model? <br>Groups evaluate “bad” and “good” toy models. <br>Criteria: simplicity, clarity, generativity, transparency, theory link.
+- **Slides:** 
 :::
 
 :::{tab-item} Lecture 4
@@ -132,31 +150,7 @@ No homework due in Week 1. The first major assignments are due at the end of Wee
 
 ---
 
-## 📚 Slides and Readings
-
-::::{admonition} 💬 Lecture Slides
-:class: dropdown
-:icon: false
-:open: true
-
-- **Lecture 1:** [Introduction to Models: What is ABM?](https://www.beautiful.ai/player/-OYwxXlG8W2V47ICr6Vp)
-- **Lecture 2:** Course Orientation
-- **Lecture 3:** Emergence of the social sciences
-- **Lecture 4:** [ABM Fundamentals](https://www.beautiful.ai/player/-OYwxxR_bNOw0YxzczoB)
-::::
-
-:::{admonition} 📽️ Inspirational Videos
-:class: dropdown
-:icon: false
-:open: false
-
-- 🎥 [The Power of Models](https://www.youtube.com/watch?v=FOPu5xM5z2s) (4 min)
-- 🎥 [Top 3 aspects people get wrong about Agent Based Modeling](https://www.youtube.com/watch?v=Z3SOxECHLXM) (9 min)
-- 🎥 [When is a system complex?](https://www.youtube.com/watch?v=M7Hf6VfsJ0U) (3 min)
-- 🎥 [Emergence – How Stupid Things Become Smart Together](https://www.youtube.com/watch?v=16W7c0mb-rE) (7 min)
-:::
-
-
+## 📚 Readings and Extra Materials
 
 :::{admonition} Required Readings
 :class: dropdown
@@ -179,6 +173,18 @@ No homework due in Week 1. The first major assignments are due at the end of Wee
    - 📖 [PDF Download](readings/cioffi-revilla-ch1.pdf)
    - 🎯 Focus on: The emergence of computational social science
 :::
+
+:::{admonition} 📽️ Inspirational Videos
+:class: dropdown
+:icon: false
+:open: false
+
+- 🎥 [The Power of Models](https://www.youtube.com/watch?v=FOPu5xM5z2s) (4 min)
+- 🎥 [Top 3 aspects people get wrong about Agent Based Modeling](https://www.youtube.com/watch?v=Z3SOxECHLXM) (9 min)
+- 🎥 [When is a system complex?](https://www.youtube.com/watch?v=M7Hf6VfsJ0U) (3 min)
+- 🎥 [Emergence – How Stupid Things Become Smart Together](https://www.youtube.com/watch?v=16W7c0mb-rE) (7 min)
+:::
+
 
 ---
 
