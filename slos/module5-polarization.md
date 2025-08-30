@@ -12,9 +12,7 @@ Polarization models help us understand one of the most pressing challenges of co
 
 ---
 
-## 🎯 Student Learning Objectives (SLOs)
-
-# Core SLOs
+## Student Learning Objectives (SLOs)
 
 By the end of this module, students will be able to:
 

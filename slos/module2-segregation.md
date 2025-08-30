@@ -14,7 +14,7 @@ Segregation models help us understand how micro-level individual choices can lea
 
 ---
 
-## 🎯 Student Learning Objectives (SLOs)
+## Student Learning Objectives (SLOs)
 
 By the end of this module, students will be able to:
 

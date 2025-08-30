@@ -12,9 +12,7 @@ Cooperation models help us understand how individuals can work together for mutu
 
 ---
 
-## 🎯 Student Learning Objectives (SLOs)
-
-# Core SLOs
+## Student Learning Objectives (SLOs)
 
 By the end of this module, students will be able to:
 

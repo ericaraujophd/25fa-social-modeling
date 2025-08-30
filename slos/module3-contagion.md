@@ -13,7 +13,7 @@ Contagion models help us understand how things spread - from infectious diseases
 
 ---
 
-## 🎯 Student Learning Objectives (SLOs)
+## Student Learning Objectives (SLOs)
 
 By the end of this module, students will be able to:
 
