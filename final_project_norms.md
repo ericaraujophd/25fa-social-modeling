@@ -1,5 +1,9 @@
 # Final Project: Modeling Social Norm Formation and Fragility
 
+:::{warning}
+This page is under construction. It is just a draft that will receive a lot of changes yet.
+:::
+
 ## Project Summary
 
 Students will design an **agent-based model of social norms**—how they emerge, spread, and break down in a community.  

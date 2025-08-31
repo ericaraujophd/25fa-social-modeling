@@ -154,7 +154,7 @@ No homework due in Week 1. The first major assignments are due at the end of Wee
 
 ::::{tab-set}
 
-:::{tab-item} Required Readings
+:::{tab-item} 🔒 Required Readings
 
 1. **Halls, W. D., & Lukes, S.** (1982). Durkheim:The Rules of Sociological Method and Selected Texts on Sociology and Its Method. Excerpt.
    - 📖 [PDF Download](../files/readings/Durkheim-exerpt-from-Rules-of-Sociological-Method.pdf)
@@ -163,7 +163,7 @@ No homework due in Week 1. The first major assignments are due at the end of Wee
    - 📖 [PDF Download](../files/readings/Weber-excerpt-from-Objectivity-in-Social-Science-and-Social-Policy.pdf)
 :::
 
-:::{tab-item} Recommended Readings
+:::{tab-item} 🔓 Recommended Readings
 
 1. **Smaldino, P.** (2023). Modeling social behavior: Mathematical and agent-based models of social dynamics and cultural evolution. Chapter 1.
 :::

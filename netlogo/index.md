@@ -1,5 +1,9 @@
 # NetLogo Tutorial Series
 
+:::{warning}
+Netlogo has recently released its 7.0 version. A lot of improvements were done in the interface, making it more user-friendly and accessible for beginners. That means that this tutorial might be outdated regarding some of the screen shots. The updates might take a few weeks.
+:::
+
 ```{attention} Total time commitment:
 Approximately 6 hours across 7 tutorials
 ```
