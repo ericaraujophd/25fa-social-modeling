@@ -152,38 +152,29 @@ No homework due in Week 1. The first major assignments are due at the end of Wee
 
 ## 📚 Readings and Extra Materials
 
-:::{admonition} Required Readings
-:class: dropdown
-:icon: false
-:open: true
+::::{tab-set}
 
-1. **Epstein, J. M. (2008).** *Why model?* Journal of Artificial Societies and Social Simulation, 11(4), 12.
-   - 📖 [PDF Download](readings/epstein-why-model.pdf)
-   - 🎯 Focus on: The purposes and justifications for modeling
+:::{tab-item} Required Readings
 
-2. **Gilbert, N. (2008).** *Agent-based models.* Chapter 1 in Agent-Based Models. Sage Publications.
-   - 📖 [PDF Download](readings/gilbert-abm-ch1.pdf)
-   - 🎯 Focus on: What are agent-based models and when to use them
+1. **Halls, W. D., & Lukes, S.** (1982). Durkheim:The Rules of Sociological Method and Selected Texts on Sociology and Its Method. Excerpt.
+   - 📖 [PDF Download](../files/readings/Durkheim-exerpt-from-Rules-of-Sociological-Method.pdf)
 
-3. **Smedes, L. (2003).** *My God and I: A Spiritual Memoir.* Selected excerpts on models and reality.
-   - 📖 [PDF Download](readings/smedes-models-excerpts.pdf)
-   - 🎯 Focus on: Philosophical perspectives on modeling imperfect reality
-
-4. **Cioffi-Revilla, C. (2014).** *Introduction to computational social science.* Chapter 1. Springer.
-   - 📖 [PDF Download](readings/cioffi-revilla-ch1.pdf)
-   - 🎯 Focus on: The emergence of computational social science
+2. **Weber, M.** (1949). " Objectivity" in social science and social policy. The methodology of the social sciences, 49-112. Excerpt.
+   - 📖 [PDF Download](../files/readings/Weber-excerpt-from-Objectivity-in-Social-Science-and-Social-Policy.pdf)
 :::
 
-:::{admonition} 📽️ Inspirational Videos
-:class: dropdown
-:icon: false
-:open: false
+:::{tab-item} Recommended Readings
+
+1. **Smaldino, P.** (2023). Modeling social behavior: Mathematical and agent-based models of social dynamics and cultural evolution. Chapter 1.
+:::
+
+:::{tab-item} 📽️ Inspirational Videos
 
 - 🎥 [The Power of Models](https://www.youtube.com/watch?v=FOPu5xM5z2s) (4 min)
 - 🎥 [Top 3 aspects people get wrong about Agent Based Modeling](https://www.youtube.com/watch?v=Z3SOxECHLXM) (9 min)
 - 🎥 [When is a system complex?](https://www.youtube.com/watch?v=M7Hf6VfsJ0U) (3 min)
 - 🎥 [Emergence – How Stupid Things Become Smart Together](https://www.youtube.com/watch?v=16W7c0mb-rE) (7 min)
-:::
+::::
 
 ::::{admonition} Additional Resources
 :class: drowpdown
