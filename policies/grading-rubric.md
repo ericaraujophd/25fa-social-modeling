@@ -20,36 +20,6 @@ Labs and Reflection Essays are due the week after they are assigned before the s
 
 ---
 
-## Visual Overview
-
-| **Week** | **Dates**    | 📖 **SRG Prep** | 🧪 **Lab Memo** | 📝 **Reflection Essay** | 🎓 **Project Milestone** | 🗂️ **Other/Notes** |
-|:-------:|:------------:|:--------------:|:--------------:|:---------------------:|:----------------------:|:------------------:|
-| 1       | Sep 2 & 4    |                |                |                       |                       | Course intro       |
-| 2       | Sep 9 & 11   | ✅ #1           | ✅ #1           |                   |                       |                    |
-| 3       | Sep 16 & 18  | ✅ #2           | ✅ #2           | ✅ #1                       |                       |                    |
-| 4       | Sep 23 & 25  | ✅ #3           | ✅ #3           |                       |                       |                    |
-| 5       | Sep 30 & Oct 2| ✅ #4          | ✅ #4           |                       |                       |                    |
-| 6       | Oct 7 & 9    | ✅ #5           |                |                       |                       |                    |
-| 7       | Oct 14 & 16  | ✅ #6           | ✅ #5           | ✅ #2                  |                       |                    |
-| 8       | Oct 21 & 23  |                |                |                       | ✅ Proposal           |                    |
-| 9       | Oct 28 & 30  | ✅ #7           |                |                       | ✅ Schema & Pseudocode|                    |
-| 10      | Nov 4 & 6    | ✅ #8           | ✅ #6           |                       |                       |                    |
-| 11      | Nov 11 & 13  | ✅ #9           | ✅ #7           | ✅ #3                  |                       |                    |
-| 12      | Nov 18 & 20  |                |                |                       | ✅ Alpha              |                    |
-| 13      | Nov 25       |                |                |                       | ✅ Beta Demo          |                    |
-| 14      | Dec 2 & 4    | ✅ #10          |                | ✅ #4                  |                       | Poster Draft       |
-| 15      | Dec 9 & 11   |                |                |                       | ✅ Final Pres, Report |                    |
-
-**Legend:**
-
-- 📖 SRG Prep = Structured Reading Group Prep Sheet
-- 🧪 Lab Memo = Lab Memo
-- 📝 Reflection Essay = Reflection Essay (≥1000 words)
-- 🎓 Project Milestone = Project Proposal, Schema, Alpha, Beta, Design Review, Final Presentation/Report
-- 🗂️ Other/Notes = Poster Draft, Course intro, etc.
-
----
-
 ## Details
 
 ### 1. Structured Reading Groups — **24%**

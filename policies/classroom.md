@@ -18,7 +18,18 @@ Your voice matters in this classroom. Please ask questions, share your ideas, an
 
 ---
 
-## 🌍 Diversity & Inclusion
+## 🌍 Diversity and Inclusion
+ 
+As your instructor, I am committed to creating a welcoming learning environment for ALL students. It is my desire that students from all backgrounds and perspectives be served well in this course.  I believe the diversity of experience and perspective students bring to this class enriches us all. This means that we all (myself included) need to practice humility, grace, and a posture of learning from others in the classroom.  If you notice someone who is behaving in a way that consistently violates this spirit of inclusion and respect, please let me know.
+
+---
+
+## Concerns Statement
+
+If you or someone you know in my class is hurt by something we say or do, please let us know so that we can learn from our mistakes and work towards a resolution with you. We realize that confronting a professor can be intimidating and awkward, so if you do not feel you can approach any of us directly, feel free to do so through another student or another professor or staff member.  My hope is that any cause for concern in our course could be dealt with within the confines of our class. However, if you experience something in our course or another course at Calvin that is particularly egregious and you do not feel safe engaging with me/the professor directly or indirectly, you can submit a complaint using the “Comment on Faculty” form online: https://calvin.edu/go/comments-on-faculty, which will be sent directly to the appropriate Dean. You may also use this form to express appreciation for faculty who have gone above and beyond to serve you well in some way.
+
+
+<!-- ## 🌍 Diversity & Inclusion
 
 - Every person is respected, regardless of identity or background (race, gender, ability, nationality, beliefs, etc.).
 - Diverse viewpoints are essential for learning and innovation—every perspective has blind spots.
@@ -28,7 +39,7 @@ Your voice matters in this classroom. Please ask questions, share your ideas, an
 ```{admonition} From Prof. Araújo
 :class: warning
 If you or someone else in this class is hurt by something I say or do, I want to know so we can work toward a remedy. This has happened in the past—usually when I'm trying to be "cool" or funny. If it happens this semester, please know it was unintentional. Because this kind of feedback can be uncomfortable, I’ll take it however it comes: in public or private, on the spot or days later, directly from you or indirectly through another student, another professor, or through my department chair Keith VanderLinden (kvlinden@calvin.edu).
-```
+``` -->
 
 ---
 
