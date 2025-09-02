@@ -71,7 +71,7 @@ By the end of this module, students will be able to accomplish the following SLO
 **Session B:** 
 
 - **Summary:** Course orientation. Syllabus overview, grading, expectations. <br>Introduction to project & SRGs.
-- **Slides:** Course Orientation
+- **Slides:** [Course Orientation](https://www.beautiful.ai/player/-OZ6zWBYa_EA2PUuxQS_)
 :::
 
 :::{tab-item} Lecture 2
@@ -122,16 +122,27 @@ By the end of this module, students will be able to accomplish the following SLO
 
 ## 📝 Assignments & Due Dates (Weeks 1–2)
 
+:::{important} Important ❗❗❗
+:icon: false
+**No** homework due in Week 1. The first major assignments are due at the end of Week 2.
+:::
+
+
 ::::{tab-set}
 
 :::{tab-item} Lab Memo #1
 **Due:** 9/16 before class | **Points:** 20 points
 
-**Prompt (≥500 words):**
-- Describe your experience with the micro-exercise in NetLogo.
-- What parameter did you change, and what was the outcome?
-- Reflect on the importance of parameter selection in agent-based modeling.
+**Prompt (1-2 pages):**
 
+1. Pick one of the three toy models showed in class: Wolf-Sheep, Traffic, etc.
+2. Write your Lab Memo. You can [download](../resources/lab-memos/Lab_Memo_1_Worksheet.docx) the template in here.
+3. Pick one of the toy models shown in our classes over these two weeks (except the Fire model), and perform a single parameter adjustment.
+   1. Setup: Identify which starter model you used (e.g., Wolf-Sheep, Traffic, Fire).
+   2. Parameters & Code: Adjust one parameter; note what you changed. If you tried editing code, briefly explain what.
+   3. Results: Describe what happened compared to the default. Include screenshot(s).
+   4. Interpretation: What does this show about how simple rules create different outcomes?
+4. Submit your Lab Memo in PDF format through Moodle.
 :::
 
 :::{tab-item} Reflection Essay #1
@@ -144,8 +155,9 @@ By the end of this module, students will be able to accomplish the following SLO
 :::
 ::::
 
-:::{important}
-No homework due in Week 1. The first major assignments are due at the end of Week 2.
+:::{admonition} Tips for Success
+:class: tip
+[Here is one example of a Lab Memo](../resources/lab-memos/Lab_Memo_Worksheet_Example.pdf) for the Fire model. Use it as a guide for writing your own lab memos during this course.
 :::
 
 ---

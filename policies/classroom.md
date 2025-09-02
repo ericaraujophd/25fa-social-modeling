@@ -1,5 +1,3 @@
-
-
 # Classroom Policy
 
 ```{important} Ask Questions & Participate!
