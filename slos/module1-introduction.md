@@ -82,7 +82,7 @@ By the end of this module, students will be able to accomplish the following SLO
 **Session A:** 
 
 - **Summary:** Emergence of the social sciences; classical theories; fundamental debates. <br>Sociology distinct from psychology: focus on emergence and social facts (Durkheim).
-- **Slides:** Emergence of the social sciences
+- **Slides:** [Emergence of the social sciences](https://www.beautiful.ai/player/-OZFluJbfXBTCEYfCix5)
 
 **Session B:** 
 
