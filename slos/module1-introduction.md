@@ -149,6 +149,7 @@ By the end of this module, students will be able to accomplish the following SLO
 **Due:** 9/16 before class | **Points:** 30 points
 
 **Prompt (≥1000 words):**
+
 - How do Durkheim and Weber differ in their approaches to building knowledge?
 - Where do you see common ground?
 - How might ABMs fit into ongoing discussions about subjectivity, objectivity, and building valid social knowledge?
@@ -200,7 +201,13 @@ By the end of this module, students will be able to accomplish the following SLO
 
 **Tools and Software:**
 
-- 💻 **NetLogo:** [Download](https://ccl.northwestern.edu/netlogo/download.shtml) and [Documentation](https://ccl.northwestern.edu/netlogo/docs/)
+:::{admonition} Netlogo version for the course
+:class: warning
+
+There is a new version of Netlogo recently released, 7.0.0-beta2. That's the one we will be using. You can get it in the following website.
+:::
+
+- 💻 **NetLogo:** [Download](https://www.netlogo.org/) and [Documentation](https://docs.netlogo.org/7.0.0-beta2/)
 <!-- - 📊 **Python for Social Science:** Introduction to pandas, matplotlib, and networkx -->
 <!-- - 🎨 **Visualization Tools:** Gephi for network visualization, R for statistical graphics -->
 
@@ -240,9 +247,7 @@ By the end of this module, students will be able to accomplish the following SLO
 
 --- -->
 
-
-
-### Historical Context
+<!-- ### Historical Context
 
 ```{dropdown} The Evolution of Social Computing
 
@@ -257,7 +262,7 @@ By the end of this module, students will be able to accomplish the following SLO
 **Philosophical Foundations:**
 - Box, G. E. P. (1976). Science and statistics. *Journal of the American Statistical Association*, 71(356), 791-799.
 - "All models are wrong, but some are useful."
-```
+``` -->
 
 ### Real-World Applications
 
