@@ -91,23 +91,23 @@ By the end of this module, students will be able to accomplish the following SLO
 :::
 
 :::{tab-item} Lecture 3
-**Week 1: Tuesday, September 9**
+**Week 2: Tuesday, September 9**
 
 *Heckman Library 406C*
 
 **Session A (SRG):** 
 
 - **Summary:** Discussion of readings (Durkheim & Weber). <br>SRG goal: Contrast Durkheim’s irreducible social facts with Weber’s abstraction/ideal types.
-- **Slides:**
+<!-- - **Slides:** -->
 
 **Session B:** 
 
 - **Summary:** Workshop — What makes a good model? <br>Groups evaluate “bad” and “good” toy models. <br>Criteria: simplicity, clarity, generativity, transparency, theory link.
-- **Slides:** 
+- **Slides:** [Models and Methods](https://www.beautiful.ai/player/-OZtRpCWW9o_lYMXjvbp/Models-and-Methods)
 :::
 
 :::{tab-item} Lecture 4
-**Week 1: Thursday, September 11**
+**Week 2: Thursday, September 11**
 
 *Heckman Library 406C*
 
@@ -135,14 +135,13 @@ By the end of this module, students will be able to accomplish the following SLO
 
 **Prompt (1-2 pages):**
 
-1. Pick one of the three toy models showed in class: Wolf-Sheep, Traffic, etc.
-2. Write your Lab Memo. You can [download](../resources/lab-memos/Lab_Memo_1_Worksheet.docx) the template in here.
-3. Pick one of the toy models shown in our classes over these two weeks (except the Fire model), and perform a single parameter adjustment.
+1. Pick one of the toy models shown in our classes over these two weeks (except the Fire model), and perform a single parameter adjustment.
    1. Setup: Identify which starter model you used (e.g., Wolf-Sheep, Traffic, Fire).
    2. Parameters & Code: Adjust one parameter; note what you changed. If you tried editing code, briefly explain what.
    3. Results: Describe what happened compared to the default. Include screenshot(s).
    4. Interpretation: What does this show about how simple rules create different outcomes?
-4. Submit your Lab Memo in PDF format through Moodle.
+2. Write your Lab Memo. You can [download](../resources/lab-memos/Lab_Memo_1_Worksheet.docx) the template in here.
+3. Submit your Lab Memo in PDF format through Moodle.
 :::
 
 :::{tab-item} Reflection Essay #1
@@ -170,15 +169,16 @@ By the end of this module, students will be able to accomplish the following SLO
 :::{tab-item} 🔒 Required Readings
 
 1. **Halls, W. D., & Lukes, S.** (1982). Durkheim:The Rules of Sociological Method and Selected Texts on Sociology and Its Method. Excerpt.
-   - 📖 [PDF Download](../files/readings/Durkheim-exerpt-from-Rules-of-Sociological-Method.pdf)
+   - 📖 [PDF Download](../readings/module1/Durkheim-exerpt-from-Rules-of-Sociological-Method.pdf)
 
 2. **Weber, M.** (1949). " Objectivity" in social science and social policy. The methodology of the social sciences, 49-112. Excerpt.
-   - 📖 [PDF Download](../files/readings/Weber-excerpt-from-Objectivity-in-Social-Science-and-Social-Policy.pdf)
+   - 📖 [PDF Download](../readings/module1/Weber-excerpt-from-Objectivity-in-Social-Science-and-Social-Policy.pdf)
 :::
 
 :::{tab-item} 🔓 Recommended Readings
 
 1. **Smaldino, P.** (2023). Modeling social behavior: Mathematical and agent-based models of social dynamics and cultural evolution. Chapter 1.
+2. [Netlogo Programming Guide](../resources/netlogo-tutorials/NetLogo%207.0.0%20Programming%20Guide.pdf).
 :::
 
 :::{tab-item} 📽️ Inspirational Videos
@@ -204,10 +204,10 @@ By the end of this module, students will be able to accomplish the following SLO
 :::{admonition} Netlogo version for the course
 :class: warning
 
-There is a new version of Netlogo recently released, 7.0.0-beta2. That's the one we will be using. You can get it in the following website.
+There is a new version of Netlogo recently released, 7.0.0. That's the one we will be using. You can get it in the following website.
 :::
 
-- 💻 **NetLogo:** [Download](https://www.netlogo.org/) and [Documentation](https://docs.netlogo.org/7.0.0-beta2/)
+- 💻 **NetLogo:** [Download](https://www.netlogo.org/) and [Documentation](https://docs.netlogo.org/)
 <!-- - 📊 **Python for Social Science:** Introduction to pandas, matplotlib, and networkx -->
 <!-- - 🎨 **Visualization Tools:** Gephi for network visualization, R for statistical graphics -->
 

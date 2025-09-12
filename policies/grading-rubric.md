@@ -42,8 +42,8 @@ Four essays, minimum 1,000 words each, worth 4% each.
 
 ### 4. Final Project — **30%**
 
-- **Proposal:** 5%
-- **Schema & Pseudocode:** 5%
+- **Proposal:** 1%
+- **Schema & Pseudocode:** 4%
 - **Prototype Demo:** 5%
 - **Design Review:** 5%
 - **Final Presentation:** 10%

@@ -4,17 +4,12 @@
 This page is under construction. It is just a draft that will receive a lot of changes yet.
 :::
 
-Welcome to the Segregation Models module! This section explores computational models of residential segregation, building on Thomas Schelling's groundbreaking work {cite}`schelling1971dynamic` on how individual preferences can lead to collective patterns of segregation.
-
-## Overview
-
-You'll learn the basics of agent-based modeling and get hands-on experience with NetLogo.
+Welcome to the Segregation Models module! This section explores computational models of residential segregation, building on Thomas Schelling's groundbreaking work {cite}`schelling1971dynamic` on how individual preferences can lead to collective patterns of segregation. We will generalize the residential model and see ways to apply it to other contexts.
 
 Segregation models help us understand how micro-level individual choices can lead to macro-level social phenomena {cite}`schelling1978micromotives`. Through agent-based modeling, we'll explore how even mild preferences for similarity can result in highly segregated neighborhoods, providing insights into urban dynamics and social processes.
 
-```{note}
-**Module Duration:** 2 weeks | *Estimated time: 8-12 hours*
-```
+
+**Module Duration:** 2 weeks
 
 ---
 
@@ -32,12 +27,14 @@ By the end of this module, students will be able to:
 :::
 
 :::{tab-item} Conceptual SLOs
+
 - Explain the difference between individual preferences and collective outcomes
 - Analyze how threshold models work in social systems
 - Evaluate the relationship between micro-motives and macro-behavior
 :::
 
 :::{tab-item} Technical SLOs
+
 - Navigate the NetLogo interface and basic programming concepts
 - Create simple agent-based models with basic behaviors
 - Run simulations and collect data from model outputs
@@ -48,15 +45,83 @@ By the end of this module, students will be able to:
 :::
 
 :::{tab-item} Critical Thinking
+
 - Assess the implications of segregation models for real-world policy
 - Compare model predictions with empirical data on residential patterns
 - Critique the assumptions and limitations of segregation models
 :::
 
 :::{tab-item} Communication
+
 - Present findings from simulation experiments clearly
 - Discuss ethical implications of segregation research
 - Connect model insights to contemporary social issues
+:::
+
+::::
+
+---
+
+## 📋 Weekly Breakdown
+
+::::{tab-set}
+
+:::{tab-item} Lecture 5
+**Week 3: Tuesday, September 16**
+
+*Heckman Library 406C*
+
+**Session A:** 
+
+- **Summary:** 
+- **Slides:** [TBD]()
+
+**Session B:** 
+
+- **Summary:** 
+- **Slides:** [TBD]()
+:::
+
+:::{tab-item} Lecture 6
+**Week 3: Thursday, September 18**
+
+*Heckman Library 406C*
+
+**Session A:** 
+
+- **Summary:** TBD
+- **Slides:** [TBD]()
+
+**Session B:** 
+
+- **Summary:** TBD
+- **Slides:** [TBD]()
+:::
+
+:::{tab-item} Lecture 7
+**Week 4: Tuesday, September 23**
+
+*Heckman Library 406C*
+
+**Session A (SRG):** 
+
+- **Summary:** TBD
+<!-- - **Slides:** -->
+
+**Session B:** 
+
+- **Summary:** TBD
+- **Slides:** [TBD]()
+:::
+
+:::{tab-item} Lecture 8
+**Week 4: Thursday, September 25**
+
+*Heckman Library 406C*
+
+**Session A (Lab):** TBD
+
+**Session B (Lab):** TBD
 :::
 
 ::::
@@ -217,18 +282,5 @@ By the end of this module, students will be able to:
 |------|-------|----------|-------------|
 | **Week 1** | Introduction & Basic Model | Schelling (1971), Epstein (2002) | Assignment 1 Due |
 | **Week 2** | Extensions & Policy Applications | Card et al. (2008), Supplementary readings | Assignment 2 Due |
-```
-
----
-
-## 📞 Getting Help
-
-```{admonition} Need Support?
-:class: tip
-
-- **Quick Questions:** Use the Moodle class forums
-- **Technical Issues:** Visit our troubleshooting guide
-- **Conceptual Help:** Attend office hours
-- **Accessibility:** Contact the instructors for accommodations
 ```
 

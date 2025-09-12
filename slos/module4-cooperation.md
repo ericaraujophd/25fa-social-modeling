@@ -1,5 +1,8 @@
 # Module 4: Cooperation
 
+
+<!-- pidgeon's conspiracy theory video -->
+
 :::{warning}
 This page is under construction. It is just a draft that will receive a lot of changes yet.
 :::
