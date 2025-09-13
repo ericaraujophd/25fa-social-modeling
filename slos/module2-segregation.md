@@ -156,43 +156,9 @@ By the end of this module, students will be able to:
 :::
 ::::
 
-
-## 📚 Slides and Readings
-
-```{admonition} Course Materials
-:class: note
-
-**Lecture Slides:**
-- **Lecture 1:** [Introduction to Segregation Models](slides/segregation-intro.pdf)
-- **Lecture 2:** [Schelling's Model in Detail](slides/schelling-model.pdf)
-- **Lecture 3:** [Extensions and Variations](slides/segregation-extensions.pdf)
-
-**Supplementary Videos:**
-- 🎥 [Schelling's Model Explained](https://youtu.be/example) (15 min)
-- 🎥 [NetLogo Tutorial: Building Segregation Models](https://youtu.be/example) (20 min)
-```
-
-### Required Readings
-
-```{dropdown} Core Reading Materials
-:open:
-
-1. **Schelling, T. C. (1971).** *Dynamic models of segregation.* Journal of Mathematical Sociology, 1(2), 143-186.
-   - 📖 [PDF Download](readings/schelling-1971.pdf)
-   - 🎯 Focus on: The tipping model and neighborhood dynamics
-
-2. **Epstein, J. M. (2002).** *Modeling civil violence: An agent-based computational approach.* PNAS, 99(3), 7243-7250.
-   - 📖 [PDF Download](readings/epstein-2002.pdf)
-   - 🎯 Focus on: Agent-based modeling methodology
-
-3. **Card, D., Mas, A., & Rothstein, J. (2008).** *Tipping and the dynamics of segregation.* The Quarterly Journal of Economics, 123(1), 177-218.
-   - 📖 [PDF Download](readings/card-mas-rothstein-2008.pdf)
-   - 🎯 Focus on: Empirical evidence of tipping points
-```
-
 ---
 
-## 📝 Homework
+<!-- ## 📝 Homework
 
 ```{admonition} Assignment 1: Basic Schelling Model
 :class: important
@@ -298,9 +264,9 @@ By the end of this module, students will be able to:
 
 **Guest Speaker Series:**
 - Dr. Sarah Johnson (Urban Planning, Calvin University) - Week 2
-```
+``` -->
 
----
+<!-- ---
 
 ## 🗓️ Weekly Schedule
 
@@ -311,5 +277,5 @@ By the end of this module, students will be able to:
 |------|-------|----------|-------------|
 | **Week 1** | Introduction & Basic Model | Schelling (1971), Epstein (2002) | Assignment 1 Due |
 | **Week 2** | Extensions & Policy Applications | Card et al. (2008), Supplementary readings | Assignment 2 Due |
-```
+``` -->
 
