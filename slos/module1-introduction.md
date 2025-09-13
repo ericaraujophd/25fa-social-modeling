@@ -187,6 +187,7 @@ By the end of this module, students will be able to accomplish the following SLO
 - 🎥 [Top 3 aspects people get wrong about Agent Based Modeling](https://www.youtube.com/watch?v=Z3SOxECHLXM) (9 min)
 - 🎥 [When is a system complex?](https://www.youtube.com/watch?v=M7Hf6VfsJ0U) (3 min)
 - 🎥 [Emergence – How Stupid Things Become Smart Together](https://www.youtube.com/watch?v=16W7c0mb-rE) (7 min)
+:::
 ::::
 
 ::::{admonition} Additional Resources

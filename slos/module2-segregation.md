@@ -128,6 +128,35 @@ By the end of this module, students will be able to:
 
 ---
 
+## 📚 Readings and Extra Materials
+
+::::{tab-set}
+
+:::{tab-item} 🔒 Required Readings
+
+1. **Douglas S. Massey, Nancy A. Denton.** (1993). "American Apartheid: Segregation and the Making of the Underclass". Chapter 1: The Missing Link.
+   - 📖 [PDF Download](../readings/module2/American_Apartheid_chapter_1_Douglas_Masssey_Nancy_Denton.pdf)
+
+2. **Banaji, Mahzarin R., Susan T. Fiske, and Douglas S. Massey.** "Systemic racism: individuals and interactions, institutions and society." Cognitive research: principles and implications 6.1 (2021): 82.
+   - 📖 [PDF Download](../readings/module2/Systemic_Racism_Banaji_Fiske_and_Massey_2021.pdf)
+:::
+
+:::{tab-item} 🔓 Recommended Readings
+
+1. **Schelling, T. C. (1971).** *Dynamic models of segregation.* Journal of Mathematical Sociology, 1(2), 143-186.
+:::
+
+:::{tab-item} 📽️ Inspirational Videos
+
+- 🎥 [The Power of Models](https://www.youtube.com/watch?v=FOPu5xM5z2s) (4 min)
+- 🎥 [Top 3 aspects people get wrong about Agent Based Modeling](https://www.youtube.com/watch?v=Z3SOxECHLXM) (9 min)
+- 🎥 [When is a system complex?](https://www.youtube.com/watch?v=M7Hf6VfsJ0U) (3 min)
+- 🎥 [Emergence – How Stupid Things Become Smart Together](https://www.youtube.com/watch?v=16W7c0mb-rE) (7 min)
+
+:::
+::::
+
+
 ## 📚 Slides and Readings
 
 ```{admonition} Course Materials
