@@ -71,15 +71,20 @@ By the end of this module, students will be able to:
 
 *Heckman Library 406C*
 
-**Session A:** 
+**Session A:** *History of segregation in social research.* 
 
-- **Summary:** 
+- **Summary:**
+  - Traditions: Du Bois’ *The Philadelphia Negro*, Chicago School, Massey & Denton’s structural view.  
+  - Concepts: de jure vs. de facto segregation; neighborhood effects; systemic racism.  
 - **Slides:** [TBD]()
 
-**Session B:** 
+**Session B:** Discussion of readings.
 
-- **Summary:** 
-- **Slides:** [TBD]()
+- **Summary:**
+  - Massey & Denton, *American Apartheid* (1993), Ch. 1.  
+  - Banaji, Fiske & Massey, “Systemic Racism” (*Cognitive Research*, 2021).  
+  - Deliverable: SRG prep sheet.
+<!-- - **Slides:** [TBD]() -->
 :::
 
 :::{tab-item} Lecture 6
@@ -87,14 +92,17 @@ By the end of this module, students will be able to:
 
 *Heckman Library 406C*
 
-**Session A:** 
+**Session A (Lab):** Schelling segregation model.
 
-- **Summary:** TBD
+- **Summary:** Building Schelling's model
 - **Slides:** [TBD]()
 
 **Session B:** 
 
-- **Summary:** TBD
+- **Summary:** 
+  - Explore tolerance thresholds, group asymmetry, neighborhood sizes.
+  - Class critique: What’s realistic? What’s missing (e.g., structural constraints)?
+  - Deliverable: **Lab Memo #2**.
 - **Slides:** [TBD]()
 :::
 
