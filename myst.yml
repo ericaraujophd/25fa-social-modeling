@@ -89,6 +89,7 @@ project:
           children:
             - file: segregation/01_setup.md
             - file: segregation/02_households.md
+            - file: segregation/03_dynamics.md
     - file: final_project_norms.md
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:

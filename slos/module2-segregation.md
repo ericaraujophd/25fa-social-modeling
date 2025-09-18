@@ -94,7 +94,7 @@ By the end of this module, students will be able to:
 **Session A (Lab):** Schelling segregation model.
 
 - **Summary:** Building Schelling's model
-- **Slides:** [TBD]()
+- **Slides:** [Schelling Model](https://www.beautiful.ai/player/-O_TZHt3BB_HY2LgU6i9)
 
 **Session B:** 
 
@@ -102,7 +102,7 @@ By the end of this module, students will be able to:
   - Explore tolerance thresholds, group asymmetry, neighborhood sizes.
   - Class critique: What’s realistic? What’s missing (e.g., structural constraints)?
   - Deliverable: **Lab Memo #2**.
-- **Slides:** [TBD]()
+- **Code:** [Netlogo Code developed in class](../segregation/code/segregation-class.nlogox)
 :::
 
 :::{tab-item} Lecture 7
@@ -145,7 +145,7 @@ By the end of this module, students will be able to:
 
 **Prompt (1-2 pages):**
 
-1. You will receive the code for the Schelling model implemented in class. Your task is to modify the model in some way and analyze the results. You can choose one of the following options:
+1. Take the code for the Schelling model implemented in class in the link above (Lecture 6). Your task is to modify the model in some way and analyze the results. You can choose one of the following options:
    - **Add a reporter:** e.g., track the number of moves, average satisfaction, or segregation index over time.
    - **Change the neighborhood definition:** e.g., use a larger or smaller neighborhood size.
    - **Introduce heterogeneity:** e.g., allow agents to have different tolerance levels or preferences.

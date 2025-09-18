@@ -33,8 +33,8 @@ Here is the code for the creation of global variables, the breed households, and
 
 ```ruby
 globals [
-    happy ; The number of happy agents in the model
-    unhappy ; The number of unhappy agents in the model
+    happy-households ; The number of happy agents in the model
+    unhappy-households ; The number of unhappy agents in the model
 ]
 
 breed [households household] ; define a breed for the agents as a household
@@ -47,12 +47,25 @@ households-own [
 ]
 ```
 
-Now we can create the `setup` procedure. This procedure will clear the environment, set the patch colors, create the agents, and initialize their attributes. Here is how you can implement it:
+Now we can create the `setup` procedure. This procedure will clear the environment, set the patch colors, create the agents, and initialize their attributes. Also, we want the `setup` to include the initialization of the global variables. Before we start, it is important to note that we will be using procedures (functions) to organize our code better. This will make it easier to read and maintain.
+
+Here is how you can implement it:
 
 ```ruby
 to setup
-  clear-all ; clear the environment
-  ask patches [ 
+    clear-all ; clear the environment
+    make-households ; procedure to create the households
+    update-households ; procedure to update the shape of the households based on their happiness
+    update-global-variables ; procedure to update the global variables
+    reset-ticks ; reset the tick counter
+end
+```
+
+This is the procedure to create the households:
+
+```ruby
+to make-households
+ask patches [ 
     set pcolor white ; set all patches to white
     if random-float 100 < density [
       sprout-households 1 [ ; create a household with a probability defined by density
@@ -61,12 +74,25 @@ to setup
       ]
     ]
   ]
-  reset-ticks ; reset the tick counter
 end
 ```
 
-Create the button for the `setup` procedure in the NetLogo interface. This button will allow you to initialize the model before running the simulation.
+For now, we will create empty procedures for `update-households` and `update-global-variables`. We will fill them in the next sections.
+
+```ruby
+to update-households
+    ; This procedure will be filled in the next section
+end
+
+to update-global-variables
+    ; This procedure will be filled in a later section
+end
+```
+
+Finally, we need to create a button in the NetLogo interface to call the `setup` procedure.
 
 :::{image} imgs/02_button.gif
 :align: center
 :::
+
+Now you can run the `setup` procedure by clicking the button, and it will initialize the model with a grid of agents (households) randomly assigned as red or blue, based on the density slider.
