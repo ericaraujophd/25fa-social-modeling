@@ -188,6 +188,7 @@ By the end of this module, students will be able to:
 
 :::{tab-item} 📽️ Inspirational Videos
 
+- 🎥 [American Segregation, mapped at day and night](https://www.youtube.com/watch?v=qaPQN0aW47I) (7 min)
 - 🎥 [The Power of Models](https://www.youtube.com/watch?v=FOPu5xM5z2s) (4 min)
 - 🎥 [Top 3 aspects people get wrong about Agent Based Modeling](https://www.youtube.com/watch?v=Z3SOxECHLXM) (9 min)
 - 🎥 [When is a system complex?](https://www.youtube.com/watch?v=M7Hf6VfsJ0U) (3 min)
