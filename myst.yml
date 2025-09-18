@@ -85,6 +85,10 @@ project:
             - file: netlogo/6b_advanced.md
             - file: netlogo/6c_advanced.md
             - file: netlogo/6d_advanced.md
+        - file: segregation/tutorial.md
+          children:
+            - file: segregation/01_setup.md
+            - file: segregation/02_households.md
     - file: final_project_norms.md
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:

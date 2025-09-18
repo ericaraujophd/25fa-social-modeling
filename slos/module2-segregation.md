@@ -76,7 +76,7 @@ By the end of this module, students will be able to:
 - **Summary:**
   - Traditions: Du Bois’ *The Philadelphia Negro*, Chicago School, Massey & Denton’s structural view.  
   - Concepts: de jure vs. de facto segregation; neighborhood effects; systemic racism.  
-- **Slides:** [TBD]()
+- **Slides:** [Segregation](slides/segregation-lecture.pptx)
 
 **Session B:** Discussion of readings.
 
@@ -84,7 +84,6 @@ By the end of this module, students will be able to:
   - Massey & Denton, *American Apartheid* (1993), Ch. 1.  
   - Banaji, Fiske & Massey, “Systemic Racism” (*Cognitive Research*, 2021).  
   - Deliverable: SRG prep sheet.
-<!-- - **Slides:** [TBD]() -->
 :::
 
 :::{tab-item} Lecture 6
@@ -114,6 +113,7 @@ By the end of this module, students will be able to:
 **Session A (SRG):** 
 
 - **Summary:** TBD
+  - Bruch, Elizabeth E., and Robert D. Mare. "Neighborhood choice and neighborhood change." American Journal of sociology 112.3 (2006): 667-709.
 <!-- - **Slides:** -->
 
 **Session B:** 
@@ -136,22 +136,54 @@ By the end of this module, students will be able to:
 
 ---
 
+## 📝 Assignments & Due Dates (Weeks 3–4)
+
+::::{tab-set}
+
+:::{tab-item} Lab Memo #2
+**Due:** 9/23 before class | **Points:** 20 points
+
+**Prompt (1-2 pages):**
+
+1. You will receive the code for the Schelling model implemented in class. Your task is to modify the model in some way and analyze the results. You can choose one of the following options:
+   - **Add a reporter:** e.g., track the number of moves, average satisfaction, or segregation index over time.
+   - **Change the neighborhood definition:** e.g., use a larger or smaller neighborhood size.
+   - **Introduce heterogeneity:** e.g., allow agents to have different tolerance levels or preferences.
+   - **Add mobility constraints:** e.g., limit how far agents can move in a single step.
+2. Write your Lab Memo. You can [download the template in here](../resources/lab-memos/Lab_Memo_1_Worksheet.docx).
+3. Make sure you add the codes you've changed, as well as interface modifications.
+4. Submit your Lab Memo in PDF format through Moodle.
+:::
+
+<!-- :::{tab-item} Reflection Essay #1
+**Due:** 9/16 before class | **Points:** 30 points
+
+**Prompt (≥1000 words):**
+
+- How do Durkheim and Weber differ in their approaches to building knowledge?
+- Where do you see common ground?
+- How might ABMs fit into ongoing discussions about subjectivity, objectivity, and building valid social knowledge?
+::: -->
+::::
+
+---
+
 ## 📚 Readings and Extra Materials
 
 ::::{tab-set}
 
 :::{tab-item} 🔒 Required Readings
 
-1. **Douglas S. Massey, Nancy A. Denton.** (1993). "American Apartheid: Segregation and the Making of the Underclass". Chapter 1: The Missing Link.
-   - 📖 [PDF Download](../readings/module2/American_Apartheid_chapter_1_Douglas_Masssey_Nancy_Denton.pdf)
-
-2. **Banaji, Mahzarin R., Susan T. Fiske, and Douglas S. Massey.** "Systemic racism: individuals and interactions, institutions and society." Cognitive research: principles and implications 6.1 (2021): 82.
-   - 📖 [PDF Download](../readings/module2/Systemic_Racism_Banaji_Fiske_and_Massey_2021.pdf)
+1. **Bruch, Elizabeth E., and Robert D. Mare.** "Neighborhood choice and neighborhood change." American Journal of sociology 112.3 (2006): 667-709.
+   - 📖 [PDF Download](../readings/module2/Bruch-NeighborhoodChoiceNeighborhood-2006.pdf)
 :::
 
 :::{tab-item} 🔓 Recommended Readings
 
-1. **Schelling, T. C. (1971).** *Dynamic models of segregation.* Journal of Mathematical Sociology, 1(2), 143-186.
+1. **Bruch, Elizabeth E.** "How population structure shapes neighborhood segregation." American Journal of Sociology 119.5 (2014): 1221-1278.
+   - 📖 [PDF Download](../readings/module2/Bruch-PopulationStructureShapes-2014.pdf)
+2. **Schelling, T. C. (1971).** *Dynamic models of segregation.* Journal of Mathematical Sociology, 1(2), 143-186.
+   - 📖 [PDF Download](https://www.tandfonline.com/doi/abs/10.1080/0022250X.1971.9989794)
 :::
 
 :::{tab-item} 📽️ Inspirational Videos
