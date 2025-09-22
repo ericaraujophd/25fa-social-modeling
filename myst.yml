@@ -91,6 +91,10 @@ project:
             - file: segregation/02_households.md
             - file: segregation/03_dynamics.md
     - file: final_project_norms.md
+  exports:
+    - format: typst
+      template: lapreprint-typst
+      output: course-handbook.pdf
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
@@ -100,3 +104,4 @@ site:
     logo: logos/logo.png
     logo_dark: logos/logo_dark.png
     logo_text: HNRS-251-A
+
