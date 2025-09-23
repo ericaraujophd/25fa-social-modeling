@@ -119,7 +119,7 @@ By the end of this module, students will be able to:
 **Session B:** 
 
 - **Summary:** TBD
-- **Slides:** [TBD]()
+- **Slides:** [Checkerboards to Cities](slides/checkerboards-to-cities.pptx)
 :::
 
 :::{tab-item} Lecture 8
