@@ -112,13 +112,13 @@ By the end of this module, students will be able to:
 
 **Session A (SRG):** 
 
-- **Summary:** TBD
+- **Summary:** Talking about segregation models in social research
   - Bruch, Elizabeth E., and Robert D. Mare. "Neighborhood choice and neighborhood change." American Journal of sociology 112.3 (2006): 667-709.
 <!-- - **Slides:** -->
 
 **Session B:** 
 
-- **Summary:** TBD
+- **Summary:** From Checkerboards to Cities
 - **Slides:** [Checkerboards to Cities](slides/checkerboards-to-cities.pptx)
 :::
 

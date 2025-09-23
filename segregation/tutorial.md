@@ -1,4 +1,4 @@
-# Implementing the Segregation Model
+# Appendix A: Segregation Model
 
 This is a two-week module exploring the Schelling Segregation Model, which demonstrates how individual preferences can lead to large-scale patterns of segregation in neighborhoods. We'll use the NetLogo modeling environment to simulate and analyze these dynamics.
 
