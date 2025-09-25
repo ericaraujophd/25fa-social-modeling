@@ -184,6 +184,9 @@ By the end of this module, students will be able to:
    - 📖 [PDF Download](../readings/module2/Bruch-PopulationStructureShapes-2014.pdf)
 2. **Schelling, T. C. (1971).** *Dynamic models of segregation.* Journal of Mathematical Sociology, 1(2), 143-186.
    - 📖 [PDF Download](https://www.tandfonline.com/doi/abs/10.1080/0022250X.1971.9989794)
+3. **Ryan Burge.** "The Most Segregated Hour? Rethinking Race and Religion in America".
+   - 📖 [Link to Article](https://substack.com/home/post/p-172087570)
+   - 📖 [Link to PDF Article](../readings/module2/optional/The-Most-Segregated-Hour.pdf)
 :::
 
 :::{tab-item} 📽️ Inspirational Videos

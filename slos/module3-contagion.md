@@ -4,15 +4,11 @@
 This page is under construction. It is just a draft that will receive a lot of changes yet.
 :::
 
-Welcome to the Contagion Models module! This module explores how ideas, behaviors, diseases, and innovations spread through social networks and populations. We'll examine both biological and social contagion processes using computational modeling approaches.
+Welcome to the **Contagion Models** module! This module explores how ideas, behaviors, diseases, and innovations spread through social networks and populations. Building on threshold models from our segregation module, we'll examine both biological and social contagion processes using computational modeling approaches.
 
-## Overview
+Contagion models help us understand how things spread - from infectious diseases to social movements, from rumors to technological innovations. Through agent-based modeling, we'll explore different mechanisms of transmission, the role of network structure, and intervention strategies for controlling or promoting different types of contagion. We'll see how Granovetter's threshold models {cite}`granovetter1978threshold` provide a foundation for understanding collective behavior and social mobilization.
 
-Contagion models help us understand how things spread - from infectious diseases to social movements, from rumors to technological innovations. Through agent-based modeling, we'll explore different mechanisms of transmission, the role of network structure, and intervention strategies for controlling or promoting different types of contagion.
-
-```{note}
-**Module Duration:** 2 weeks | *Estimated time: 8-12 hours*
-```
+**Module Duration:** 2 weeks
 
 ---
 
@@ -22,231 +18,243 @@ By the end of this module, students will be able to:
 
 ::::{tab-set}
 
-:::{tab-item} Core
+:::{tab-item} Core SLOs
+
 - Construct data-driven, mathematical, statistical, and/or software models, analyzing their results to answer questions, solve problems, support arguments, draw conclusions, make predictions, and/or identify possible causal relationships.
-- Identify and use tools appropriate for solving a given problem, such as algebra, calculus, and other mathematical tools; spreadsheets, databases, and data-analysis software; domain-specific software; and/or writing one’s own software.
+- Identify and use tools appropriate for solving a given problem, such as algebra, calculus, and other mathematical tools; spreadsheets, databases, and data-analysis software; domain-specific software; and/or writing one's own software.
 :::
 
-:::{tab-item} Conceptual
+:::{tab-item} Conceptual SLOs
+
 - Distinguish between different types of contagion (biological, social, behavioral)
 - Explain the role of network structure in contagion processes
 - Analyze the dynamics of epidemic curves and tipping points
 - Understand concepts like basic reproduction number (R₀) and herd immunity
+- Connect threshold models to collective behavior and social movements
+- Evaluate how individual thresholds aggregate to produce collective outcomes
 :::
 
-:::{tab-item} Technical Skills
+:::{tab-item} Technical SLOs
+
 - Implement SIR and SEIR epidemiological models in NetLogo
 - Model contagion on different network topologies
+- Create threshold-based models for collective behavior
 - Analyze the effects of intervention strategies on spread dynamics
 - Visualize and interpret contagion simulation results
+- Build protest/mobilization models with varying threshold distributions
 :::
 
 :::{tab-item} Critical Thinking
+
 - Evaluate the effectiveness of public health interventions
 - Assess the parallels and differences between biological and social contagion
 - Critique assumptions in contagion models and their real-world applicability
 - Analyze the ethical implications of contagion research and policy
+- Compare model predictions with real-world contagion phenomena
 :::
 
 :::{tab-item} Communication
-- Present epidemiological concepts to diverse audiences
-- Discuss the role of modeling in public health decision-making
-- Communicate uncertainty and risk in contagion scenarios
-- Engage with contemporary debates about disease control and social influence
+
+- Present findings from contagion simulation experiments clearly
+- Discuss the policy implications of different intervention strategies
+- Explain complex contagion concepts to non-technical audiences
+- Connect model insights to contemporary public health and social issues
 :::
+
 ::::
 
 ---
 
-## 📚 Slides and Readings
+## 📋 Weekly Breakdown
 
-```{admonition} Course Materials
-:class: note
+::::{tab-set}
 
-**Lecture Slides:**
-- **Lecture 1:** [Introduction to Contagion Models](slides/contagion-intro.pdf)
-- **Lecture 2:** [SIR and SEIR Models](slides/sir-seir-models.pdf)
-- **Lecture 3:** [Network Effects in Contagion](slides/network-contagion.pdf)
-- **Lecture 4:** [Social vs. Biological Contagion](slides/social-contagion.pdf)
+:::{tab-item} Lecture 9
+**Week 5: Tuesday, September 30**
 
-**Supplementary Videos:**
-- 🎥 [How Viruses Spread](https://youtu.be/example) (14 min)
-- 🎥 [Network Contagion Visualization](https://youtu.be/example) (16 min)
-- 🎥 [Social Contagion Examples](https://youtu.be/example) (12 min)
-```
+*Heckman Library 406C*
+
+**Session A:** *Collective behavior: from contagion to thresholds.*
+
+- **Summary:**
+  - Historical approaches: Le Bon's crowd psychology, modern collective behavior theory.
+  - Threshold models: Granovetter's framework for understanding collective action.
+  - Applications: riots, social movements, technology adoption.
+- **Slides:** [Collective Behavior](slides/collective-behavior-lecture.pptx)
+
+**Session B (SRG):** Discussion of readings.
+
+- **Summary:**
+  - Mark Granovetter, "Threshold Models of Collective Behavior" (*AJS*, 1978).
+  - Deliverable: SRG prep sheet due (per role).
+:::
+
+:::{tab-item} Lecture 10
+**Week 5: Thursday, October 2**
+
+*Heckman Library 406C*
+
+**Session A (Lab):** Threshold model in NetLogo.
+
+- **Summary:** Building threshold models for join/abstain dynamics.
+- **Slides:** [Threshold Models Lab](slides/threshold-models-lab.pptx)
+
+**Session B:** "Where models fail" round-robin.
+
+- **Summary:**
+  - Group discussions on limitations: norms, emotions, networks.
+  - Critique session: what can't threshold models capture?
+  - Deliverable: Lab memo #4 due next class.
+:::
+
+:::{tab-item} Lecture 11
+**Week 6: Tuesday, October 7**
+
+*Heckman Library 406C*
+
+**Session A:** *Social movements: mobilization, resources, grievances.*
+
+- **Summary:**
+  - Resource mobilization theory vs. grievance-based explanations.
+  - Network effects in movement recruitment and organization.
+  - Role of social media in contemporary movements.
+- **Slides:** [Social Movements](slides/social-movements-lecture.pptx)
+
+**Session B (SRG):** Discussion of readings.
+
+- **Summary:**
+  - Charles Tilly, *Social Movements, 1768–2004*, Ch. 1.
+  - Deliverable: SRG prep sheet due (per role).
+:::
+
+:::{tab-item} Lecture 12
+**Week 6: Thursday, October 9**
+
+*Heckman Library 406C*
+
+**Session A (Lab):** Protest/mobilization toy model.
+
+- **Summary:**
+  - Building models with shocks & repression parameters.
+  - Testing different network structures and threshold distributions.
+- **Slides:** [Protest Models Lab](slides/protest-models-lab.pptx)
+
+**Session B (Project):** **Teams form**; **Problem pitch** (3 ideas per team).
+
+- **Summary:**
+  - Team formation process and guidelines.
+  - Initial project brainstorming and concept pitches.
+  - Deliverable: Problem pitch presentations.
+:::
+
+::::
+
+---
+
+## 📅 Assignments & Due Dates
+
+### Week 5 (Sep 30 & Oct 2)
+
+| **Assignment Type** | **Details** | **Due Date** | **Weight** |
+|:------------------:|:------------|:------------:|:----------:|
+| 📖 **SRG Prep Sheet #4** | Granovetter threshold models reading | Tue Sep 30 (start of class) | Participation |
+| 🧪 **Lab Memo #4** | Threshold model implementation & analysis | Thu Oct 3 (next class) | 5% |
+
+### Week 6 (Oct 7 & Oct 9)
+
+| **Assignment Type** | **Details** | **Due Date** | **Weight** |
+|:------------------:|:------------|:------------:|:----------:|
+| 📖 **SRG Prep Sheet #5** | Tilly social movements reading | Tue Oct 7 (start of class) | Participation |
+| 🎓 **Project Team Formation** | Form teams & problem pitches | Thu Oct 9 (in class) | Project milestone |
+
+---
+
+## 📚 Reading and Extra Materials
 
 ### Required Readings
 
-```{dropdown} Core Reading Materials
-:open:
+::::{tab-set}
 
-1. **Kermack, W. O., & McKendrick, A. G. (1927).** *A contribution to the mathematical theory of epidemics.* Proceedings of the Royal Society of London, 115(772), 700-721.
-   - 📖 [PDF Download](readings/kermack-mckendrick-1927.pdf)
-   - 🎯 Focus on: The foundational SIR model
+:::{tab-item} Week 5 Reading
+**Mark Granovetter (1978)**  
+*"Threshold Models of Collective Behavior"*  
+American Journal of Sociology, 83(6), 1420-1443.
 
-2. **Pastor-Satorras, R., & Vespignani, A. (2001).** *Epidemic spreading in scale-free networks.* Physical Review Letters, 86(14), 3200-3203.
-   - 📖 [PDF Download](readings/pastor-satorras-vespignani-2001.pdf)
-   - 🎯 Focus on: Network topology effects on epidemic spread
+**Key concepts:**
 
-3. **Centola, D. (2010).** *The spread of behavior in an online social network experiment.* Science, 329(5996), 1194-1197.
-   - 📖 [PDF Download](readings/centola-2010.pdf)
-   - 🎯 Focus on: Experimental evidence of social contagion
+- Individual thresholds for participation
+- Collective outcomes from individual decisions
+- Applications to riots, strikes, and social movements
+- Mathematical formalization of social influence
 
-4. **Funk, S., et al. (2010).** *Modelling the influence of human behaviour on the spread of infectious diseases.* Journal of the Royal Society Interface, 7(50), 1247-1256.
-   - 📖 [PDF Download](readings/funk-2010.pdf)
-   - 🎯 Focus on: Behavioral responses to epidemic threats
-```
+**Discussion questions:**
 
----
+1. How do individual threshold distributions affect collective outcomes?
+2. What role does information play in threshold models?
+3. Can threshold models explain the unpredictability of social movements?
+:::
 
-## 📝 Homework
+:::{tab-item} Week 6 Reading
+**Charles Tilly (2004)**  
+*Social Movements, 1768–2004*  
+Paradigm Publishers, Chapter 1.
 
-```{admonition} Assignment 1: Basic SIR Model Implementation
-:class: important
+**Key concepts:**
 
-**Due:** End of Week 1 | **Points:** 25 points
+- Historical evolution of social movements
+- WUNC displays (Worthiness, Unity, Numbers, Commitment)
+- Repertoires of contention
+- Political opportunity structures
 
-**Objectives:**
-- Build and analyze a basic SIR epidemic model
-- Explore the effects of different parameters on disease spread
-- Compare model predictions with real epidemic data
+**Discussion questions:**
 
-**Deliverables:**
-1. NetLogo SIR model with clear documentation
-2. Parameter sensitivity analysis
-3. Comparison with historical epidemic data (Spanish flu, COVID-19, etc.)
-4. Short report (3-4 pages) discussing findings
+1. How have social movement tactics evolved historically?
+2. What makes some movements successful while others fail?
+3. How do digital technologies change movement organization?
+:::
 
-**Resources:**
-- [SIR Model Template](homework/sir-template.nlogo)
-- [Historical Epidemic Data](homework/epidemic-data.csv)
-- [Parameter Analysis Guide](homework/parameter-analysis.md)
-```
+::::
 
-```{admonition} Assignment 2: Network Contagion and Policy Analysis
-:class: important
+### Supplementary Materials
 
-**Due:** End of Week 2 | **Points:** 40 points
+::::{tab-set}
 
-**Objectives:**
-- Implement contagion models on different network structures
-- Analyze how network properties affect spread dynamics
-- Test intervention strategies for epidemic control
-- Connect findings to real-world policy implications
+:::{tab-item} Videos
 
-**Tasks:**
-1. Model contagion on random, small-world, and scale-free networks
-2. Analyze the effect of network clustering and degree distribution
-3. Implement and test vaccination, quarantine, and social distancing interventions
-4. Compare biological and social contagion dynamics
-5. Develop policy recommendations based on model results
+- **"The Mathematics of Social Contagion"** (Complexity Explorer)
+- **"Network Effects in Social Movements"** (Santa Fe Institute)
+- **"Threshold Models Explained"** (NetLogo User Community)
+- **"Arab Spring and Social Media"** (TED Talk)
 
-**Deliverables:**
-1. Extended NetLogo model with network capabilities and documentation
-2. Network analysis and visualization comparing scenarios
-3. Intervention strategy evaluation with policy analysis
-4. Technical report (6-8 pages) including recommendations
-5. Brief presentation (5 minutes) of key findings
+:::
 
-**Resources:**
-- [Network Contagion Template](homework/network-contagion-template.nlogo)
-- [Network Analysis Tools](homework/network-analysis-guide.md)
-- [Intervention Strategies Guide](homework/interventions-guide.pdf)
-- [Policy Analysis Framework](homework/policy-analysis.md)
-```
+:::{tab-item} Articles
 
----
+- Centola, D. (2018). *How Behavior Spreads*. Chapter 3: "Social Contagion"
+- Watts, D. J. (2002). "A simple model of global cascades on random networks"
+- González-Bailón, S. (2011). "The dynamics of protest recruitment through online social networks"
+- Steinert-Threlkeld, Z. C. (2017). "Spontaneous collective action: Peripheral mobilization during the Arab Spring"
 
-## 🌟 Extra Materials
+:::
 
-```{admonition} Additional Resources
-:class: note
+:::{tab-item} NetLogo Models
 
-**Interactive Demos:**
-- 🖥️ [Epidemic Calculator](https://gabgoh.github.io/COVID/) - Interactive epidemic modeling
-- 🖥️ [Network Contagion Simulator](http://ncase.me/pandemic/) - Visual network spread simulation
-- 🖥️ [R₀ Interactive Visualization](https://www.washingtonpost.com/graphics/2020/world/corona-simulator/) - Social distancing effects
+- **Virus** (Biology section) - Basic epidemic spreading
+- **Rebellion** (Social Science section) - Threshold-based uprising
+- **Diffusion on a Directed Network** - Information spread
+- **Preferential Attachment** - Network formation dynamics
 
-**Tools and Software:**
-- 💻 **EpiModel (R):** Statistical modeling of epidemics
-- 📊 **GLEAM:** Global epidemic and mobility modeling
-- 🎨 **Cytoscape:** Network visualization and analysis software
-- 📈 **Gephi:** Network exploration and visualization
+:::
 
-**Study Groups and Office Hours:**
--  **Instructor Office Hours:** Tuesdays & Thursdays 2-4 PM
-- 💬 **Course Forums:** Use Moodle for quick questions and discussions
-```
+:::{tab-item} Online Resources
 
-### Historical Context
+- [Complexity Explorer: Social Dynamics](https://www.complexityexplorer.org/)
+- [NetLogo Models Library: Social Science](http://ccl.northwestern.edu/netlogo/models/)
+- [Stanford Encyclopedia: Social Epistemology](https://plato.stanford.edu/entries/epistemology-social/)
+- [Collective Behavior Research Group](https://www.collectivebehavior.org/)
 
-```{dropdown} The Evolution of Epidemic Modeling
+:::
 
-**Mathematical Foundations:**
-- Bernoulli, D. (1760). Essai d'une nouvelle analyse de la mortalité causée par la petite vérole.
-- Ross, R. (1911). *The prevention of malaria.* John Murray.
-- Bailey, N. T. J. (1975). *The mathematical theory of infectious diseases.* Griffin.
-
-**Modern Developments:**
-- Anderson, R. M., & May, R. M. (1991). *Infectious diseases of humans.* Oxford University Press.
-- Keeling, M. J., & Rohani, P. (2007). *Modeling infectious diseases in humans and animals.* Princeton University Press.
-
-**Network Epidemiology:**
-- Watts, D. J., & Strogatz, S. H. (1998). Collective dynamics of 'small-world' networks. *Nature*, 393(6684), 440-442.
-- Barabási, A. L., & Albert, R. (1999). Emergence of scaling in random networks. *Science*, 286(5439), 509-512.
-```
-
-### Real-World Applications
-
-```{dropdown} Contagion Models in Practice
-
-**Public Health Applications:**
-- COVID-19 pandemic modeling and policy responses
-- Seasonal influenza vaccination strategies
-- HIV prevention and treatment programs
-- Malaria control in endemic regions
-
-**Social Contagion Examples:**
-- Viral marketing and social media campaigns
-- Political movement organization and spread
-- Financial contagion and market crashes
-- Behavioral interventions for health promotion
-
-**Discussion Questions:**
-- How do behavioral changes affect epidemic dynamics?
-- What are the ethical considerations in epidemic modeling?
-- How can we balance individual privacy with public health surveillance?
-- What role should predictive models play in policy decisions?
-
-**Current Research:**
-- Digital contact tracing and privacy concerns
-- Vaccine hesitancy and misinformation spread
-- Climate change effects on disease emergence
-- One Health approaches to pandemic prevention
-```
+::::
 
 ---
-
-## 🗓️ Weekly Schedule
-
-```{admonition} Module Timeline
-:class: note
-
-| Week | Topic | Readings | Assignments |
-|------|-------|----------|-------------|
-| **Week 1** | SIR Models & Basic Epidemiology | Kermack & McKendrick (1927), Historical Epidemic Data | SIR Implementation Due |
-| **Week 2** | Network Effects & Policy Applications | Pastor-Satorras & Vespignani (2001), Centola (2010), Funk et al. (2010) | Network Analysis Due |
-```
-
----
-
-## 📞 Getting Help
-
-```{admonition} Need Support?
-:class: tip
-
-- **Quick Questions:** Use the Moodle class forums
-- **Technical Issues:** Visit our troubleshooting guide
-- **Conceptual Help:** Attend office hours
-- **Accessibility:** Contact the instructors for accommodations
-```
