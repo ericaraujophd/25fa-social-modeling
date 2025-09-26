@@ -90,6 +90,7 @@ project:
             - file: segregation/01_setup.md
             - file: segregation/02_households.md
             - file: segregation/03_dynamics.md
+            - file: segregation/04_monitors.md
     - file: final_project_norms.md
   exports:
     - format: typst

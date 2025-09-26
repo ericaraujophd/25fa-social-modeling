@@ -76,6 +76,28 @@ end]]></code>
     <button x="249" y="10" height="40" disableUntilTicks="false" forever="false" kind="Observer" width="106">setup</button>
     <button x="249" y="130" height="40" disableUntilTicks="false" forever="true" kind="Observer" width="106" display="go (forever)">go</button>
     <button x="249" y="70" height="40" disableUntilTicks="false" forever="false" kind="Observer" width="106">go</button>
+    <monitor x="825" precision="17" y="145" height="60" fontSize="11" width="250" display="Happy Households">happy-households</monitor>
+    <monitor x="825" precision="17" y="215" height="60" fontSize="11" width="250" display="Unhappy Households">unhappy-households</monitor>
+    <plot x="825" autoPlotX="true" yMax="10.0" autoPlotY="true" y="285" xMin="0.0" height="395" legend="true" xMax="10.0" yMin="0.0" width="575" xAxis="time" display="Household Happinness map">
+      <setup></setup>
+      <update></update>
+      <pen interval="1.0" mode="0" display="happy?" color="-13345367" legend="true">
+        <setup></setup>
+        <update>plot happy-households</update>
+      </pen>
+      <pen interval="1.0" mode="0" display="unhappy?" color="-2674135" legend="true">
+        <setup></setup>
+        <update>plot unhappy-households</update>
+      </pen>
+    </plot>
+    <plot x="1090" autoPlotX="true" yMax="10.0" autoPlotY="true" y="15" xMin="0.0" height="260" legend="false" xMax="10.0" yMin="0.0" width="305" display="Proportion of Similarity">
+      <setup></setup>
+      <update></update>
+      <pen interval="1.0" mode="0" display="default" color="-10899396" legend="true">
+        <setup></setup>
+        <update>plot proportion-similarity</update>
+      </pen>
+    </plot>
   </widgets>
   <info>## WHAT IS IT?
 
