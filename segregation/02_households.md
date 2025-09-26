@@ -9,8 +9,7 @@ As the agents will be moving around the environment and changing their state, we
 ```ruby
 to update-households
   ask households [
-    if happy?   [ set shape "square" ]  ; set shape to square if happy
-                [ set shape "x" ] ; set shape to x if unhappy
+    ifelse happy?   [ set shape "square" ][ set shape "x" ] ; set shape to x if unhappy and square if happy
   ]
 end
 ```
@@ -22,17 +21,15 @@ Let's fix our `update-households` procedure to include the calculation of happin
 ```ruby
 to update-households
   ask households [
-    set similar-neighbors count neighbors with [color = [color] of myself] ; count similar neighbors
-    set different-neighbors count neighbors with [color != [color] of myself] ; count different neighbors
+    set similar-neighbors count (households-on neighbors) with [color = [color] of myself]; count similar neighbors
+    set different-neighbors count (households-on neighbors) with [color != [color] of myself] ; count different neighbors
     set total-neighbors similar-neighbors + different-neighbors ; total neighbors
-    ifelse total-neighbors > 0 [
-      set happy? (similar-neighbors / total-neighbors) >= similar-wanted
-    ] [
-      set happy? true ; if no neighbors, consider happy
-    ]
     
-    ifelse happy?   [ set shape "square" ]  ; set shape to square if happy
-                [ set shape "x" ] ; set shape to x if unhappy 
+    ifelse total-neighbors > 0 [ set similarity  (similar-neighbors / total-neighbors) * 100 ]
+    [ set similarity 100  ] ; if no neighbors, consider happy
+    
+    set happy? (similarity >= similar-wanted)
+    ifelse happy?   [ set shape "square" ][ set shape "x" ] ; set shape to x if unhappy and square if happy
   ]
 end
 ```

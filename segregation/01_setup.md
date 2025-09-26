@@ -35,6 +35,7 @@ Here is the code for the creation of global variables, the breed households, and
 globals [
     happy-households ; The number of happy agents in the model
     unhappy-households ; The number of unhappy agents in the model
+    proportion-similarity ; proportion of similar households for the overall population
 ]
 
 breed [households household] ; define a breed for the agents as a household
@@ -44,6 +45,7 @@ households-own [
   similar-neighbors ; number of similar neighbors
   different-neighbors ; number of different neighbors
   total-neighbors ; total number of neighbors
+  similarity ; proportion of neighbors of the same color
 ]
 ```
 

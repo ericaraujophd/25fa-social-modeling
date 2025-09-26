@@ -28,19 +28,22 @@ Finally, we need to fill the `update-global-variables` procedure. This procedure
 to update-global-variables
   set happy-households count households with [happy?] ; count happy agents
   set unhappy-households count households with [not happy?] ; count unhappy agents
+  set proportion-similarity (sum [similarity] of households) / count households
 end
 ```
 
-No we can go back to the interface tab and create a button to call the `go` procedure. Make sure to set the button to "forever" so that it will keep calling the `go` procedure until all agents are happy. You can also create two buttons to call the `go` procedure (once and forever).
+Now we can go back to the interface tab and create a button to call the `go` procedure. Make sure to set the button to "forever" so that it will keep calling the `go` procedure until all agents are happy. You can also create two buttons to call the `go` procedure (once and forever).
 
-IMAGE HERE
+:::{image} imgs/interface-v1.png
+:::
 
 And this is the final code for our Segregation Model. You can now run the model and see how the agents move around the environment until they are all happy.
 
 ```ruby
 globals [
-    happy-households ; The number of happy agents in the model
-    unhappy-households ; The number of unhappy agents in the model
+  happy-households ; The number of happy agents in the model
+  unhappy-households ; The number of unhappy agents in the model
+  proportion-similarity ; proportion of similar households for the overall population
 ]
 
 breed [households household] ; define a breed for the agents as a household
@@ -50,6 +53,7 @@ households-own [
   similar-neighbors ; number of similar neighbors
   different-neighbors ; number of different neighbors
   total-neighbors ; total number of neighbors
+  similarity ; proportion of neighbors of the same color
 ]
 
 to setup
@@ -74,27 +78,26 @@ end
 
 to update-households
   ask households [
-    set similar-neighbors count neighbors with [color = [color] of myself] ; count similar neighbors
-    set different-neighbors count neighbors with [color != [color] of myself] ; count different neighbors
+    set similar-neighbors count (households-on neighbors) with [color = [color] of myself]; count similar neighbors
+    set different-neighbors count (households-on neighbors) with [color != [color] of myself] ; count different neighbors
     set total-neighbors similar-neighbors + different-neighbors ; total neighbors
-    ifelse total-neighbors > 0 [
-      set happy? (similar-neighbors / total-neighbors) >= similar-wanted
-    ] [
-      set happy? true ; if no neighbors, consider happy
-    ]
     
-    ifelse happy?   [ set shape "square" ]  ; set shape to square if happy
-                [ set shape "x" ] ; set shape to x if unhappy 
+    ifelse total-neighbors > 0 [ set similarity  (similar-neighbors / total-neighbors) * 100 ]
+    [ set similarity 100  ] ; if no neighbors, consider happy
+    
+    set happy? (similarity >= similar-wanted)
+    ifelse happy?   [ set shape "square" ][ set shape "x" ] ; set shape to x if unhappy and square if happy
   ]
 end
 
 to update-global-variables
   set happy-households count households with [happy?] ; count happy agents
   set unhappy-households count households with [not happy?] ; count unhappy agents
+  set proportion-similarity (sum [similarity] of households) / count households
 end
 
 to go
-  if all households [happy?] [ stop ] ; stop the simulation if all agents are happy
+  if all? households [happy?] [ stop ] ; stop the simulation if all agents are happy
   move-unhappy-households ; procedure to move unhappy agents
   update-households ; update the shape of the agents based on their happiness
   update-global-variables ; update the global variables
@@ -107,3 +110,7 @@ to move-unhappy-households
   ]
 end
 ```
+
+:::{important} Download the Code
+You can download the code for this model [here](code/segregation-model-v1.nlogox).
+:::
