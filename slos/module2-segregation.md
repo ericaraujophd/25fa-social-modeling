@@ -155,18 +155,23 @@ By the end of this module, students will be able to:
 4. Submit your Lab Memo in PDF format through Moodle.
 :::
 
-<!-- :::{tab-item} Reflection Essay #1
-**Due:** 9/16 before class | **Points:** 30 points
+:::{tab-item} Lab Memo #3
+**Due:** 10/3 before class | **Points:** 30 points
 
-**Prompt (≥1000 words):**
+**Prompt (1-2 pages):**
 
-- How do Durkheim and Weber differ in their approaches to building knowledge?
-- Where do you see common ground?
-- How might ABMs fit into ongoing discussions about subjectivity, objectivity, and building valid social knowledge?
-::: -->
+1. Take the code for the Schelling model implemented in class in the link above (Lecture 6). Your task is to analyze the results of the model. You will run a batch experiment varying the parameters of the model (e.g., tolerance level, density of agents) and collect data on the outcomes (e.g., number of happy agents, segregation index). You can use the BehaviorSpace tool in NetLogo to set up and run the batch experiment. Here are some steps to guide you:
+   - Define the parameters you want to vary and their ranges.
+   - Set up the metrics you want to record during the simulations.
+   - Run the batch experiment and collect the data.
+   - Analyze the results using statistical or graphical methods. Look for patterns or trends in how the parameters affect the outcomes. You may use LLM tools to help you with the analysis. Make sure you are bringing up your own insights and interpretations also.
+2. Write your Lab Memo. You can [download the template in here](../resources/lab-memos/Lab_Memo_1_Worksheet.docx).
+3. Make sure you add the codes you've changed, as well as interface modifications.
+4. Submit your Lab Memo in PDF format through Moodle.
+
+:::
 ::::
 
----
 
 ## 📚 Readings and Extra Materials
 
