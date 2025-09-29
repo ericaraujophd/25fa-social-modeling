@@ -127,9 +127,9 @@ By the end of this module, students will be able to:
 
 *Heckman Library 406C*
 
-**Session A (Lab):** TBD
+**Session A (Lab):** Adding plots, monitors, and reporters to the Schelling model
 
-**Session B (Lab):** TBD
+**Session B (Lab):** Running batch experiments with BehaviorSpace in NetLogo
 :::
 
 ::::
