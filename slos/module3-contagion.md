@@ -80,7 +80,7 @@ By the end of this module, students will be able to:
   - Historical approaches: Le Bon's crowd psychology, modern collective behavior theory.
   - Threshold models: Granovetter's framework for understanding collective action.
   - Applications: riots, social movements, technology adoption.
-- **Slides:** [Collective Behavior](slides/collective-behavior-lecture.pptx)
+- **Slides:** [Collective Behavior](slides/Collective_Behavior_Presentation.pptx)
 
 **Session B (SRG):** Discussion of readings.
 

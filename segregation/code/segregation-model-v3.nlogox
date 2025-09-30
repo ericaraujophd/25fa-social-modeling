@@ -969,4 +969,19 @@ end]]></code>
     </shape>
   </linkShapes>
   <previewCommands>setup repeat 75 [ go ]</previewCommands>
+  <experiments>
+    <experiment name="Segregation Batch Run 10x" repetitions="10" sequentialRunOrder="true" runMetricsEveryStep="true" timeLimit="1000">
+      <setup>setup</setup>
+      <go>go</go>
+      <metrics>
+        <metric>happy-households</metric>
+        <metric>unhappy-households</metric>
+        <metric>proportion-similarity</metric>
+      </metrics>
+      <constants>
+        <steppedValueSet variable="similar-wanted" first="10" step="10" last="90"></steppedValueSet>
+        <steppedValueSet variable="density" first="10" step="10" last="90"></steppedValueSet>
+      </constants>
+    </experiment>
+  </experiments>
 </model>
