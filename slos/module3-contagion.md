@@ -221,11 +221,11 @@ Paradigm Publishers, Chapter 1.
 
 :::{tab-item} Videos
 
-- **"The Mathematics of Social Contagion"** (Complexity Explorer)
-- **"Network Effects in Social Movements"** (Santa Fe Institute)
-- **"Threshold Models Explained"** (NetLogo User Community)
-- **"Arab Spring and Social Media"** (TED Talk)
-
+- [**How Behavior Spreads: The Science of Complex Contagions**](https://www.youtube.com/watch?v=j5PTukNU4gU) (Damon Centola)
+- [**Nicholas Christakis, "Social Contagion"**](https://www.youtube.com/watch?v=NjgPJi-FBP4)
+- [Nicholas Christakis: The hidden influence of social networks](https://www.youtube.com/watch?v=2U-tOghblfE)
+- [Feeling Their Vibes? Uncovering the Mystery of Emotional Contagion 🧠💫](https://www.youtube.com/watch?v=gjc-wH-r-UA)
+- [Are Your Emotions Contagious? | On Mirror Neurons](https://www.youtube.com/watch?v=HTFdMwCXpMw)
 :::
 
 :::{tab-item} Articles

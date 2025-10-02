@@ -75,6 +75,7 @@ By the end of this module, students will be able to:
 - **Lecture 4:** [Institutions and Collective Action](slides/institutions-cooperation.pdf)
 
 **Supplementary Videos:**
+- [psychological experiment](https://www.youtube.com/watch?v=VsyfQeSITww)
 - 🎥 [The Evolution of Trust](https://ncase.me/trust/) - Interactive game theory exploration
 - 🎥 [Prisoner's Dilemma Tournament](https://youtu.be/example) (18 min)
 - 🎥 [Public Goods Games](https://youtu.be/example) (15 min)

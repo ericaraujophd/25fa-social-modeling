@@ -156,7 +156,7 @@ By the end of this module, students will be able to:
 :::
 
 :::{tab-item} Lab Memo #3
-**Due:** 10/3 before class | **Points:** 30 points
+**Due:** 10/2 before class | **Points:** 30 points
 
 **Prompt (1-2 pages):**
 
