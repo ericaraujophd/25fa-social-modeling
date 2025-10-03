@@ -41,7 +41,7 @@ By the end of this module, students will be able to:
 - Create threshold-based models for collective behavior
 - Analyze the effects of intervention strategies on spread dynamics
 - Visualize and interpret contagion simulation results
-- Build protest/mobilization models with varying threshold distributions
+<!-- - Build protest/mobilization models with varying threshold distributions -->
 :::
 
 :::{tab-item} Critical Thinking
@@ -94,17 +94,17 @@ By the end of this module, students will be able to:
 
 *Heckman Library 406C*
 
-**Session A (Lab):** Threshold model in NetLogo.
-
-- **Summary:** Building threshold models for join/abstain dynamics.
-- **Slides:** [Threshold Models Lab](slides/threshold-models-lab.pptx)
-
-**Session B:** "Where models fail" round-robin.
+**Session A:** Contagion models: a brief overview.
 
 - **Summary:**
-  - Group discussions on limitations: norms, emotions, networks.
-  - Critique session: what can't threshold models capture?
-  - Deliverable: Lab memo #4 due next class.
+  - Overview of contagion models: SIR, SEIR, and agent-based approaches.
+  - Discussions on limitations: norms, emotions, networks.
+- **Slides:** [Contagion Models](https://www.beautiful.ai/player/-OaZoGXdCLpuBZxYlVP9)
+
+**Session B (Lab):** Contagion Model in NetLogo.
+
+- **Summary:** Building contagion models in NetLogo.
+  - Deliverable: Lab memo #4 due next week.
 :::
 
 :::{tab-item} Lecture 11
@@ -151,14 +151,48 @@ By the end of this module, students will be able to:
 
 ---
 
-## 📅 Assignments & Due Dates
+## 📝 Assignments & Due Dates (Weeks 3–4)
 
-### Week 5 (Sep 30 & Oct 2)
+::::{tab-set}
+
+:::{tab-item} Lab Memo #4
+**Due:** 10/9 before class | **Points:** 20 points
+
+**Prompt (1-2 pages):**
+
+Contagion model implementation & analysis
+
+1. Implement a contagion model in NetLogo using the SIR or SEIR framework.
+2. Analyze the model's behavior under different parameters (e.g., transmission rate, recovery rate).
+3. Write your Lab Memo. You can [download the template in here](../resources/lab-memos/Lab_Memo_1_Worksheet.docx).
+4. Make sure you add the codes you've changed, as well as interface modifications.
+5. Submit your Lab Memo in PDF format through Moodle.
+
+:::
+
+:::{tab-item} Lab Memo #5
+**Due:** 10/16 before class | **Points:** 30 points
+
+**Prompt (1-2 pages):**
+
+1. Take the code for the Schelling model implemented in class in the link above (Lecture 6). Your task is to analyze the results of the model. You will run a batch experiment varying the parameters of the model (e.g., tolerance level, density of agents) and collect data on the outcomes (e.g., number of happy agents, segregation index). You can use the BehaviorSpace tool in NetLogo to set up and run the batch experiment. Here are some steps to guide you:
+   - Define the parameters you want to vary and their ranges.
+   - Set up the metrics you want to record during the simulations.
+   - Run the batch experiment and collect the data.
+   - Analyze the results using statistical or graphical methods. Look for patterns or trends in how the parameters affect the outcomes. You may use LLM tools to help you with the analysis. Make sure you are bringing up your own insights and interpretations also.
+2. Write your Lab Memo. You can [download the template in here](../resources/lab-memos/Lab_Memo_1_Worksheet.docx).
+3. Make sure you add the codes you've changed, as well as interface modifications.
+4. Submit your Lab Memo in PDF format through Moodle.
+
+:::
+::::
+
+<!-- ### Week 5 (Sep 30 & Oct 2)
 
 | **Assignment Type** | **Details** | **Due Date** | **Weight** |
 |:------------------:|:------------|:------------:|:----------:|
 | 📖 **SRG Prep Sheet #4** | Granovetter threshold models reading | Tue Sep 30 (start of class) | Participation |
-| 🧪 **Lab Memo #4** | Threshold model implementation & analysis | Thu Oct 3 (next class) | 5% |
+| 🧪 **Lab Memo #4** | Contagion model implementation & analysis | Thu Oct 9 (start of class) | 5% | -->
 
 ### Week 6 (Oct 7 & Oct 9)
 
@@ -221,19 +255,19 @@ Paradigm Publishers, Chapter 1.
 
 :::{tab-item} Videos
 
-- [**How Behavior Spreads: The Science of Complex Contagions**](https://www.youtube.com/watch?v=j5PTukNU4gU) (Damon Centola)
-- [**Nicholas Christakis, "Social Contagion"**](https://www.youtube.com/watch?v=NjgPJi-FBP4)
-- [Nicholas Christakis: The hidden influence of social networks](https://www.youtube.com/watch?v=2U-tOghblfE)
-- [Feeling Their Vibes? Uncovering the Mystery of Emotional Contagion 🧠💫](https://www.youtube.com/watch?v=gjc-wH-r-UA)
-- [Are Your Emotions Contagious? | On Mirror Neurons](https://www.youtube.com/watch?v=HTFdMwCXpMw)
+- How Behavior Spreads: The Science of Complex Contagions (Damon Centola) [Link](https://www.youtube.com/watch?v=j5PTukNU4gU)
+- Nicholas Christakis, "Social Contagion" [Link](https://www.youtube.com/watch?v=NjgPJi-FBP4)
+- Nicholas Christakis: The hidden influence of social networks [Link](https://www.youtube.com/watch?v=2U-tOghblfE)
+- Feeling Their Vibes? Uncovering the Mystery of Emotional Contagion 🧠💫 [Link](https://www.youtube.com/watch?v=gjc-wH-r-UA)
+- Are Your Emotions Contagious? | On Mirror Neurons [Link](https://www.youtube.com/watch?v=HTFdMwCXpMw)
 :::
 
 :::{tab-item} Articles
 
-- Centola, D. (2018). *How Behavior Spreads*. Chapter 3: "Social Contagion"
-- Watts, D. J. (2002). "A simple model of global cascades on random networks"
-- González-Bailón, S. (2011). "The dynamics of protest recruitment through online social networks"
-- Steinert-Threlkeld, Z. C. (2017). "Spontaneous collective action: Peripheral mobilization during the Arab Spring"
+- **Centola, D.** (2018). ["How Behavior Spreads". Chapter 3: "Social Contagion"](https://press.princeton.edu/books/hardcover/9780691175317/how-behavior-spreads?srsltid=AfmBOop9fIQRI8p5_8EL2MteLDdIIbitq0gWFPS5yhASPYfTWtbPuP0r)
+- **Watts, D. J.** (2002). ["A simple model of global cascades on random networks"](https://www.pnas.org/doi/10.1073/pnas.082090499)
+- **González-Bailón, S.** (2011). ["The dynamics of protest recruitment through online social networks"](https://www.nature.com/articles/srep00197)
+- **Steinert-Threlkeld, Z. C.** (2017). ["Spontaneous collective action: Peripheral mobilization during the Arab Spring"](https://ideas.repec.org/a/cup/apsrev/v111y2017i02p379-403_00.html)
 
 :::
 
@@ -256,5 +290,3 @@ Paradigm Publishers, Chapter 1.
 :::
 
 ::::
-
----
