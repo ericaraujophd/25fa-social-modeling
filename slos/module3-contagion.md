@@ -209,8 +209,8 @@ Contagion model implementation & analysis
 
 | **Assignment Type** | **Details** | **Due Date** | **Weight** |
 |:------------------:|:------------|:------------:|:----------:|
-| 📖 **SRG Prep Sheet #5** | Tilly social movements reading | Tue Oct 7 (start of class) | Participation |
-| 🎓 **Project Team Formation** | Form teams & problem pitches | Thu Oct 9 (in class) | Project milestone |
+| 📖 **SRG Prep Sheet #5** | Centola Spread of Behavior in an Online Social Network readings | Thu Oct 9 (start of class) | Participation |
+| 🎓 **Project Ideas Brainstorming** | Meet with your teams & brainstorm initial ideas | Thu Oct 9 | Project milestone (optional) |
 
 ---
 
