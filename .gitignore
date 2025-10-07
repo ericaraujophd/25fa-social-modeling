@@ -250,3 +250,6 @@ results/
 # Temporary MyST files
 .myst_cache/
 .jupyter_cache/
+
+# MyST build outputs
+_build

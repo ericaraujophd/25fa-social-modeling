@@ -6,7 +6,7 @@ This page is under construction. It is just a draft that will receive a lot of c
 
 Welcome to the **Contagion Models** module! This module explores how ideas, behaviors, diseases, and innovations spread through social networks and populations. Building on threshold models from our segregation module, we'll examine both biological and social contagion processes using computational modeling approaches.
 
-Contagion models help us understand how things spread - from infectious diseases to social movements, from rumors to technological innovations. Through agent-based modeling, we'll explore different mechanisms of transmission, the role of network structure, and intervention strategies for controlling or promoting different types of contagion. We'll see how Granovetter's threshold models {cite}`granovetter1978threshold` provide a foundation for understanding collective behavior and social mobilization.
+Contagion models help us understand how things spread—from infectious diseases to social movements, from rumors to technological innovations. Through agent-based modeling, we'll explore different mechanisms of transmission, the role of network structure, and intervention strategies for controlling or promoting different types of contagion. We'll see how Granovetter's threshold models {cite}`granovetter1978threshold` provide a foundation for understanding collective behavior and social mobilization. We will also will talk about the spread of behavior in social networks, including concepts like complex contagion and the role of weak vs. strong ties.
 
 **Module Duration:** 2 weeks
 
@@ -103,14 +103,20 @@ By the end of this module, students will be able to:
 
 **Session B (Lab):** Contagion Model in NetLogo.
 
-- **Summary:** Building contagion models in NetLogo.
+- **Summary:** Building contagion models in NetLogo for spontaneous infections.
+  - Code can be found [here](../contagion/codes/spontaneous.nlogox).
   - Deliverable: Lab memo #4 due next week.
 :::
 
 :::{tab-item} Lecture 11
 **Week 6: Tuesday, October 7**
 
-*Heckman Library 406C*
+<!-- :::::{admonition} Note
+:class: warning
+::::: -->
+**We won't have class on Tuesday, due to the Tech Week.**
+
+<!-- *Heckman Library 406C*
 
 **Session A:** *Social movements: mobilization, resources, grievances.*
 
@@ -118,13 +124,17 @@ By the end of this module, students will be able to:
   - Resource mobilization theory vs. grievance-based explanations.
   - Network effects in movement recruitment and organization.
   - Role of social media in contemporary movements.
-- **Slides:** [Social Movements](slides/social-movements-lecture.pptx)
+- **Slides:** [Social Movements](slides/social-movements-lecture.pptx) -->
 
-**Session B (SRG):** Discussion of readings.
+<!-- **Session B (SRG):** Discussion of readings.
 
 - **Summary:**
-  - Charles Tilly, *Social Movements, 1768–2004*, Ch. 1.
-  - Deliverable: SRG prep sheet due (per role).
+  - Centola, D. (2010). The Spread of Behavior in an Online Social Network Experiment. Science, 329(5996), 1194–1197. 10.1126/science.1185231
+    - [Link to Article](10.1126/science.1185231)
+  - Centola, D., & Macy, M. (2007). Complex Contagions and the Weakness of Long Ties. American Journal of Sociology, 113(3), 702–734. 10.1086/521848
+    - [Link to Article](10.1086/521848)
+  <!-- - Charles Tilly, *Social Movements, 1768–2004*, Ch. 1.
+  - Deliverable: SRG prep sheet due (per role). -->
 :::
 
 :::{tab-item} Lecture 12
@@ -132,19 +142,20 @@ By the end of this module, students will be able to:
 
 *Heckman Library 406C*
 
-**Session A (Lab):** Protest/mobilization toy model.
+**Session A (SRG):** Discussion of readings.
 
 - **Summary:**
-  - Building models with shocks & repression parameters.
-  - Testing different network structures and threshold distributions.
-- **Slides:** [Protest Models Lab](slides/protest-models-lab.pptx)
+  - Centola, D. (2010). The Spread of Behavior in an Online Social Network Experiment. Science, 329(5996), 1194–1197. 10.1126/science.1185231
+    - [Link to Article](10.1126/science.1185231)
+  - Centola, D., & Macy, M. (2007). Complex Contagions and the Weakness of Long Ties. American Journal of Sociology, 113(3), 702–734. 10.1086/521848
+    - [Link to Article](10.1086/521848)
+  <!-- - Charles Tilly, *Social Movements, 1768–2004*, Ch. 1. -->
+  - Deliverable: SRG prep sheet due (per role).
 
-**Session B (Project):** **Teams form**; **Problem pitch** (3 ideas per team).
+**Session B (Lab):** Modeling the SI and SIR models.
 
 - **Summary:**
-  - Team formation process and guidelines.
-  - Initial project brainstorming and concept pitches.
-  - Deliverable: Problem pitch presentations.
+  - We will build the SI and SIR models in NetLogo during this class. The starting point is the code from [previous lecture](../contagion/codes/spontaneous.nlogox).
 :::
 
 ::::
@@ -156,20 +167,20 @@ By the end of this module, students will be able to:
 ::::{tab-set}
 
 :::{tab-item} Lab Memo #4
-**Due:** 10/9 before class | **Points:** 20 points
+**Due:** 10/16 before class | **Points:** 20 points
 
 **Prompt (1-2 pages):**
 
 Contagion model implementation & analysis
 
-1. Implement a contagion model in NetLogo using the SIR or SEIR framework.
+1. Implement a contagion model in NetLogo using the SEIR framework.
 2. Analyze the model's behavior under different parameters (e.g., transmission rate, recovery rate).
 3. Write your Lab Memo. You can [download the template in here](../resources/lab-memos/Lab_Memo_1_Worksheet.docx).
 4. Make sure you add the codes you've changed, as well as interface modifications.
 5. Submit your Lab Memo in PDF format through Moodle.
 
 :::
-
+<!-- 
 :::{tab-item} Lab Memo #5
 **Due:** 10/16 before class | **Points:** 30 points
 
@@ -184,7 +195,7 @@ Contagion model implementation & analysis
 3. Make sure you add the codes you've changed, as well as interface modifications.
 4. Submit your Lab Memo in PDF format through Moodle.
 
-:::
+::: -->
 ::::
 
 <!-- ### Week 5 (Sep 30 & Oct 2)
