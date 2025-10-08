@@ -105,6 +105,7 @@ By the end of this module, students will be able to:
 
 - **Summary:** Building contagion models in NetLogo for spontaneous infections.
   - Code can be found [here](../contagion/codes/spontaneous.nlogox).
+  - Slides with some of my research from the past (some of it might be outdated) [Link](slides/Social-Modeling.pdf)  
   - Deliverable: Lab memo #4 due next week.
 :::
 

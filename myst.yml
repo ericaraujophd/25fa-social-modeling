@@ -92,6 +92,10 @@ project:
             - file: segregation/03_dynamics.md
             - file: segregation/04_monitors.md
             - file: segregation/05_batch_run.md
+    - title: "Appendix B: Contagion Model"
+      children:
+        - file: contagion/contagion.md
+
     - file: final_project_norms.md
   exports:
     - format: typst
