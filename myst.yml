@@ -85,16 +85,21 @@ project:
             - file: netlogo/6b_advanced.md
             - file: netlogo/6c_advanced.md
             - file: netlogo/6d_advanced.md
-        - file: segregation/tutorial.md
-          children:
-            - file: segregation/01_setup.md
-            - file: segregation/02_households.md
-            - file: segregation/03_dynamics.md
-            - file: segregation/04_monitors.md
-            - file: segregation/05_batch_run.md
+    - title: "Appendix A: Segregation Model"
+      children:
+          - file: segregation/tutorial.md
+          - file: segregation/01_setup.md
+          - file: segregation/02_households.md
+          - file: segregation/03_dynamics.md
+          - file: segregation/04_monitors.md
+          - file: segregation/05_batch_run.md
     - title: "Appendix B: Contagion Model"
       children:
         - file: contagion/contagion.md
+        - title: "Spontaneous Model"
+          children:
+            - file: contagion/01-spontaneous.md
+            - file: contagion/02-agents.md
 
     - file: final_project_norms.md
   exports:

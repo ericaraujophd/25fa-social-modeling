@@ -1,4 +1,4 @@
-# A Model for Contagion
+# Contagion Models
 
 In this module, you will implement a contagion model in NetLogo using different frameworks. You will analyze the model's behavior under different parameters (e.g., transmission rate, recovery rate) and write a lab memo summarizing your findings.
 
