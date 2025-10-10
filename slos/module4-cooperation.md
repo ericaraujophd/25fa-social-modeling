@@ -241,6 +241,25 @@ Cambridge University Press, Chapter 1 excerpts.
 
 :::
 
+:::{tab-item} Week 8 Reading
+**No new required reading for Week 8**
+
+Week 8 focuses on developing your final project proposal. You should:
+
+- Review readings from Weeks 1-7 relevant to your project topic
+- Consult supplementary materials related to your research question
+- Identify key mechanisms and variables for your model
+- Prepare your 1-page project proposal
+
+**Project Development Resources:**
+
+- Revisit Axelrod and Ostrom readings for cooperation mechanisms
+- Explore NetLogo Models Library for similar implementations
+- Review successful ABM papers in your area of interest
+- Consider design principles that apply to your research question
+
+:::
+
 ::::
 
 ### Supplementary Materials
