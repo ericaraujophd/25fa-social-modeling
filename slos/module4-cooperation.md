@@ -418,7 +418,7 @@ Cambridge University Press, Chapter 1 excerpts.
 ```
 
 ---
-
+<!-- 
 ## 📝 Homework
 
 ```{admonition} Assignment 1: Prisoner's Dilemma Tournament
@@ -480,9 +480,9 @@ Cambridge University Press, Chapter 1 excerpts.
 - [Policy Analysis Framework](homework/policy-analysis.md)
 ```
 
----
+--- -->
 
-## 🌟 Extra Materials
+<!-- ## 🌟 Extra Materials
 
 ```{admonition} Additional Resources
 :class: note
@@ -502,7 +502,7 @@ Cambridge University Press, Chapter 1 excerpts.
 - 👥 **Study Group Sessions:** Fridays 5-7 PM, Science Building 180
 - 🕐 **Instructor Office Hours:** Mondays & Wednesdays 3-5 PM
 - 💬 **Course Discord:** #cooperation-models channel for game theory discussions
-```
+``` -->
 
 ### Historical Context
 
