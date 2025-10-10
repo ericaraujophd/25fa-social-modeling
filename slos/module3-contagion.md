@@ -152,11 +152,14 @@ By the end of this module, students will be able to:
     - [Link to Article](10.1086/521848)
   <!-- - Charles Tilly, *Social Movements, 1768–2004*, Ch. 1. -->
   - Deliverable: SRG prep sheet due (per role).
+  - **Slides:** [Complex Contagion Networks](slides/Complex_Contagions_Networks.pptx)
 
 **Session B (Lab):** Modeling the SI and SIR models.
 
 - **Summary:**
   - We will build the SI and SIR models in NetLogo during this class. The starting point is the code from [previous lecture](../contagion/codes/spontaneous.nlogox).
+  - Slides for the start of the class [can be found here](https://www.beautiful.ai/player/-ObAjfolFYaZefqIfcOl).
+  - This is [where we left off](../contagion/codes/tutorial02.nlogox). We will continue building the SIR model next class.
 :::
 
 ::::
@@ -241,22 +244,28 @@ American Journal of Sociology, 83(6), 1420-1443.
 :::
 
 :::{tab-item} Week 6 Reading
-**Charles Tilly (2004)**  
-*Social Movements, 1768–2004*  
-Paradigm Publishers, Chapter 1.
+**Damon Centola (2010)**  
+*"The Spread of Behavior in an Online Social Network Experiment"*  
+Science, 329(5996), 1194–1197.  
+[Link to Article](https://doi.org/10.1126/science.1185231)
+
+**Damon Centola & Michael Macy (2007)**  
+*"Complex Contagions and the Weakness of Long Ties"*  
+American Journal of Sociology, 113(3), 702–734.  
+[Link to Article](https://doi.org/10.1086/521848)
 
 **Key concepts:**
 
-- Historical evolution of social movements
-- WUNC displays (Worthiness, Unity, Numbers, Commitment)
-- Repertoires of contention
-- Political opportunity structures
+- Complex contagion vs. simple contagion
+- The role of network structure in behavior spread
+- Weak ties vs. strong ties in social diffusion
+- Experimental validation of contagion theories
 
 **Discussion questions:**
 
-1. How have social movement tactics evolved historically?
-2. What makes some movements successful while others fail?
-3. How do digital technologies change movement organization?
+1. How does complex contagion differ from simple contagion?
+2. Why might weak ties be less effective for spreading behavior than for spreading information?
+3. What are the implications for social movement organization and technology adoption?
 :::
 
 ::::
