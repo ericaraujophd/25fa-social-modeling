@@ -111,9 +111,9 @@ By the end of this module, students will be able to:
 **Session B (SRG):** Discussion of readings.
 
 - **Summary:**
-  - Elinor Ostrom, *Governing the Commons* (1990), Ch. 1 excerpts
+  - Elinor Ostrom, *Governing the Commons* (1990), Ch. 1
     - [Download PDF](../readings/module4/Ostrom-Ch1.pdf)
-  - Robert Axelrod, *The Evolution of Cooperation* (1984), Intro + Ch. 1
+  - Robert Axelrod, *The Evolution of Cooperation* (1984), Ch. 1
     - [Download PDF](../readings/module4/Axelrod-Ch1.pdf)
   - Deliverable: SRG prep sheet due (per role).
 
