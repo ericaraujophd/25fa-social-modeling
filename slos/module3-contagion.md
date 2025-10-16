@@ -1,8 +1,8 @@
 # Module 3: Contagion
 
-:::{warning}
+<!-- :::{warning}
 This page is under construction. It is just a draft that will receive a lot of changes yet.
-:::
+::: -->
 
 Welcome to the **Contagion Models** module! This module explores how ideas, behaviors, diseases, and innovations spread through social networks and populations. Building on threshold models from our segregation module, we'll examine both biological and social contagion processes using computational modeling approaches.
 
@@ -182,6 +182,22 @@ Contagion model implementation & analysis
 3. Write your Lab Memo. You can [download the template in here](../resources/lab-memos/Lab_Memo_1_Worksheet.docx).
 4. Make sure you add the codes you've changed, as well as interface modifications.
 5. Submit your Lab Memo in PDF format through Moodle.
+
+:::
+
+:::{tab-item} Lab Memo #5
+**Due:** 10/23 before class | **Points:** 20 points
+
+**Prompt (1-2 pages):**
+
+Contagion model implementation & analysis
+
+1. Use the model we started in class (SIR) as a base.
+2. Analyze the model's behavior under different parameters (e.g., transmission rate, recovery rate).
+3. Build at least two new plots or monitors to track additional metrics (e.g., peak infection time, total recovered).
+4. Write your Lab Memo. You can [download the template in here](../resources/lab-memos/Lab_Memo_1_Worksheet.docx).
+5. Make sure you add the codes you've changed, as well as interface modifications.
+6. Submit your Lab Memo in PDF format through Moodle.
 
 :::
 <!-- 

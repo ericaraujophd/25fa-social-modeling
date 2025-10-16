@@ -158,8 +158,8 @@ By the end of this module, students will be able to:
 
 ::::{tab-set}
 
-:::{tab-item} Lab Memo #5
-**Due:** 10/23 before class | **Points:** 25 points
+:::{tab-item} Lab Memo #6
+**Due:** 10/30 before class | **Points:** 25 points
 
 **Prompt (3-4 pages):**
 
