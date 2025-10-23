@@ -83,14 +83,14 @@ By the end of this module, students will be able to:
   - Exploring parameter effects on epidemic dynamics
   - Running simulations and analyzing outcomes
 
-**Session B (Lab):** *Iterated Prisoner's Dilemma—strategy space & ecology.*
+**Session B (Lab):** *Creating graphics and monitors for the SIR Model*
 
 - **Summary:**
-  - Building IPD tournament models in NetLogo
-  - Implementing classic strategies (Tit-for-Tat, Always Cooperate, Always Defect, etc.)
-  - Running tournament simulations with different strategy populations
-- **Slides:** [The Prisoner's Dilemma and Game Theory](slides/prisoners-dilemma.pdf)
-- **Code:** [PD Tournament Template](homework/pd-tournament-template.nlogo)
+  - Building visualizations for the SIR model dynamics
+  - Implementing monitors for key epidemiological metrics (e.g., infection rate, recovery rate)
+  - Analyzing the impact of different parameters on model behavior
+<!-- - **Slides:** [The Prisoner's Dilemma and Game Theory](slides/prisoners-dilemma.pdf) -->
+- **Code:** [SIR Model](../contagion/codes/Class-SIR.nlogox)
 
 
 :::
@@ -131,22 +131,23 @@ By the end of this module, students will be able to:
 
 *Heckman Library 406C*
 
-**Session A (Lab/Proj):** *From idea → mechanism chart → state variables.*
+**Session A (Lab):** *Cooperation in a Structured Environment*
 
 - **Summary:**
-  - Converting project ideas into formal model specifications
-  - Identifying key state variables and agent properties
+  - Coding a Cooperation Model in NetLogo
+  - Prisioners' Dilemma implementation in a Lattice environment
   - Creating mechanism charts for cooperation dynamics
   - Defining interaction rules and decision-making processes
-- **Slides:** [Evolutionary Strategies and Reciprocity](slides/evolutionary-cooperation.pdf)
+<!-- - **Slides:** [Evolutionary Strategies and Reciprocity](slides/evolutionary-cooperation.pdf) -->
 
-**Session B (Proj):** *1-page Proposal workshop (turn in end of day).*
+**Session B (Lab):** *Iterated Prisoner's Dilemma—strategy space & ecology.*
 
 - **Summary:**
-  - Final project proposal development and peer review
-  - Articulating research questions about cooperation
-  - Defining scope and measurable outcomes
-  - Deliverable: Project Proposal (1 page) due end of day.
+  - Building IPD tournament models in NetLogo
+  - Implementing classic strategies (Tit-for-Tat, Always Cooperate, Always Defect, etc.)
+  - Running tournament simulations with different strategy populations
+- **Slides:** [The Prisoner's Dilemma and Game Theory](slides/prisoners-dilemma.pdf)
+- **Code:** [PD Tournament Template](homework/pd-tournament-template.nlogo)
 
 :::
 

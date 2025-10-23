@@ -108,14 +108,14 @@ end
 
 The `go` procedure is called at each time step and calls the `move` and `infect` procedures to update the position of the agents and infect susceptible agents. It also increments the simulation time by one tick.
 
-:::{admonition} `go` and `setup` buttons on the Interface
+:::{admonition} 💡 `go` and `setup` buttons on the Interface
 :class: tip
-:icon: lightbulb
+:icon: false
 Make sure you have the `go` and `setup` buttons on the Interface tab. The `setup` button should call the `setup` procedure, and the `go` button should call the `go` procedure. You can also set the `go` button to be a forever button, so it keeps running until you stop it.
 :::
 
-:::{admonition} Code for the spontaneous contagion model
+:::{admonition} 👩🏾‍💻 Code for the spontaneous contagion model
 :class: important
-:icon: code
+:icon: false
 You can find the code for this part [here](codes/tutorial01.nlogox).
 :::

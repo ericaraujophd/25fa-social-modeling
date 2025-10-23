@@ -101,7 +101,12 @@ project:
             - file: contagion/01-spontaneous.md
             - file: contagion/02-agents.md
         - file: contagion/03-sir-analysis.md
-
+    - title: "Appendix C: Cooperation Model"
+      children:
+          - file: cooperation/cooperation.md
+          - file: cooperation/01-setup.md
+          - file: cooperation/02-go.md
+          - file: cooperation/03-exercise.md
     - file: final_project_norms.md
   exports:
     - format: typst
