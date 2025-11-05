@@ -269,10 +269,19 @@ Week 8 focuses on developing your final project proposal. You should:
 
 :::{tab-item} Videos
 
-- 🎥 [The Evolution of Trust](https://ncase.me/trust/) - Interactive game theory exploration
+- 🎥 [Dominant Strategy, Nash Equilibrium & Dominant Strategy Equilibrium in Simultaneous Move Games](https://www.youtube.com/watch?v=3EOlRF7EjKU)
+- 🎥 [Elephants Show Cooperation on Test](https://www.youtube.com/watch?v=CXcRw6Piaj8)
+- 🎥 [Ants vs Humans - T Shape Problem Solving Test](https://www.youtube.com/watch?v=j9xnhmFA7Ao)
+- 🎥 [Robber's Cave Experiment - Realistic Conflict Theory](https://www.youtube.com/watch?v=7KU5u75J8VU)
+- 🎥 [The Dark Psychology Behind the Milgram Experiment | Why 65% Obeyed](https://www.youtube.com/watch?v=vuMt8b4UrcI)
+
+
+
+
+<!-- - 🎥 [The Evolution of Trust](https://ncase.me/trust/) - Interactive game theory exploration
 - 🎥 [Psychological experiment on cooperation](https://www.youtube.com/watch?v=VsyfQeSITww)
 - 🎥 [Elinor Ostrom on Common Pool Resources](https://www.youtube.com/watch?v=example)
-- 🎥 [Game Theory and the Prisoner's Dilemma](https://www.youtube.com/watch?v=example)
+- 🎥 [Game Theory and the Prisoner's Dilemma](https://www.youtube.com/watch?v=example) -->
 
 :::
 
